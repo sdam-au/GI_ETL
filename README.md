@@ -1,10 +1,10 @@
-# Meaningful title for the repository
-*pick type of repository (TOOL, ETL, ANALYSIS, ADMIN)*
+# PHI dataset extraction and preprocessing
+* ETL
 
 ---
 
 ## Purpose
-[In two to three sentences state the purpose of this repository, ideally tying it to an existing SDAM milestone. E.g., The purpose of this repository is to provide templates for all future SDAM repositories in order to save precious time and maintain high standards and uniformity of our documentation.]
+The purpose of this repository is to extract the PHI dataset from numerous `.csv` files into one tabular object in python (pandas dataframe), clean it, and to upload it to sciencedata.dk for further usage.
 
 ---
 ## Authors
