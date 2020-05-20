@@ -21,6 +21,7 @@ library(dplyr)
 library(stringr)
 library(sdam)
 library(rjson)
+library(jsonlite)
 library(getPass)
 library(formatR)
 ```
@@ -502,10 +503,9 @@ resp = request("PHI_sample_utf8.json", path="/sharingin/648597@au.dk/SDAM_root/S
 3. Make a list from the request and display the first six records (head)
 ```{r}
 list_json <- fromJSON(resp)
-PHI_tibble == as_tibble(list_json)
-viewPHI_tibble$
-
-``
+PHI_tibble = as_tibble(list_json)
+PHI_tibble
+```
 
 ### Conservative model
 *Aim:* to have a clean text that is as close to the original inscription as preserved on the medium.
@@ -625,18 +625,19 @@ PHI_clean <- PHI_tibble %>%
 
 # Saving to Sciencedata
 ```{r Saving to Sciencedata}
-PHI_cleaned_json <- rjson::toJSON(PHI_clean) # error in rjson::toJSON(PHI_clean) : unable to escape string. String is not utf8
+PHI_cleaned_json <- jsonlite::toJSON(PHI_clean) 
+
 
 write(PHI_cleaned_json, file="PHI_cleaned_sample.json")
 user <- readline("your sciencedata username: ")
-equest("PHI_cleaned_sample.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
+request("PHI_cleaned_sample.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
         method="PUT", cred=c(user, getPass("your sciencedata password: ")))
 
 ```
 
 
 ```{r}
-remove("PHI_cleaned_sample.json") # removes local copy
+ file.remove("s.PHI_cleaned_sample.json") # removes local copy
 ```
 
 
