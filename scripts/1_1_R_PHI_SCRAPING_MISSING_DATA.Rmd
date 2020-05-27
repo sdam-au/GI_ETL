@@ -1,0 +1,177 @@
+---
+title: "PHI enriching the dataset by scraping the missing data"
+author: "Petra Hermankova"
+date: "27/05/2020"
+output: rmarkdown::github_document
+
+---
+*Setting up the environment*
+```{r setup, echo=TRUE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error=TRUE)
+devtools::install_github("mplex/cedhar", subdir="pkg/sdam")
+#install.packages("rjson")
+#install.packages("tidyverse")
+#install.packages("getPass")
+#install.packages("formatR")
+#install.packages("rmarkdown")
+
+library(tidyverse)
+library(purrr)
+library(tidytext)
+library(dplyr)
+library(sdam)
+library(jsonlite)
+library(getPass)
+library(formatR)
+library(xml2)
+library(rvest)
+library(stringr)
+```
+
+### Loading data
+First, we need to install several more packages and load the libraries in order to connect to Sciencedata.dk and access the dataset.
+
+1. Input your sciencedata.dk username - type directly into the RStudio console
+```{r, echo = FALSE }
+user <- readline("your sciencedata username: ")
+```
+
+2. Make the request (you will be asked for password in a new pop-up window)
+```{r, echo = FALSE }
+resp = request("PHI_raw.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
+```
+
+3. Make a list from the request and display the first six records (head)
+```{r}
+list_json <- jsonlite::fromJSON(resp)
+PHI_tibble = as_tibble(list_json)
+head(PHI_tibble)
+```
+
+# Filtering only the records that have missing data (contain only word Regions) in the hdr1 column
+```{r}
+regions <- PHI_tibble %>% 
+  filter(hdr1== "Regions") %>% 
+  select('inscription ID')
+```
+
+
+
+# Scraping function for 1 inscription
+
+```{r}
+# https://towardsdatascience.com/tidy-web-scraping-in-r-tutorial-and-resources-ac9f72b4fe47
+
+get_region <- function(var){
+  # get url from input and read html
+  input <- paste0("https://epigraphy.packhum.org/text", "/", var) 
+  phi_page <- xml2::read_html(input)
+  
+  # scrape data hdr1
+  hdr1 <- phi_page %>% 
+    rvest::html_node("body") %>% 
+    rvest::html_children() %>% 
+    rvest::html_children() %>% 
+    rvest::html_children() %>% 
+    xml2::xml_find_all("//div[contains(@class, 'hdr1')]") %>% 
+    rvest::html_text() %>% 
+    stringr::str_trim()
+  
+  # scrape PHI ID
+  id <- phi_page %>% 
+    rvest::html_node("body") %>% 
+    rvest::html_children() %>% 
+    rvest::html_children() %>% 
+    rvest::html_children() %>% 
+    rvest::html_children() %>% 
+    xml2::xml_find_all("//div[contains(@class, 'docref')]") %>% 
+    rvest::html_text() %>% 
+    stringr::str_replace("PH", "") %>% 
+    stringr::str_replace_all("\n", "") %>% 
+    stringr::str_trim()
+  
+  # create dataframe, remove nas and return result
+  hdr_df <- data.frame(id, hdr1)
+  hdr_df 
+}
+```
+
+Testing scraping function on one inscription
+```{r}
+test <- get_region(25)
+test
+```
+Making smaller sample for testing
+```{r}
+regions<- unlist(regions$`inscription ID`)
+regions10 <-c(regions_vector[1:10])
+```
+
+Different approach to scraping, scraping multiple inscriptions
+
+# https://towardsdatascience.com/coupling-web-scraping-with-functional-programming-in-r-for-scale-1bc4509eef29
+
+```{r}
+baseurl <- "https://epigraphy.packhum.org/text/"
+
+baseurl %>% 
+  map2_chr(regions, paste0) %>% 
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        xml2::xml_find_all("//div[contains(@class, 'hdr1')]") %>% 
+        rvest::html_text() %>% 
+        stringr::str_trim() ) %>% 
+  unlist() -> hdr1
+
+
+regions_all <- data.frame(hdr1, regions)
+regions_all %>% 
+  rename("phi_id" = regions) -> regions_all
+regions_all
+```
+
+Write out as CSV (in case computer crashes)
+```{r}
+write_csv(regions_all, "./regions_all.csv")
+```
+
+Read in from CSV
+```{r}
+regions_all <- read_csv("./regions_all.csv")
+```
+
+Showing unique values
+```{r}
+unique(regions_all$hdr1)
+```
+Cleaning strings for consistency, sometimes Regions with the following \n and sometimes without
+```{r}
+str_replace(regions_all$hdr1, "Regions", "Regions\n") -> regions_all$hdr1
+```
+
+Writing the newly scraped hdr1 to the original dataset and checking the unique values, no column containing only Regions exists
+```{r}
+if (regions_all$phi_id %in% PHI_tibble$`inscription ID`){
+  str_replace(string = PHI_tibble$hdr1, pattern = "Regions$", replacement = regions_all$hdr1) %>% 
+  print()
+} -> PHI_tibble$hdr1
+
+unique(PHI_tibble$hdr1)
+```
+
+# Saving to Sciencedata
+```{r Saving to Sciencedata}
+PHI_json <- jsonlite::toJSON(PHI_tibble) 
+write(PHI_json, file="PHI_enriched_raw.json")
+user <- readline("your sciencedata username: ")
+request("PHI_enriched_raw.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
+        method="PUT", cred=c(user, getPass("your sciencedata password: ")))
+```
+
+
+```{r}
+ file.remove("PHI_enriched_raw.json") # removes local copy
