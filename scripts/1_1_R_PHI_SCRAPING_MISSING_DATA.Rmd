@@ -13,7 +13,7 @@ devtools::install_github("mplex/cedhar", subdir="pkg/sdam")
 #install.packages("tidyverse")
 #install.packages("getPass")
 #install.packages("formatR")
-#install.packages("rmarkdown")
+#install.packages("reshape2")
 
 library(tidyverse)
 library(purrr)
@@ -26,6 +26,7 @@ library(formatR)
 library(xml2)
 library(rvest)
 library(stringr)
+library(reshape2)
 ```
 
 ### Loading data
@@ -165,7 +166,11 @@ unique(PHI_tibble$hdr1)
 
 # Saving to Sciencedata
 ```{r Saving to Sciencedata}
-PHI_json <- jsonlite::toJSON(PHI_tibble) 
+PHI_tibble = as_tibble(PHI_tibble)
+
+PHI_df <- as.data.frame(PHI_tibble)
+
+PHI_json <- jsonlite::toJSON(PHI_df) 
 write(PHI_json, file="PHI_enriched_raw.json")
 user <- readline("your sciencedata username: ")
 request("PHI_enriched_raw.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
@@ -174,4 +179,197 @@ request("PHI_enriched_raw.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_d
 
 
 ```{r}
- file.remove("PHI_enriched_raw.json") # removes local copy
+ file.remove("./PHI_enriched_raw.json") # removes local copy
+```
+
+# Scraping missing IG I3
+
+```{r}
+ig3_seq <- c(1:1753)
+baseurl <- "https://epigraphy.packhum.org/text/"
+
+test <- c (1:5)
+```
+
+```{r}
+URL<- baseurl %>% 
+  map2_chr(ig3_seq, paste0)
+head(URL)
+```
+
+```{r}
+start1 <- Sys.time()
+Book <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>%  
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        xml2::xml_find_all("//a[contains(@class, 'booklink')]") %>%
+        rvest::html_text() %>% 
+        stringr::str_trim() ) %>% 
+  unlist() %>% 
+  print()
+end1 <- Sys.time() 
+```
+```{r} 
+Text <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>%  
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        xml2::xml_find_all("//span[contains(@class, 'ref')]")  %>%
+        rvest::html_text()
+      ) %>% 
+  lapply('[',2) %>% 
+  unlist() %>% 
+  print() 
+```
+```{r}
+hdr1_scrape <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>% 
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        xml2::xml_find_all("//div[contains(@class, 'hdr1')]") %>% 
+        rvest::html_text() %>% 
+        stringr::str_trim() ) %>% 
+  str_replace("Regions", "Regions\n") %>% 
+  unlist() %>%  
+  print() 
+  
+```
+
+```{r}
+hdr2_scrape <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>% 
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        xml2::xml_find_all("//span[contains(@class, 'fullref')]") %>% 
+        rvest::html_text() %>% 
+        stringr::str_trim() ) %>% 
+  unlist() %>%  
+  print()
+```
+
+```{r}
+tildeinfo <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>% 
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>%
+        xml2::xml_find_all("//div[contains(@class, 'tildeinfo')]") %>% 
+        rvest::html_text() %>% 
+        stringr::str_replace(pattern = "\\[ \\]\n", replacement = "\n") %>% 
+        stringr::str_trim() ) %>% 
+  unlist() %>%  
+  print()
+  
+```
+
+```{r}
+note <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>% 
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>%
+        xml2::xml_find_all("//div[contains(@class, 'note')]") %>% 
+        rvest::html_text() %>% 
+        stringr::str_trim() ) %>% 
+  unlist() %>%  
+  print()
+  
+```
+```{r}
+lines <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>% 
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>%
+        rvest::html_children() %>%
+        rvest::html_children() %>%
+        xml2::xml_find_all("//div[contains(@class, 'greek')]") %>% 
+        rvest::html_text()) %>% 
+        stringr::str_trim() %>%         
+  unlist() %>%  
+  str_count("\n") %>% 
+  print()
+
+lines <- (lines/4)
+lines <- round(lines, digits = 0)
+lines
+```
+
+
+```{r}
+ metadata <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>% 
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_node("body") %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>% 
+        rvest::html_children() %>%
+        rvest::html_children() %>%
+        rvest::html_children() %>%
+        xml2::xml_find_all("//td[contains(@class, 'id')]") %>% 
+        rvest::html_text()) %>%
+  print()
+
+metadata<- stringi::stri_join_list(metadata, sep = "", collapse = NULL)
+```
+
+```{r}
+data <- baseurl %>% 
+  map2_chr(ig3_seq, paste0) %>% 
+  map(. %>% 
+        xml2::read_html() %>% 
+        rvest::html_nodes("table") %>%
+        html_table()) %>% 
+  sapply("[", 1) %>% 
+  sapply("[", 2) %>% 
+  stringi::stri_join_list(sep = "", collapse = NULL) %>% 
+  print()
+        
+```
+
+
+```{r}
+ig3 <- data.frame(URL, Book, Text, hdr1_scrape, hdr2_scrape, tildeinfo, note, lines, metadata, data)
+ig3 
+```
+
+```{r}
+write_delim(ig3, path="./IG-I-3.csv", delim = "@")
+```
+
+
+
+
+
