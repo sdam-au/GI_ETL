@@ -496,7 +496,7 @@ user <- readline("your sciencedata username: ")
 
 2. Make the request (you will be asked for password in a new pop-up window)
 ```{r, echo = FALSE }
-resp = request("PHI_sample_utf8.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
+resp = request("PHI_dated_2020-06-23.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
 ```
 
 3. Make a list from the request and display the first six records (head)
@@ -627,16 +627,16 @@ PHI_clean <- PHI_tibble %>%
 PHI_cleaned_json <- jsonlite::toJSON(PHI_clean) 
 
 
-write(PHI_cleaned_json, file="PHI_cleaned_sample.json")
+write(PHI_cleaned_json, file="PHI_cleaned_2020-06-26.json")
 user <- readline("your sciencedata username: ")
-request("PHI_cleaned_sample.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
+request("PHI_cleaned_2020-06-26.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
         method="PUT", cred=c(user, getPass("your sciencedata password: ")))
 
 ```
 
 
 ```{r}
- file.remove("s.PHI_cleaned_sample.json") # removes local copy
+ file.remove("PHI_cleaned_2020-06-26.json") # removes local copy
 ```
 
 
