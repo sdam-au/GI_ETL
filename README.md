@@ -4,7 +4,7 @@
 ---
 
 ## Purpose
-The purpose of this repository is to extract the PHI dataset from numerous `.csv` files into one tabular object in python (pandas dataframe), clean it, and to upload it to sciencedata.dk for further usage.
+The purpose of this repository is to extract the PHI dataset from numerous `.csv` files into one tabular object in Python (pandas dataframe), clean it, and upload it to sciencedata.dk for further usage.
 
 ---
 ## Authors
@@ -40,7 +40,7 @@ Anything else on data metadata and data used. Link to data repository or explana
 ### Hardware
 1. Multiple-screen
 1. Mouse
-1. Coffee
+1. A lot of Coffee
 
 ---
 ## Installation

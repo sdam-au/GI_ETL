@@ -39,7 +39,7 @@ user <- readline("your sciencedata username: ")
 
 2. Make the request (you will be asked for password in a new pop-up window)
 ```{r, echo = FALSE }
-resp = request("PHI_raw.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
+resp = request("PHI_merged_2020-06-20.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
 ```
 
 3. Make a list from the request and display the first six records (head)
@@ -52,13 +52,14 @@ head(PHI_tibble)
 # Filtering only the records that have missing data (contain only word Regions) in the hdr1 column
 ```{r}
 regions <- PHI_tibble %>% 
-  filter(hdr1== "Regions") %>% 
-  select('inscription ID')
+  filter(hdr1 == "Regions") %>% 
+  select('PHI_ID')
 ```
 
 
+# Scenario 1: If you need to scrape data first. 
 
-# Scraping function for 1 inscription
+## Scraping function for 1 inscription
 
 ```{r}
 # https://towardsdatascience.com/tidy-web-scraping-in-r-tutorial-and-resources-ac9f72b4fe47
@@ -108,9 +109,9 @@ regions<- unlist(regions$`inscription ID`)
 regions10 <-c(regions_vector[1:10])
 ```
 
-Different approach to scraping, scraping multiple inscriptions
+## Different approach to scraping, scraping multiple inscriptions
 
-# https://towardsdatascience.com/coupling-web-scraping-with-functional-programming-in-r-for-scale-1bc4509eef29
+Source: https://towardsdatascience.com/coupling-web-scraping-with-functional-programming-in-r-for-scale-1bc4509eef29
 
 ```{r}
 baseurl <- "https://epigraphy.packhum.org/text/"
@@ -140,6 +141,8 @@ Write out as CSV (in case computer crashes)
 write_csv(regions_all, "./regions_all.csv")
 ```
 
+# Scenario 2: If you have already scraped Regions in CSV: 
+
 Read in from CSV
 ```{r}
 regions_all <- read_csv("./regions_all.csv")
@@ -149,6 +152,18 @@ Showing unique values
 ```{r}
 unique(regions_all$hdr1)
 ```
+
+# combing IG I3 + scraped regions
+```{r}
+hdr1 <- unlist(PHI_tibble$hdr1_scrape)
+phi_id <- unlist(PHI_tibble$PHI_ID[1:1753])
+ig_all <- as.data.frame(cbind(hdr1, phi_id))
+```
+
+```{r}
+regions_all<- rbind(ig_all, regions_all)
+```
+
 Cleaning strings for consistency, sometimes Regions with the following \n and sometimes without
 ```{r}
 str_replace(regions_all$hdr1, "Regions", "Regions\n") -> regions_all$hdr1
@@ -156,8 +171,13 @@ str_replace(regions_all$hdr1, "Regions", "Regions\n") -> regions_all$hdr1
 
 Writing the newly scraped hdr1 to the original dataset and checking the unique values, no column containing only Regions exists
 ```{r}
-if (regions_all$phi_id %in% PHI_tibble$`inscription ID`){
-  str_replace(string = PHI_tibble$hdr1, pattern = "Regions$", replacement = regions_all$hdr1) %>% 
+if (regions_all$phi_id %in% PHI_tibble$PHI_ID){
+  str_replace_all(string = PHI_tibble$hdr1, pattern = "Regions$", replacement = regions_all$hdr1) %>% 
+  print()
+} -> PHI_tibble$hdr1
+
+if (regions_all$phi_id %in% PHI_tibble$PHI_ID){
+  str_replace_all(string = PHI_tibble$hdr1, pattern = "NULL", replacement = regions_all$hdr1) %>% 
   print()
 } -> PHI_tibble$hdr1
 
@@ -171,15 +191,15 @@ PHI_tibble = as_tibble(PHI_tibble)
 PHI_df <- as.data.frame(PHI_tibble)
 
 PHI_json <- jsonlite::toJSON(PHI_df) 
-write(PHI_json, file="PHI_enriched_raw.json")
+write(PHI_json, file="PHI_enriched_2020-06-29.json")
 user <- readline("your sciencedata username: ")
-request("PHI_enriched_raw.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
+request("PHI_enriched_2020-06-29.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
         method="PUT", cred=c(user, getPass("your sciencedata password: ")))
 ```
 
 
 ```{r}
- file.remove("./PHI_enriched_raw.json") # removes local copy
+ file.remove("./PHI_enriched_2020-06-29.json") # removes local copy
 ```
 
 # Scraping missing IG I3
