@@ -53,7 +53,8 @@ Anything else on data metadata and data used. Link to data repository or explana
 
 * [1_4_MODELLING_DATES.ipynb](https://github.com/sdam-au/PHI_ETL/blob/master/scripts/1_4_MODELLING_DATES.ipynb)
   * input: `PHI_cleaned_dated_[timestamp.json`
-  * output: `PHI_sim_time_blocks_[timestamp].json` 
+  * output1: `PHI_cleaned_dated_[timestamp.json` with new column: `random_dates`
+  * output2: `PHI_sim_time_blocks_[timestamp].json` 
 
 
 ### Software
