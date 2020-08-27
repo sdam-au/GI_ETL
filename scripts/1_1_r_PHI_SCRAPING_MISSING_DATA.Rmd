@@ -39,7 +39,7 @@ user <- readline("your sciencedata username: ")
 
 2. Make the request (you will be asked for password in a new pop-up window)
 ```{r, echo = FALSE }
-resp = request("PHI_merged_2020-06-20.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
+resp = request("PHI_merged_2020-08-24.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
 ```
 
 3. Make a list from the request and display the first six records (head)
@@ -57,59 +57,7 @@ regions <- PHI_tibble %>%
 ```
 
 
-# Scenario 1: If you need to scrape data first. 
-
-## Scraping function for 1 inscription
-
-```{r}
-# https://towardsdatascience.com/tidy-web-scraping-in-r-tutorial-and-resources-ac9f72b4fe47
-
-get_region <- function(var){
-  # get url from input and read html
-  input <- paste0("https://epigraphy.packhum.org/text", "/", var) 
-  phi_page <- xml2::read_html(input)
-  
-  # scrape data hdr1
-  hdr1 <- phi_page %>% 
-    rvest::html_node("body") %>% 
-    rvest::html_children() %>% 
-    rvest::html_children() %>% 
-    rvest::html_children() %>% 
-    xml2::xml_find_all("//div[contains(@class, 'hdr1')]") %>% 
-    rvest::html_text() %>% 
-    stringr::str_trim()
-  
-  # scrape PHI ID
-  id <- phi_page %>% 
-    rvest::html_node("body") %>% 
-    rvest::html_children() %>% 
-    rvest::html_children() %>% 
-    rvest::html_children() %>% 
-    rvest::html_children() %>% 
-    xml2::xml_find_all("//div[contains(@class, 'docref')]") %>% 
-    rvest::html_text() %>% 
-    stringr::str_replace("PH", "") %>% 
-    stringr::str_replace_all("\n", "") %>% 
-    stringr::str_trim()
-  
-  # create dataframe, remove nas and return result
-  hdr_df <- data.frame(id, hdr1)
-  hdr_df 
-}
-```
-
-Testing scraping function on one inscription
-```{r}
-test <- get_region(25)
-test
-```
-Making smaller sample for testing
-```{r}
-regions<- unlist(regions$`inscription ID`)
-regions10 <-c(regions_vector[1:10])
-```
-
-## Different approach to scraping, scraping multiple inscriptions
+# Scenario 1: Scrape missing data (where hdr1=="Regions")
 
 Source: https://towardsdatascience.com/coupling-web-scraping-with-functional-programming-in-r-for-scale-1bc4509eef29
 
@@ -117,7 +65,7 @@ Source: https://towardsdatascience.com/coupling-web-scraping-with-functional-pro
 baseurl <- "https://epigraphy.packhum.org/text/"
 
 baseurl %>% 
-  map2_chr(regions, paste0) %>% 
+  map2_chr(regions_vector, paste0) %>% 
   map(. %>% 
         xml2::read_html() %>% 
         rvest::html_node("body") %>% 
@@ -132,52 +80,45 @@ baseurl %>%
 
 regions_all <- data.frame(hdr1, regions)
 regions_all %>% 
-  rename("phi_id" = regions) -> regions_all
+  rename("PHI_ID" = regions) -> regions_all
 regions_all
+
+
+# unlist regions_all
+regions_all_df <- unnest(regions_all, c("hdr1", "PHI_ID"))
 ```
 
 Write out as CSV (in case computer crashes)
 ```{r}
-write_csv(regions_all, "./regions_all.csv")
+write_csv(regions_all_df, "./regions_all_2020-08-24.csv")
 ```
 
 # Scenario 2: If you have already scraped Regions in CSV: 
 
 Read in from CSV
 ```{r}
-regions_all <- read_csv("./regions_all.csv")
+regions_all_df <- read_csv("./regions_all_2020-08-24.csv")
 ```
 
 Showing unique values
 ```{r}
-unique(regions_all$hdr1)
-```
-
-# combing IG I3 + scraped regions
-```{r}
-hdr1 <- unlist(PHI_tibble$hdr1_scrape)
-phi_id <- unlist(PHI_tibble$PHI_ID[1:1753])
-ig_all <- as.data.frame(cbind(hdr1, phi_id))
-```
-
-```{r}
-regions_all<- rbind(ig_all, regions_all)
+unique(regions_all_df$hdr1)
 ```
 
 Cleaning strings for consistency, sometimes Regions with the following \n and sometimes without
 ```{r}
-str_replace(regions_all$hdr1, "Regions", "Regions\n") -> regions_all$hdr1
+str_replace(regions_all_df$hdr1, "Regions", "Regions\n") -> regions_all_df$hdr1
 ```
 
 Writing the newly scraped hdr1 to the original dataset and checking the unique values, no column containing only Regions exists
 ```{r}
-if (regions_all$phi_id %in% PHI_tibble$PHI_ID){
-  str_replace_all(string = PHI_tibble$hdr1, pattern = "Regions$", replacement = regions_all$hdr1) %>% 
+if (regions_all_df$PHI_ID %in% PHI_tibble$PHI_ID){
+  str_replace_all(string = PHI_tibble$hdr1, pattern = "Regions$", replacement = regions_all_df$hdr1) %>% 
   print()
 } -> PHI_tibble$hdr1
 
-if (regions_all$phi_id %in% PHI_tibble$PHI_ID){
-  str_replace_all(string = PHI_tibble$hdr1, pattern = "NULL", replacement = regions_all$hdr1) %>% 
+if (regions_all_df$PHI_ID %in% PHI_tibble$PHI_ID){
+  str_replace_all(string = PHI_tibble$hdr1, pattern = "NULL", replacement = regions_all_df$hdr1) %>% 
   print()
 } -> PHI_tibble$hdr1
 
@@ -191,411 +132,15 @@ PHI_tibble = as_tibble(PHI_tibble)
 PHI_df <- as.data.frame(PHI_tibble)
 
 PHI_json <- jsonlite::toJSON(PHI_df) 
-write(PHI_json, file="PHI_enriched_2020-06-29.json")
+write(PHI_json, file="PHI_enriched_2020-08-27.json")
 user <- readline("your sciencedata username: ")
-request("PHI_enriched_2020-06-29.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
+request("PHI_enriched_2020-08-27.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
         method="PUT", cred=c(user, getPass("your sciencedata password: ")))
 ```
 
 
 ```{r}
- file.remove("./PHI_enriched_2020-06-29.json") # removes local copy
-```
-
-# Scraping missing IG I3
-
-```{r}
-ig3_seq <- c(1:1753)
-baseurl <- "https://epigraphy.packhum.org/text/"
-
-test <- c (1:5)
-```
-
-```{r}
-URL<- baseurl %>% 
-  map2_chr(ig3_seq, paste0)
-head(URL)
-```
-
-```{r}
-start1 <- Sys.time()
-Book <- baseurl %>% 
-  map2_chr(ig3_seq, paste0) %>%  
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        xml2::xml_find_all("//a[contains(@class, 'booklink')]") %>%
-        rvest::html_text() %>% 
-        stringr::str_trim() ) %>% 
-  unlist() %>% 
-  print()
-end1 <- Sys.time() 
-```
-```{r} 
-Text <- baseurl %>% 
-  map2_chr(ig3_seq, paste0) %>%  
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        xml2::xml_find_all("//span[contains(@class, 'ref')]")  %>%
-        rvest::html_text()
-      ) %>% 
-  lapply('[',2) %>% 
-  unlist() %>% 
-  print() 
-```
-```{r}
-hdr1_scrape <- baseurl %>% 
-  map2_chr(ig3_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        xml2::xml_find_all("//div[contains(@class, 'hdr1')]") %>% 
-        rvest::html_text() %>% 
-        stringr::str_trim() ) %>% 
-  str_replace("Regions", "Regions\n") %>% 
-  unlist() %>%  
-  print() 
-  
-```
-
-```{r}
-hdr2_scrape <- baseurl %>% 
-  map2_chr(ig3_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        xml2::xml_find_all("//span[contains(@class, 'fullref')]") %>% 
-        rvest::html_text() %>% 
-        stringr::str_trim() ) %>% 
-  unlist() %>%  
-  print()
-```
-
-```{r}
-tildeinfo <- baseurl %>% 
-  map2_chr(ig3_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>%
-        xml2::xml_find_all("//div[contains(@class, 'tildeinfo')]") %>% 
-        rvest::html_text() %>% 
-        stringr::str_replace(pattern = "\\[ \\]\n", replacement = "\n") %>% 
-        stringr::str_trim() ) %>% 
-  unlist() %>%  
-  print()
-  
-```
-
-```{r}
-note <- baseurl %>% 
-  map2_chr(ig3_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>%
-        xml2::xml_find_all("//div[contains(@class, 'note')]") %>% 
-        rvest::html_text() %>% 
-        stringr::str_trim() ) %>% 
-  unlist() %>%  
-  print()
-  
-```
-```{r}
-lines <- baseurl %>% 
-  map2_chr(ig3_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>%
-        rvest::html_children() %>%
-        rvest::html_children() %>%
-        xml2::xml_find_all("//div[contains(@class, 'greek')]") %>% 
-        rvest::html_text()) %>% 
-        stringr::str_trim() %>%         
-  unlist() %>%  
-  str_count("\n") %>% 
-  print()
-
-lines <- (lines/4)
-lines <- round(lines, digits = 0)
-lines
-```
-
-
-```{r}
- metadata <- baseurl %>% 
-  map2_chr(ig3_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>%
-        rvest::html_children() %>%
-        rvest::html_children() %>%
-        xml2::xml_find_all("//td[contains(@class, 'id')]") %>% 
-        rvest::html_text()) %>%
-  print()
-
-metadata<- stringi::stri_join_list(metadata, sep = "", collapse = NULL)
-```
-
-```{r}
-  data <- baseurl %>% 
-    map2_chr(ig3_seq, paste0) %>% 
-    map(. %>% 
-          xml2::read_html() %>% 
-          rvest::html_nodes("table") %>%
-          html_table()) %>% 
-    sapply("[", 1) %>% 
-    sapply("[", 2) %>% 
-    stringi::stri_join_list(sep = "\n", collapse = NULL) %>% 
-    print()
-        
-```
-
-
-```{r}
-ig3 <- data.frame(URL, Book, Text, hdr1_scrape, hdr2_scrape, tildeinfo, note, lines, metadata, data)
-ig3 
-```
-
-```{r}
-write_delim(ig3, path="./IG-I-3.csv", delim = "@")
-```
-
-
-# Scraping new inscriptions from July 2020 - new inscriptions added (PHI ID 352373 to 353790)
-
-```{r}
-July2020_seq <- c(352373:353790)
-baseurl <- "https://epigraphy.packhum.org/text/"
-```
-
-```{r}
-URL<- baseurl %>% 
-  map2_chr(July2020_seq, paste0)
-head(URL)
-```
-
-```{r}
-start1 <- Sys.time()
-Book <- baseurl %>% 
-  map2_chr(July2020_seq, paste0) %>%  
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        xml2::xml_find_all("//a[contains(@class, 'booklink')]") %>%
-        rvest::html_text() %>% 
-        stringr::str_trim() ) %>% 
-  unlist() %>% 
-  print()
-end1 <- Sys.time() 
-```
-```{r} 
-Text <- baseurl %>% 
-  map2_chr(July2020_seq, paste0) %>%  
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        xml2::xml_find_all("//span[contains(@class, 'ref')]")  %>%
-        rvest::html_text()
-      ) %>% 
-  lapply('[',2) %>% 
-  unlist() %>% 
-  print() 
-```
-
-```{r}
-hdr1 <- baseurl %>% 
-  map2_chr(July2020_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        xml2::xml_find_all("//div[contains(@class, 'hdr1')]") %>% 
-        rvest::html_text() %>% 
-        stringr::str_trim() ) %>% 
-  str_replace("Regions", "Regions\n") %>% 
-  unlist() %>%  
-  print() 
-  
-```
-
-```{r}
-hdr2 <- baseurl %>% 
-  map2_chr(July2020_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        xml2::xml_find_all("//span[contains(@class, 'fullref')]") %>% 
-        rvest::html_text() %>% 
-        stringr::str_trim() ) %>% 
-  unlist() %>%  
-  print()
-```
-
-```{r}
-tildeinfo <- baseurl %>% 
-  map2_chr(July2020_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>%
-        xml2::xml_find_all("//div[contains(@class, 'tildeinfo')]") %>% 
-        rvest::html_text() %>% 
-        stringr::str_replace(pattern = "\\[ \\]\n", replacement = "\n") %>% 
-        stringr::str_trim() ) %>% 
-  unlist() %>%  
-  print()
-  
-```
-
-```{r}
-note <- baseurl %>% 
-  map2_chr(July2020_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>%
-        xml2::xml_find_all("//div[contains(@class, 'note')]") %>% 
-        rvest::html_text() %>% 
-        stringr::str_trim() ) %>% 
-  unlist() %>%  
-  print()
-  
-```
-
-```{r}
-lines <- baseurl %>% 
-  map2_chr(July2020_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>%
-        rvest::html_children() %>%
-        rvest::html_children() %>%
-        xml2::xml_find_all("//div[contains(@class, 'greek')]") %>% 
-        rvest::html_text()) %>% 
-        stringr::str_trim() %>%         
-  unlist() %>%  
-  str_count("\n") %>% 
-  print()
-
-lines <- (lines/4)
-lines <- round(lines, digits = 0)
-lines
-```
-
-
-```{r}
- metadata <- baseurl %>% 
-  map2_chr(July2020_seq, paste0) %>% 
-  map(. %>% 
-        xml2::read_html() %>% 
-        rvest::html_node("body") %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>% 
-        rvest::html_children() %>%
-        rvest::html_children() %>%
-        rvest::html_children() %>%
-        xml2::xml_find_all("//td[contains(@class, 'id')]") %>% 
-        rvest::html_text()) %>%
-  print()
-
-metadata<- stringi::stri_join_list(metadata, sep = "", collapse = NULL)
-```
-
-```{r}
-  data <- baseurl %>% 
-    map2_chr(July2020_seq, paste0) %>% 
-    map(. %>% 
-          xml2::read_html() %>% 
-          rvest::html_nodes("table") %>%
-          html_table()) %>% 
-    sapply("[", 1) %>% 
-    sapply("[", 2) %>% 
-    stringi::stri_join_list(sep = "\n", collapse = NULL) %>% 
-    print()
-        
-```
-
-```{r}
-July2020 <- data.frame(URL, Book, Text, hdr1, hdr2, tildeinfo, note, lines, metadata, data)
-July2020 
-```
-# Producing CSV with all new inscriptions in the defined range of PHI ID numbers.
-```{r}
-write_delim(July2020, path="./13July2020_update.csv", delim = "@")
-```
-
-```{r}
-unique(July2020$Book)
-```
-# Producing CSVs for individual Books.
-```{r}
-July2020 %>% 
-  filter(Book == 'Hesperia Suppl.') %>% 
-  write_delim(path = "./Hesperia_Suppl_8.csv", delim = "@")
-```
-
-```{r}
-July2020 %>% 
-  filter(Book == 'IK Priene') %>% 
-  write_delim(path = "./IK_Priene.csv", delim = "@")
-```
-
-```{r}
-July2020 %>% 
-  filter(Book == 'IK Strat. III') %>% 
-  write_delim(path = "./IK_Strat_III.csv", delim = "@")
+ file.remove("./PHI_enriched_2020-08-27.json") # removes local copy
 ```
 
 
