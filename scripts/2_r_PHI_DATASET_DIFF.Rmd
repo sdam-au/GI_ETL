@@ -1,0 +1,181 @@
+---
+title: "Comparison of two PHI datasets (changes in the dataset over time)"
+author: "Petra Hermankova"
+date: "27/08/2020"
+output: rmarkdown::github_document
+---
+
+*Setting up the environment*
+```{r setup, echo=TRUE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error=TRUE)
+devtools::install_github("sdam-au/sdam")
+
+library(tidyverse)
+library(sdam)
+library(jsonlite)
+library(getPass)
+```
+
+# Loading up the datasets
+1. Input your sciencedata.dk username - type directly into the RStudio console
+```{r, echo = FALSE }
+user <- readline("your sciencedata username: ")
+```
+
+## Dataset 1
+2. Make the request (you will be asked for password in a new pop-up window)
+```{r, echo = FALSE }
+resp = request("PHI_enriched_2020-08-27.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
+```
+
+```{r}
+list_json <- jsonlite::fromJSON(resp)
+PHI_aug = as.data.frame(list_json)
+PHI_aug
+```
+## Dataset 2
+```{r, echo = FALSE }
+resp2 = request("PHI_enriched_2020-06-29.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
+```
+
+```{r}
+list_json2 <- jsonlite::fromJSON(resp2)
+PHI_jun = as.data.frame(list_json2)
+PHI_jun
+```
+
+# Compare the two datasets 
+
+## How many more new inscriptions were added in July?
+```{r}
+nrow(PHI_aug) - nrow(PHI_jun)
+```
+
+## What column names are different?
+```{r}
+setdiff(names(PHI_jun), names(PHI_aug))
+```
+
+## What column names are identical?
+```{r}
+intersect(names(PHI_jun), names(PHI_aug))
+```
+
+### Select only the columns from the wider dataset that are in both (so they have idential structure to do the comparison:
+```{r}
+PHI_june<- PHI_jun[intersect(names(PHI_jun), names(PHI_aug))]
+```
+
+## Checking the datatypes
+```{r}
+is(PHI_june)
+is(PHI_aug)
+```
+
+## Subsetting for testing
+```{r}
+small_aug<- head(PHI_aug)
+small_june<- head(PHI_june)
+```
+### Saving the subsets to Sciencedata for debugging
+
+```{r}
+small_aug_json <- jsonlite::toJSON(small_aug) 
+write(small_aug_json, file="PHI_small_aug.json")
+user <- readline("your sciencedata username: ")
+request("PHI_small_aug.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
+        method="PUT", cred=c(user, getPass("your sciencedata password: ")))
+```
+
+```{r}
+small_june_json <- jsonlite::toJSON(small_june) 
+write(small_june_json, file="PHI_small_june.json")
+user <- readline("your sciencedata username: ")
+request("PHI_small_june.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
+        method="PUT", cred=c(user, getPass("your sciencedata password: ")))
+```
+
+## Unlisting > flattening the list into a dataframe
+
+1. tidyr::unnest
+```{r}
+# https://stackoverflow.com/a/56989523
+
+unnested_small_aug<- small_aug %>% unnest_auto(note) %>% unnest(cols = c(URL, Book, Text, hdr2, tildeinfo, note, lines, metadata, data, filename, PHI_ID))
+unnested_small_aug
+```
+
+```{r}
+# https://stackoverflow.com/a/62683600/14219893 for multiple columns with nested lists
+
+unnested_small_june <- small_june %>% 
+  unnest_longer(hdr2) %>% 
+  unnest_longer(note) %>% 
+  unnest_longer(URL) %>% 
+  unnest_longer(Book) %>% 
+  unnest_longer(Text) %>% 
+  unnest_longer(tildeinfo) %>% 
+  unnest_longer(lines) %>% 
+  unnest_longer(metadata) %>% 
+  unnest_longer(data) %>% 
+  unnest_longer(filename) %>% 
+  unnest_longer(PHI_ID) 
+```
+
+
+
+## Comparing the two datasets using compareDF 
+https://CRAN.R-project.org/package=compareDF
+https://github.com/alexsanjoseph/compareDF
+
+```{r}
+#install.packages("compareDF")
+#devtools::install_github('alexsanjoseph/compareDF')
+library(compareDF)
+library(htmlTable)
+```
+# Making sure all datasets have identical columns, exclusing the redundants ones
+
+```{r}
+intersect(names(unnested_small_aug), names(unnested_small_june))
+unnested_small_june2<- unnested_small_june[intersect(names(unnested_small_june), names(unnested_small_aug))]
+```
+
+# Do a git style comparison between two data frames of similar columnar structure (new dataset first, old second)
+```{r}
+small_compared <- compare_df(unnested_small_aug, unnested_small_june2)
+```
+
+## Show comparison in a table, where red means "missing in the new dataset" and green "new addition to the new dataset" 
+```{r}
+create_output_table(small_compared)
+small_compared
+```
+## Repeat the same for the large dataset - DOES NOT WORK
+
+# https://stackoverflow.com/a/62683600/14219893 for multiple columns with nested lists
+
+```{r}
+
+unnested_PHI_aug <- PHI_aug %>% 
+  unnest_longer(hdr2) %>% 
+  unnest_longer(note) %>% 
+  unnest_longer(URL) %>% 
+  unnest_longer(Book) %>% 
+  unnest_longer(Text) %>% 
+  unnest_longer(tildeinfo) %>% 
+  unnest_longer(lines) %>% 
+  unnest_longer(metadata) %>% 
+  unnest_longer(data) %>% 
+  unnest_longer(filename) %>% 
+  unnest_longer(PHI_ID)
+```
+
+```{r}
+PHI_june_json <- jsonlite::toJSON(PHI_june) 
+write(PHI_june_json, file="PHI_june_2020.json")
+
+PHI_aug_json <- jsonlite::toJSON(PHI_aug) 
+write(PHI_aug_json, file="PHI_aug_2020.json")
+```
+
