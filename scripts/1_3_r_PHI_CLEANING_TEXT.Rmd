@@ -637,8 +637,8 @@ The output of the function will consist of words separated by one space, so the 
 ```{r}
 cleaning_pythia_phi <- function(epigraphic_dataset){
   clean_text <- gsub(pattern=dubious_dot_subscript[1], replacement=dubious_dot_subscript[2], x=epigraphic_dataset, perl=TRUE)
-  #lean_text <- gsub(pattern=restoration_interpretive[1], replacement=restoration_interpretive[2], x=clean_text, perl=TRUE)
-  #lean_text <- gsub(pattern="-", replacement="", x=clean_text, perl=TRUE)
+  clean_text <- gsub(pattern=restoration_interpretive[1], replacement=restoration_interpretive[2], x=clean_text, perl=TRUE)
+  clean_text <- gsub(pattern="-", replacement="", x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=" θ ", replacement=" ", x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=arabic_numerals[1], replacement=arabic_numerals[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=multi_whitespace[1], replacement=multi_whitespace[2], x=clean_text, perl=TRUE)
@@ -667,14 +667,14 @@ Test the outcomes:
 ```{r}
 number <- 7
 
-PHI__clean$data[number]
-PHIclean$clean_text_conservative[number]
+PHI_clean$data[number]
+PHI_clean$clean_text_conservative[number]
 PHI_clean$clean_text_interpretive_word[number]
 PHI_clean$clean_text_interpretive_sentence[number]
 PHI_clean$clean_text_pythia[number]
 ```
 
-` Saving to Sciencedata
+# Saving to Sciencedata
 ```{r Saving to Sciencedata}
 PHI_cleaned_json <- jsonlite::toJSON(PHI_clean, auto_unbox=TRUE) 
 
@@ -688,5 +688,16 @@ sdam::request("PHI_text_cleaned_2020-12-16.json", path="/sharingout/648597@au.dk
 ```{r}
 file.remove("./PHI_text_cleaned_2020-12-16.json) # removes local copy
 ```
+
+
+`# How many words contain the cleaned texts?
+``{r}
+
+library(ngram)`
+wordcount(PHI_clean$data, sep = " ", count.function = sum)
+wordcount(PHI_clean$clean_text_interpretive_word, sep = " ", count.function = sum)
+wordcount(PHI_clean$clean_text_interpretive_sentence, sep = " ", count.function = sum)
+wordcount(PHI_clean$clean_text_pythia, sep = " ", count.function = sum)
+``
 
 
