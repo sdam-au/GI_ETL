@@ -9,11 +9,6 @@ output: rmarkdown::github_document
 ```{r setup, echo=TRUE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE, error=TRUE)
 devtools::install_github("mplex/cedhar", subdir="pkg/sdam")
-#install.packages("rjson")
-#install.packages("tidyverse")
-#install.packages("getPass")
-#install.packages("formatR")
-#install.packages("reshape2")
 
 library(tidyverse)
 library(purrr)
@@ -21,7 +16,6 @@ library(tidytext)
 library(dplyr)
 library(sdam)
 library(jsonlite)
-library(getPass)
 library(formatR)
 library(xml2)
 library(rvest)
@@ -29,24 +23,27 @@ library(stringr)
 library(reshape2)
 ```
 
-### Loading data
-First, we need to install several more packages and load the libraries in order to connect to Sciencedata.dk and access the dataset.
-
-1. Input your sciencedata.dk username - type directly into the RStudio console
-```{r, echo = FALSE }
-user <- readline("your sciencedata username: ")
+1. Load the credentials from external txt file
+```{r}
+mycred_secret<- readLines("~/mysecret.txt")
 ```
 
-2. Make the request (you will be asked for password in a new pop-up window)
-```{r, echo = FALSE }
-resp = request("PHI_merged_2020-08-24.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=c(user, getPass("your sciencedata password: ")))
+2. Make the request 
+```{r, echo = TRUE }
+resp = request("PHI_merged_2020-08-24.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=mycred_secret)
+
+# remove any traces of the secret password from the document
+remove(mycred_secret)
 ```
 
 3. Make a list from the request and display the first six records (head)
 ```{r}
-list_json <- jsonlite::fromJSON(resp)
+list_json <- jsonlite::fromJSON(resp, flatten=TRUE)
 PHI_tibble = as_tibble(list_json)
-head(PHI_tibble)
+PHI_unboxed_json <- jsonlite::toJSON(PHI_tibble, auto_unbox=TRUE) 
+list_unboxed_json <- jsonlite::fromJSON(PHI_unboxed_json)
+PHI_tibble = as_tibble(list_unboxed_json)
+PHI_tibble
 ```
 
 # Filtering only the records that have missing data (contain only word Regions) in the hdr1 column
@@ -131,16 +128,17 @@ PHI_tibble = as_tibble(PHI_tibble)
 
 PHI_df <- as.data.frame(PHI_tibble)
 
-PHI_json <- jsonlite::toJSON(PHI_df) 
-write(PHI_json, file="PHI_enriched_2020-08-27.json")
-user <- readline("your sciencedata username: ")
-request("PHI_enriched_2020-08-27.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
-        method="PUT", cred=c(user, getPass("your sciencedata password: ")))
+PHI_json <- jsonlite::toJSON(PHI_df, auto_unbox=TRUE) 
+write(PHI_json, file="PHI_enriched_2020-12-16.json")
+mycred_secret<- readLines("~/mysecret.txt")
+request("PHI_enriched_2020-12-16.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/",
+        method="PUT", cred=c(mycred_secret[1], mycred_secret[2]))
+#remove(mycred_secret)
 ```
 
 
 ```{r}
- file.remove("./PHI_enriched_2020-08-27.json") # removes local copy
+ file.remove("./PHI_enriched_2020-12-16.json") # removes local copy
 ```
 
 

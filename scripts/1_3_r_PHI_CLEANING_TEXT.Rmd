@@ -16,7 +16,6 @@ library(dplyr)
 library(stringr)
 library(sdam)
 library(jsonlite)
-library(getPass)
 library(formatR)
 ```
 
@@ -255,7 +254,7 @@ lacuna2 <- c("\\[[․]+\\]", "")
 * Example after cleaning: ```Ἡρακλείδα    χαῖρε.```
 
 ```{r}
-vacat <- c("(lacuna|vacat|vac|vac\\.|v\\.)", " ")
+vacat <- c("(vacat|vac|vac\\.| v |\\bv+\\b)", " ")
 ```
 
 ### 3.4. Editorial notes
@@ -370,7 +369,7 @@ superscript_numbers <- c("[⁰¹²³⁴⁵⁶⁷⁸⁹]+", "")
 * Example after cleaning: ```ἀγαθῆι   τύχηι```
 
 ```{r}
-epigraphic_symbols <-c ("[❦|·|∙|𐆖|⏑|⏓|⏕]", "")
+epigraphic_symbols <-c ("[∶|❦|·|∙|𐆖|⏑|⏓|⏕]", "")
 ```
 
 ### 3.13. Uncertainty symbols
@@ -432,7 +431,7 @@ multi_whitespace <- c("\\s+", " ")
 whitespace_endline <- c("(^\\s|\\s$)", "")
 ```
 
-### 3.18. Editorial comments in Latin alphabet
+### 3.18. Editorial comments in Latin alphabet in curly braces
 
 **Aim:** All instances of editorial comments in Latin alphabet that are enclosed in curly braces {} with superscript numbers will be eliminated (substituted with "").
 
@@ -471,6 +470,18 @@ arabic_numerals <- c("[0-9]+", "")
 unclosed_brackets <- c("[\\[|\\{|\\(|\\)|\\}|\\]]", "")
 ```
 
+### 3.21 Latin editorial notes specific for PHI dataset 
+
+**Aim:** All instances of Latin editorial notes be substituted with " ".
+
+* Example before cleaning: ```διδόντον lacuna ἄρχοντα```
+* Example after cleaning: ```διδόντον ἄρχοντα ```
+
+```{r}
+phi_latin_notes <- c("(lacuna|vestigia|amissi)", " ")
+```
+
+
 
 ---
 
@@ -491,7 +502,7 @@ mycred_secret<- readLines("~/mysecret.txt")
 
 2. Make the request 
 ```{r, echo = TRUE }
-resp = request("PHI_with_pythia_20201211.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=mycred_secret)
+resp = request("PHI_with_pythia_20201216.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=mycred_secret)
 
 # remove any traces of the secret password from the document
 remove(mycred_secret)
@@ -532,6 +543,7 @@ cleaning_conservative_phi <- function(epigraphic_dataset){
   clean_text <- gsub(pattern=uncertainty_symbols[1], replacement=uncertainty_symbols[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=uncertainty_symbols[1], replacement=uncertainty_symbols[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=end_line[1], replacement=end_line[2], x=clean_text, perl=TRUE)
+  clean_text <- gsub(pattern=phi_latin_notes[1], replacement=phi_latin_notes[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=extra_blank[1], replacement=extra_blank[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=arabic_numerals[1], replacement=arabic_numerals[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=multi_whitespace[1], replacement=multi_whitespace[2], x=clean_text, perl=TRUE)
@@ -567,6 +579,7 @@ cleaning_interpretive_word_phi <- function(epigraphic_dataset){
   clean_text <- gsub(pattern=epigraphic_symbols[1], replacement=epigraphic_symbols[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=uncertainty_symbols[1], replacement=uncertainty_symbols[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=end_line[1], replacement=end_line[2], x=clean_text, perl=TRUE)
+  clean_text <- gsub(pattern=phi_latin_notes[1], replacement=phi_latin_notes[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=extra_blank[1], replacement=extra_blank[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=arabic_numerals[1], replacement=arabic_numerals[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=multi_whitespace[1], replacement=multi_whitespace[2], x=clean_text, perl=TRUE)
@@ -603,6 +616,7 @@ cleaning_interpretive_sentence_phi <- function(epigraphic_dataset){
   clean_text <- gsub(pattern=epigraphic_symbols[1], replacement=epigraphic_symbols[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=uncertainty_symbols[1], replacement=uncertainty_symbols[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=end_line[1], replacement=end_line[2], x=clean_text, perl=TRUE)
+  clean_text <- gsub(pattern=phi_latin_notes[1], replacement=phi_latin_notes[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=extra_blank[1], replacement=extra_blank[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=arabic_numerals[1], replacement=arabic_numerals[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=multi_whitespace[1], replacement=multi_whitespace[2], x=clean_text, perl=TRUE)
@@ -623,27 +637,8 @@ The output of the function will consist of words separated by one space, so the 
 ```{r}
 cleaning_pythia_phi <- function(epigraphic_dataset){
   clean_text <- gsub(pattern=dubious_dot_subscript[1], replacement=dubious_dot_subscript[2], x=epigraphic_dataset, perl=TRUE)
-  #clean_text <- gsub(pattern=lacuna1[1], replacement=lacuna1[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=lacuna2[1], replacement=lacuna2[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=vacat[1], replacement=vacat[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=editorial_notes[1], replacement=editorial_notes[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=editorial_comments_latin[1], replacement=editorial_comments_latin[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=expanded_abbreviations_interpretive[1], replacement=expanded_abbreviations_interpretive[2], x=clean_text, perl=TRUE)
- #clean_text <- gsub(pattern=suppresion_superscripts_interpretive[1], replacement=suppresion_superscripts_interpretive[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=suppresion_keep_interpretive[1], replacement=suppresion_keep_interpretive[2], x=clean_text, perl=TRUE)
-  clean_text <- gsub(pattern=restoration_interpretive[1], replacement=restoration_interpretive[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=substitution_interpretive[1], replacement=substitution_interpretive[2], x=clean_text, perl=TRUE)
- #clean_text <- gsub(pattern=new_line[1], replacement=new_line[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=split_word_multiline[1], replacement=split_word_multiline[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=erasure_empty[1], replacement=erasure_empty[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=erasure_new_text[1], replacement=erasure_new_text[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=interpunction_keep_sentences[1], replacement=interpunction_keep_sentences[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=superscript_numbers[1], replacement=superscript_numbers[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=epigraphic_symbols[1], replacement=epigraphic_symbols[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=uncertainty_symbols[1], replacement=uncertainty_symbols[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=end_line[1], replacement=end_line[2], x=clean_text, perl=TRUE)
-  #clean_text <- gsub(pattern=extra_blank[1], replacement=extra_blank[2], x=clean_text, perl=TRUE)
-  clean_text <- gsub(pattern="-", replacement="", x=clean_text, perl=TRUE)
+  #lean_text <- gsub(pattern=restoration_interpretive[1], replacement=restoration_interpretive[2], x=clean_text, perl=TRUE)
+  #lean_text <- gsub(pattern="-", replacement="", x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=" θ ", replacement=" ", x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=arabic_numerals[1], replacement=arabic_numerals[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=multi_whitespace[1], replacement=multi_whitespace[2], x=clean_text, perl=TRUE)
@@ -660,7 +655,7 @@ cleaning_pythia_phi <- function(epigraphic_dataset){
 
 Save the output of ```cleaning_conservative``` and ```cleaning_interpretive_word``` and ```cleaning_interpretive_sentence``` and ```cleaning_pythia``` function together with the original contents of the dataset.
 
-```{r Cleaning the text with functions}
+```{r}
 PHI_clean <- PHI_tibble %>%
   mutate(clean_text_conservative = cleaning_conservative_phi(PHI_tibble$data)) %>%
   mutate(clean_text_interpretive_word = cleaning_interpretive_word_phi(PHI_tibble$data)) %>%
@@ -668,32 +663,30 @@ PHI_clean <- PHI_tibble %>%
   mutate(clean_text_pythia = cleaning_pythia_phi(PHI_tibble$string_pythia))
 ```
 
-
 Test the outcomes:
 ```{r}
-number <- 15
+number <- 7
 
-PHI_clean$clean_text_conservative[number]
+PHI__clean$data[number]
+PHIclean$clean_text_conservative[number]
 PHI_clean$clean_text_interpretive_word[number]
 PHI_clean$clean_text_interpretive_sentence[number]
 PHI_clean$clean_text_pythia[number]
 ```
 
-
-# Saving to Sciencedata
+` Saving to Sciencedata
 ```{r Saving to Sciencedata}
 PHI_cleaned_json <- jsonlite::toJSON(PHI_clean, auto_unbox=TRUE) 
 
-
-write(PHI_cleaned_json, file="PHI_text_cleaned_2020-12-11.json")
+write(PHI_cleaned_json, file="PHI_text_cleaned_2020-12-16.json")
 mycred_secret<- readLines("~/mysecret.txt")
-sdam::request("PHI_text_cleaned_2020-12-11.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="PUT", cred=c(mycred_secret[1], mycred_secret[2]))
+sdam::request("PHI_text_cleaned_2020-12-16.json", path="/sharingout/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="PUT", cred=c(mycred_secret[1], mycred_secret[2]))
 #remove(mycred_secret)
 ```
 
 
 ```{r}
-file.remove("./PHI_text_cleaned_2020-12-12.json) # removes local copy
+file.remove("./PHI_text_cleaned_2020-12-16.json) # removes local copy
 ```
 
 
