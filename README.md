@@ -8,7 +8,7 @@ The purpose of this repository is to extract the PHI dataset from numerous `.csv
 
 ---
 ## Authors
-* Vojtěch Kaše [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6601-1605]), SDAM project, vojtech.kase@gmail.com
+* Vojtěch Kaše [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6601-1605), SDAM project, vojtech.kase@gmail.com
 * Petra Heřmánková [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6349-0540), SDAM project, petra@ancientsocialcomplexity.org
 
 ## License
