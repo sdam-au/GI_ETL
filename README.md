@@ -1,15 +1,16 @@
-# PHI dataset extraction and preprocessing
+# Scripts extraction, transformation, preprocessing and metadata enrichement of ancient Greek inscriptions
 * ETL
 
 ---
 
 ## Purpose
-The purpose of this repository is to extract the PHI dataset from numerous `.csv` files into one tabular object in Python (pandas dataframe), clean it, and upload it to sciencedata.dk for further usage.
+The purpose of this repository is to extract the PHI dataset from numerous `.csv` files into one tabular object in Python (pandas dataframe), clean it, enrich it by additionally metadata from Trismegistos etc. and to generate publishable datasets.
 
 ---
 ## Authors
 * Vojtěch Kaše [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6601-1605), SDAM project, vojtech.kase@gmail.com
 * Petra Heřmánková [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6349-0540), SDAM project, petra@ancientsocialcomplexity.org
+* Adéla Sobotková [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-4541-3963), SDAM project, adela@cas.au.dk
 
 ## License
 CC-BY-SA 4.0, see attached [License](https://github.com/sdam-au/PHI_ETL/blob/master/LICENSE.md)
