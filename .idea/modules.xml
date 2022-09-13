@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PHI_ETL.iml" filepath="$PROJECT_DIR$/.idea/PHI_ETL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GI_ETL.iml" filepath="$PROJECT_DIR$/.idea/GI_ETL.iml" />
     </modules>
   </component>
 </project>
