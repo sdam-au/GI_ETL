@@ -1,0 +1,15 @@
+jupyter
+ipykernel
+
+pandas
+nltk
+gensim
+scikit-learn
+geopandas
+pyarrow
+
+matplotlib
+seaborn
+
+sddk
+tempun
