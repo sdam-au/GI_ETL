@@ -1,0 +1,1236 @@
+name,polis_id,xcoord,ycoord,edges,Polisity,Hellenicity,Fame,In_out,Size,Silver_1st,Bronze_1st,Grid,Colonies,Victors,Proxenoi,Walls,Delian_League,Koinon,Regime,Region_num,Region name,Source,Elevation_m
+1-Alalie,1,9.511698,42.1024315,none,1,1,1.12,1,3,,,,0,0,0,1,0,,0,1,Spain & France,HansonNielson,41.7
+10-Akrai,10,14.91666667,37.08333333,none,3,1,1.25,2,0,,,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,604
+100-Kassopa,100,20.687268,39.140534,none,1,1,1.37,3,5,4,4,4,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,452.4
+1000-Rhodos,1000,28.227611,36.443113,none,1,1,7,2,5,5,4,5,3,1,1,1,0,,2,42,Rhodos,HansonNielson,13.6
+1001-Aspendos,1001,31.1701745,36.939091,none,1,2,2.25,2,4,5,4,,0,0,1,1,1,,0,43,Pamphylia & Kilikia,HansonNielson,44.2
+1002-Idyros,1002,30.559807,36.60261,none,1,3,1.5,2,0,,,,0,0,0,0,1,,0,43,Pamphylia & Kilikia,HansonNielson,12.2
+1003-Perge,1003,30.854274,36.961406,none,1,2,1.25,2,5,,,,0,0,0,0,1,,0,43,Pamphylia & Kilikia,HansonNielson,21.6
+1004-Side,1004,31.393859,36.77233933,none,1,2,2.12,2,4,5,,,0,0,0,0,0,,0,43,Pamphylia & Kilikia,HansonNielson,12.2
+1005-Aphrodisias,1005,33.685873,36.157963,none,3,3,0.87,2,4,,,,0,0,0,1,0,,0,43,Pamphylia & Kilikia,HansonNielson,3
+1006-Holmoi,1006,33.8805755,36.3203745,none,1,1,0.5,2,0,4,,,0,0,0,0,0,,0,43,Pamphylia & Kilikia,HansonNielson,5.8
+1007-Issos,1007,36.164444,36.838333,none,1,3,0.75,2,0,5,,,0,0,0,0,0,,0,43,Pamphylia & Kilikia,HansonNielson,5.3
+1008-Kelenderis,1008,33.318106,36.142487,none,1,1,0.75,2,0,5,,,0,0,0,1,1,,0,43,Pamphylia & Kilikia,HansonNielson,41.4
+1009-Mallos,1009,35.381281,36.5631516,none,1,2,1,2,0,5,,,0,0,0,0,0,,0,43,Pamphylia & Kilikia,HansonNielson,12.2
+101-Nikaia,101,19.75,40.5,none,3,1,0.37,3,0,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,144
+1010-Nagidos,1010,32.95064833,36.09551533,none,1,1,0.75,2,0,4,4,,0,0,0,1,0,,0,43,Pamphylia & Kilikia,HansonNielson,0
+1011-Soloi,1011,34.5,36.75,none,1,1,1.5,2,4,5,4,,0,0,0,0,0,,2,43,Pamphylia & Kilikia,HansonNielson,65
+1012-Amathous,1012,33.13708095,34.712264,none,1,2,1.25,2,5,5,,,0,0,0,1,0,,1,44,Cyprus,HansonNielson,29.4
+1013-Idalion,1013,33.4189055,35.018028,none,1,2,1.5,2,5,6,,5,0,0,0,1,0,,1,44,Cyprus,HansonNielson,233.1
+1014-Karpasia,1014,34.369934,35.626206,none,1.5,1,0.62,2,5,,,,0,0,0,1,0,,0,44,Cyprus,HansonNielson,0.5
+1015-Keryneia,1015,33.321417,35.337334,none,1.5,0,0.37,2,5,,,,0,0,0,0,0,,0,44,Cyprus,HansonNielson,25.2
+1016-Kourion,1016,32.883723,34.6662275,none,2,1,0.62,2,5,5,,,0,0,0,0,0,,1,44,Cyprus,HansonNielson,70.9
+1017-Lapethos,1017,33.202109,35.350592,none,1.5,2,0.62,2,5,5,,,0,0,0,0,0,,1,44,Cyprus,HansonNielson,24.7
+1018-Marion,1018,32.436032,35.037245,none,1,1,1,2,5,5,4,,0,0,0,1,0,,1,44,Cyprus,HansonNielson,31.1
+1019-Paphos,1019,32.448919,34.8356635,none,1,1,1.62,2,5,5,,,0,0,0,1,0,,1,44,Cyprus,HansonNielson,429.5
+102-Olympa,102,19.58333333,40.41666667,none,3,1,0.5,3,0,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,68
+1020-Salamis,1020,33.9030525,35.1799505,none,1,1,1.75,2,5,6,,,0,0,1,1,0,,1,44,Cyprus,HansonNielson,12.1
+1021-Soloi,1021,32.813067,35.138224,none,1,1,1,2,5,5,,,0,0,0,1,0,,1,44,Cyprus,HansonNielson,25.8
+1022-Posideion,1022,35.824785,35.847777,none,1,2,1,2,1,4,4,,0,0,0,0,0,,0,45,Syria to Pillars of Herakles,HansonNielson,14.6
+1023-Naukratis,1023,30.591777,30.90071,none,1,2,4.25,2,0,4,4,,0,0,1,0,0,,0,45,Syria to Pillars of Herakles,HansonNielson,2.4
+1024-Oasis,1024,,,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,45,Syria to Pillars of Herakles,HansonNielson,
+1025-Barke,1025,20.892778,32.498333,none,1,1,2.5,2,4,6,4,,0,1,0,1,0,,1,45,Syria to Pillars of Herakles,HansonNielson,286.3
+1026-Euhesperides,1026,20.091198,32.109789,none,1,1,2.5,2,2,5,4,4,0,0,2,1,0,,1,45,Syria to Pillars of Herakles,HansonNielson,16.3
+1027-Kinyps,1027,14.447329,32.527937,none,1,1,0.25,1,0,,,,0,0,0,0,0,,0,45,Syria to Pillars of Herakles,HansonNielson,0.4
+1028-Kyrene,1028,21.85727,32.823041,none,1,1,7.37,2,5,6,4,,3,3,1,1,0,,2,45,Syria to Pillars of Herakles,HansonNielson,615.8
+1029-Taucheira,1029,20.567765,32.5363475,none,1,1,1.75,2,3,,,,0,0,0,1,0,,0,45,Syria to Pillars of Herakles,HansonNielson,4.4
+103-Orikos,103,19.475022,40.327623,none,1,1,0.5,3,0,,,,0,0,0,0,0,,0,5,Epeiros,HansonNielson,7.7
+1030-Astraiousioi,1030,,,none,1.5,1,0.12,2,0,,,,0,0,0,0,0,,0,46,Unlocated,HansonNielson,
+1031-Erodioi,1031,,,none,3,1,0.25,2,0,,,,0,0,0,0,1,,0,46,Unlocated,HansonNielson,
+1032-Eurymachitai,1032,,,none,3,1,0.25,2,0,,,,0,0,0,0,1,,0,46,Unlocated,HansonNielson,
+1033-Kystiros,1033,,,none,1,1,0.37,2,0,,,,0,0,0,0,1,,0,46,Unlocated,HansonNielson,
+1034-Lechoioi,1034,,,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,46,Unlocated,HansonNielson,
+1035-Phytaioi,1035,,,none,3,1,0.12,2,0,5,,,0,0,0,0,0,,0,46,Unlocated,HansonNielson,
+104-Pandosia,104,20.686861,39.273938,none,1,1,1.37,2,0,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,270.4
+105-Passaron,105,20.752394,39.7330065,none,3,1,0.75,3,0,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,592
+106-Phanote,106,20.33333333,39.58333333,none,2,1,0.37,3,0,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,125
+107-Phoinike,107,20.057744,39.912324,none,2,1,0.37,3,0,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,223
+108-Poionos,108,,,none,3,1,0.25,3,0,,,,0,0,0,0,0,,0,5,Epeiros,HansonNielson,
+109-Tekmon,109,20.91666667,39.66666667,none,3,1,0.5,3,0,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,464
+11-Alaisa,11,14.262968,37.99808,none,2,2,0.87,2,0,,4,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,214.6
+110-Torone,110,20.179996,39.517533,none,3,1,0.62,3,1,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,42.5
+111-Zmaratha,111,,,none,3,1,0.12,3,0,,,,0,0,0,0,0,,0,5,Epeiros,HansonNielson,
+112-Alyzeia,112,20.951657,38.713373,none,1,1,1.37,2,2,4,4,,0,0,1,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,84.9
+113-Ambrakia,113,20.990258,39.154876,none,1,1,3.37,2,4,5,,6,1,1,1,1,0,,2,6,Akarnania & Ajacent,HansonNielson,108
+114-Anaktorion,114,20.83333333,38.91666667,none,1,1,1.75,2,2,5,,,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,24
+115-Argos,115,21.1802673,38.935912,none,1,1,1.62,2,3,4,4,,0,0,1,1,0,,0,6,Akarnania & Ajacent,HansonNielson,14.1
+116-Astakos,116,21.087253,38.547154,none,1,1,1.12,2,2,4,4,,0,0,0,1,0,1,1,6,Akarnania & Ajacent,HansonNielson,96.6
+117-Derion,117,21.189842,38.635383,none,3,1,0.75,2,1,4,,,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,348.5
+118-Echinos,118,20.9101152,38.908266,none,2,1,1.12,3,1,4,,,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,20.7
+119-Euripos,119,21,38.91666667,none,2,1,0.62,3,1,,,,0,0,0,0,0,1,0,6,Akarnania & Ajacent,HansonNielson,0
+12-Alontion,12,14.700314,38.071898,none,2,3,0.5,3,0,,4,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,546.3
+120-Herakleia,120,20.91666667,38.91666667,none,3,1,0.37,2,1,5,,,0,0,0,0,0,1,0,6,Akarnania & Ajacent,HansonNielson,240
+121-Hyporeiai,121,,,none,3,1,0.37,3,0,,,,0,0,0,0,0,1,0,6,Akarnania & Ajacent,HansonNielson,
+122-Ithaka,122,20.638399,38.44193,none,1,1,1.5,2,2,,4,,0,0,0,1,0,,0,6,Akarnania & Ajacent,HansonNielson,35.2
+123-Korkyra,123,19.924457,39.60444,none,1,1,5.12,2,5,6,4,,1,1,3,1,0,,2,6,Akarnania & Ajacent,HansonNielson,34.5
+124-Koronta,124,21.159936,38.588086,none,2,1,0.87,2,2,4,,,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,168.9
+125-Kranioi,125,20.516369,38.168492,none,1,1,2.62,2,2,5,4,,0,0,0,1,0,,0,6,Akarnania & Ajacent,HansonNielson,112.5
+126-Leukas,126,20.713116,38.807342,none,1,1,3,2,4,5,4,4,0,0,1,1,0,,2,6,Akarnania & Ajacent,HansonNielson,43.7
+127-Limnaia,127,21.16666667,38.83333333,none,2,1,0.75,3,2,,,,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,102
+128-Matropolis,128,21.25,38.58333333,none,2,1,0.87,3,2,4,,,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,17
+129-Medion,129,21.125024,38.782497,none,2,1,0.87,3,2,4,,,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,224.4
+13-Apollonia,13,14.58333333,38,none,3,1,0.37,2,0,,,,0,0,0,1,0,,1,2,Sikelia,HansonNielson,345
+130-Oiniadai,130,21.195384,38.406649,none,1,1,1.62,2,3,,,,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,33.9
+131-Palairos,131,20.827043,38.8337485,none,2,1,1.37,2,2,4,,4,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,147.9
+132-Paleis,132,20.41666667,38.25,none,1,1,1,2,2,5,4,,0,0,1,1,0,,0,6,Akarnania & Ajacent,HansonNielson,64
+133-Phara,133,21.58333333,38.66666667,none,1,1,0.25,3,0,,,,0,0,0,0,0,,0,6,Akarnania & Ajacent,HansonNielson,1171
+134-Phoitiai,134,21.143392,38.686998,none,1.5,1,1,2,2,4,4,,0,0,1,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,241.5
+135-Pronnoi,135,20.776722,38.145962,none,1,1,1,2,2,4,4,,0,0,0,1,0,,0,6,Akarnania & Ajacent,HansonNielson,111.2
+136-Same,136,20.658925,38.254596,none,1,1,1,2,2,5,4,4,0,0,0,1,0,,0,6,Akarnania & Ajacent,HansonNielson,216.3
+137-Sollion,137,20.672977,38.135248,none,1,1,0.5,1,0,,,,0,0,0,0,0,,0,6,Akarnania & Ajacent,HansonNielson,1577.2
+138-Stratos,138,21.316272,38.672848,none,1,1,1.75,2,2,5,4,4,0,1,2,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,64.8
+139-Thyrreion,139,20.980902,38.854918,none,2,1,1.37,3,2,4,,,0,0,1,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,466.2
+14-Engyon,14,14.591438,37.786715,none,3,1,0.62,2,0,,,,0,0,0,1,0,,1,2,Sikelia,HansonNielson,1014.8
+140-Torybeia,140,21.06285,38.763022,none,2,1,1,3,2,4,,4,0,0,0,1,0,1,0,6,Akarnania & Ajacent,HansonNielson,594.4
+141-Zakynthos,141,20.8953,37.7014,none,1,1,2,2,4,5,4,,0,0,1,0,0,,2,6,Akarnania & Ajacent,HansonNielson,0
+142-Agrinion,142,21.386897,38.638511,none,2,1,0.5,3,2,,,,0,0,0,1,0,1,0,7,Aitolia,HansonNielson,66.9
+143-Aigition,143,22.1683641,38.48862583,none,1,1,0.5,2,0,,,,0,0,0,1,0,1,0,7,Aitolia,HansonNielson,941.1
+144-Akripos,144,27.092059,36.815804,none,3,1,0.25,3,0,,,,0,0,0,0,0,,0,7,Aitolia,HansonNielson,111
+145-Chalkis,145,21.58333333,38.33333333,none,1,1,0.87,2,1,4,,,1,0,0,1,0,1,0,7,Aitolia,HansonNielson,0
+146-Halikyrna,146,21.502502,38.387478,none,1.5,1,0.25,3,1,,,,0,0,0,1,0,,0,7,Aitolia,HansonNielson,76.8
+147-Kallion/Kallipolis,147,22.16666667,38.58333333,none,2,1,0.87,2,0,,,4,0,0,1,1,0,1,0,7,Aitolia,HansonNielson,1080
+148-Kalydon,148,21.5328,38.3781,none,1.5,1,1.5,2,2,,,4,0,0,0,1,0,1,0,7,Aitolia,HansonNielson,141.4
+149-Makynea,149,21.75,38.33333333,none,2,1,0.5,2,1,,,,0,0,1,1,0,1,0,7,Aitolia,HansonNielson,2
+15-Euboia,15,,,none,3,1,1,1,0,,,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,
+150-Molykreion,150,21.757727,38.388044,none,1.5,1,0.87,2,1,,,,0,0,0,1,0,1,0,7,Aitolia,HansonNielson,267.3
+151-Phola,151,,,none,3,1,0.25,2,0,,,,0,0,0,0,0,,0,7,Aitolia,HansonNielson,
+152-Phylea,152,,,none,3,1,0.12,3,0,,,,0,0,0,0,0,,0,7,Aitolia,HansonNielson,
+153-Pleuron,153,21.41666667,38.41666667,none,1,1,0.75,2,2,,,,0,0,0,0,0,1,0,7,Aitolia,HansonNielson,165
+154-Proschion,154,21.25,38.75,none,2,1,0.5,2,0,,,,0,0,1,0,0,,0,7,Aitolia,HansonNielson,584
+155-Therminea,155,,,none,3,1,0.12,3,0,,,,0,0,0,0,0,1,0,7,Aitolia,HansonNielson,
+156-Trichoneion,156,21.5,38.5,none,2,1,0.62,2,4,,,,0,0,0,1,0,1,0,7,Aitolia,HansonNielson,293
+157-Alpa,157,22.145795,38.4232,none,3,1,0.62,2,0,,,,0,0,0,0,0,1,0,8,West Lokris,HansonNielson,550.5
+158-Amphissa,158,22.374172,38.518403,none,1,1,1.62,2,2,,,,0,0,0,1,0,,0,8,West Lokris,HansonNielson,251.1
+159-Chaleion,159,22.38728,38.378004,none,1,1,0.75,2,2,,,,1,0,3,1,0,,1,8,West Lokris,HansonNielson,12
+16-Galeria,16,,,none,3,2,0.5,2,0,5,,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,
+160-Hyaia,160,,,none,3,1,0.87,2,0,,,,0,0,0,0,0,,0,8,West Lokris,HansonNielson,
+161-Hypnia,161,22.373892,38.471904,none,3,1,0.37,2,1,,,,0,0,0,0,0,,0,8,West Lokris,HansonNielson,364.9
+162-Issioi,162,,,none,3,1,0.37,2,0,,,,0,0,0,0,0,,0,8,West Lokris,HansonNielson,
+163-Messapioi,163,23.413552,38.4012,none,1.5,1,0.5,2,0,,,,0,0,0,0,0,,0,8,West Lokris,HansonNielson,733
+164-Myania,164,22.357743,38.478043,none,3,1,0.5,2,1,,,,0,0,0,1,0,,0,8,West Lokris,HansonNielson,414.9
+165-Naupaktos,165,21.8167,38.3833,none,1,1,1.62,2,2,,,,1,0,0,1,0,,0,8,West Lokris,HansonNielson,1.9
+166-Oianthea,166,22.191004,38.342137,none,1,1,0.62,2,0,,,,0,0,3,0,0,,1,8,West Lokris,HansonNielson,248.1
+167-Tolophon,167,22.301941,38.368366,none,3,1,0.37,2,1,,,,0,0,0,1,0,,0,8,West Lokris,HansonNielson,288.5
+168-Tritea,168,22.33333333,38.33333333,none,1,1,0.5,2,1,,,,0,0,0,0,0,,0,8,West Lokris,HansonNielson,0
+169-Abai,169,22.929852,38.5831615,none,1,1,1.25,2,1,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,249
+17-Gela,17,14.2584705,37.0630925,none,1,1,5.12,4,4,5,4,4,3,2,1,1,0,,2,2,Sikelia,HansonNielson,32.6
+170-Aiolidai,170,22.777364,38.454516,none,1,1,0.87,1,0,,,,0,0,0,0,0,,0,9,Phokis,HansonNielson,329.9
+171-Ambryssos,171,22.653228,38.4257965,none,2,1,0.87,5,2,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,606.8
+172-Amphikaia,172,22.598214,38.642319,none,1,1,0.5,5,1,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,373.6
+173-Antikyra,173,22.626059,38.375439,none,1,1,0.75,5,2,,,,0,0,0,0,0,1,0,9,Phokis,HansonNielson,9.6
+174-Boulis,174,22.802911,38.276455,none,3,1,1.12,2,2,,,,0,0,0,1,0,,0,9,Phokis,HansonNielson,106.3
+175-Charadra,175,22.489574,38.640939,none,1,1,0.75,5,1,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,374.3
+176-Daulis,176,22.734938,38.5110675,none,1,1,1,5,1,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,267.4
+177-Delphoi,177,22.4958,38.4792,none,1,1,8,2,2,6,4,,0,2,3,0,0,,1,9,Phokis,HansonNielson,583.2
+178-Drymos,178,22.5585205,38.7086695,none,1,1,0.75,5,2,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,526.7
+179-Echedameia,179,,,none,2,1,0.37,5,0,,,,0,0,0,0,0,1,0,9,Phokis,HansonNielson,
+18-Heloros (or Heleron?),18,15.08333,36.83333333,none,1,1,1.75,2,0,,,4,0,0,0,1,0,,0,2,Sikelia,HansonNielson,27
+180-Elateia,180,22.764982,38.626349,none,1,1,1.75,5,3,,4,,0,0,1,1,0,1,0,9,Phokis,HansonNielson,174.1
+181-Erochos,181,22.540903,38.623689,none,1,1,1.12,5,1,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,492.4
+182-Hyampolis,182,22.9187625,38.5946805,none,1,1,1.62,5,1,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,330.1
+183-Kirrha,183,22.450621,38.428937,none,1,1,2.87,1,0,,,,0,0,0,1,0,,0,9,Phokis,HansonNielson,3.8
+184-Ledon,184,22.680539,38.654801,none,2,1,0.87,5,1,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,286.9
+185-Lilaia,185,22.50953775,38.6304149,none,2,1,2.12,5,1,5,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,313.6
+186-Medeon,186,22.688832,38.367629,none,2,1,0.62,5,2,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,131.2
+187-Neon/Tithorea,187,22.66666667,38.58333333,none,1,1,1.75,5,2,5,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,477
+188-Parapotamioi,188,22.817862,38.551148,none,1,1,1.25,5,2,,,,0,1,0,1,0,1,0,9,Phokis,HansonNielson,178.5
+189-Pedieis,189,22.671601,38.626517,none,1,1,0.87,2,2,,,,0,0,0,0,0,1,0,9,Phokis,HansonNielson,176.6
+19-Henna,19,14.279558,37.567652,none,2,2,1.37,2,0,5,4,,0,0,0,0,0,,1,2,Sikelia,HansonNielson,942.7
+190-Phanoteus/Panopeus,190,22.83333333,38.5,none,1,1,1.87,5,1,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,123
+191-Phylgonion,191,22.75,38.5,none,2,1,1.5,5,2,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,222
+192-Po[�],192,,,none,3,1,0.37,5,0,,,,0,0,0,0,0,1,0,9,Phokis,HansonNielson,
+193-Stiris,193,22.75,38.41666667,none,2,1,0.62,5,2,,,,0,0,0,1,0,1,0,9,Phokis,HansonNielson,1038
+194-Teithronion,194,22.58333333,38.66666667,none,1,1,0.75,5,2,,,,0,0,1,1,0,1,0,9,Phokis,HansonNielson,302
+195-Trachis,195,22.447577,38.792037,none,2,1,0.87,5,0,,,,0,0,0,0,0,1,0,9,Phokis,HansonNielson,61.3
+196-Triteis,196,,,none,1,1,0.62,1,0,,,,0,0,0,0,0,,0,9,Phokis,HansonNielson,
+197-Troneia,197,22.66666667,38.75,none,2,1,1.12,5,1,,,1,0,0,0,1,0,1,0,9,Phokis,HansonNielson,184
+198-Akraiphia/Akraiphnion,198,23.218075,38.448701,none,1,1,2,2,2,5,,,0,0,0,1,0,1,1,10,Boiotia,HansonNielson,159.9
+199-Alalkomenai,199,23.018698,38.392521,none,3,1,0.62,1,1,,,,0,0,0,0,0,1,0,10,Boiotia,HansonNielson,98.4
+2-Emporion,2,3.166666667,42.16666667,none,1,2,2.12,2,2,6,,,0,0,0,1,0,,0,1,Spain & France,HansonNielson,0
+20-Herakleia,20,13.280904,37.394042,none,2,1,2.12,2,0,,4,4,0,0,0,1,0,,0,2,Sikelia,HansonNielson,63
+200-Anthedon,200,23.451655,38.497693,none,1,1,1.12,2,2,,,,0,0,0,0,0,1,0,10,Boiotia,HansonNielson,6.1
+2001-Achaea,2001,21.75,38.25,none,,,,,,,,,,,,,,,,,,Other,
+2002-Actium,2002,20.768402,38.953115,none,,,,,,,,,,,,,,,,,,Other,
+2004-Aegina,2004,23.375,37.625,none,,,,,,,,,,,,,,,,,,Other,
+2006-Aequum,2006,16.655704,43.739278,none,,,,,,,,,,,,,,,,,,Other,
+2007-Aesernia,2007,14.2324325,41.596276,none,,,,,,,,,,,,,,,,,,Other,
+2008-Aetolia,2008,21.25,38.75,none,,,,,,,,,,,,,,,,,,Other,
+2009-Africa,2009,7.5,32.5,none,,,,,,,,,,,,,,,,,,Other,
+201-Chaironeia,201,22.845,38.4953,none,1,1,1.62,2,2,4,4,,0,0,0,1,0,1,1,10,Boiotia,HansonNielson,132.3
+2010-Agyrium,2010,14.522598,37.657497,none,,,,,,,,,,,,,,,,,,Other,
+2011-Aixone,2011,23.7548945,37.866334,none,,,,,,,,,,,,,,,,,,Other,
+2012-Alabanda,2012,27.970901,37.5973855,none,,,,,,,,,,,,,,,,,,Other,
+2013-Alba,2013,-2.290949,42.856039,none,,,,,,,,,,,,,,,,,,Other,
+2014-Alexandria,2014,62.0461946,35.6398832,none,,,,,,,,,,,,,,,,,,Other,
+2016-Amiternum,2016,13.3102685,42.398788,none,,,,,,,,,,,,,,,,,,Other,
+2017-Amorgos,2017,28.185205,36.945624,none,,,,,,,,,,,,,,,,,,Other,
+2018-Anagnia,2018,13.158962,41.742213,none,,,,,,,,,,,,,,,,,,Other,
+202-Chorsiai,202,22.886793,38.248774,none,1,1,1.12,5,2,,,,0,0,0,1,0,1,0,10,Boiotia,HansonNielson,45.2
+2022-Antium,2022,12.631188,41.5297445,none,,,,,,,,,,,,,,,,,,Other,
+2023-Apamea,2023,46.302313,32.291184,none,,,,,,,,,,,,,,,,,,Other,
+2024-Aquileia,2024,13.3677735,45.768945,none,,,,,,,,,,,,,,,,,,Other,
+2026-Aquitania,2026,-2.5,47.5,none,,,,,,,,,,,,,,,,,,Other,
+2027-Arabia,2027,42.5,27.5,none,,,,,,,,,,,,,,,,,,Other,
+2029-Aricia,2029,12.67334715,41.72139965,none,,,,,,,,,,,,,,,,,,Other,
+203-Erythrai,203,23.41666667,38.25,none,3,1,0.75,2,1,,,,0,0,0,1,0,1,0,10,Boiotia,HansonNielson,298
+2030-Ariminum,2030,12.5631945,44.0589565,none,,,,,,,,,,,,,,,,,,Other,
+2032-Armenia,2032,40.5,39.5,none,,,,,,,,,,,,,,,,,,Other,
+2033-Arpinum,2033,13.613727,41.648358,none,,,,,,,,,,,,,,,,,,Other,
+2034-Arretium,2034,11.863048,43.471274,none,,,,,,,,,,,,,,,,,,Other,
+2035-Arverni,2035,3.75,45.75,none,,,,,,,,,,,,,,,,,,Other,
+2036-Ascalon,2036,34.545947,31.6659785,none,,,,,,,,,,,,,,,,,,Other,
+2037-Asia,2037,49.432028,30.998195,none,,,,,,,,,,,,,,,,,,Other,
+2038-Asia Minor,2038,27.5,37.5,none,,,,,,,,,,,,,,,,,,Other,
+204-Eteonos/Skaphai,204,,,none,3,1,0.62,2,0,,,,0,0,0,0,0,1,0,10,Boiotia,HansonNielson,
+2042-Atina,2042,27.5,37.5,none,,,,,,,,,,,,,,,,,,Other,
+2045-Augusta Taurinorum,2045,7.685998,45.0717795,none,,,,,,,,,,,,,,,,,,Other,
+205-Eutresis,205,23.20466,38.268249,none,3,1,0.5,2,1,,,,0,0,0,1,0,1,0,10,Boiotia,HansonNielson,309.1
+2051-Baetica,2051,-2.5,37.5,none,,,,,,,,,,,,,,,,,,Other,
+2054-Beneventum,2054,10.727138,45.43771,none,,,,,,,,,,,,,,,,,,Other,
+2056-Berytus,2056,35.511241,33.8985935,none,,,,,,,,,,,,,,,,,,Other,
+2057-Bithynia,2057,29.25,40.25,none,,,,,,,,,,,,,,,,,,Other,
+2058-Boeotia,2058,22.75,38.75,none,,,,,,,,,,,,,,,,,,Other,
+206-Haliartos,206,23.09843833,38.380377,none,1,1,2,2,2,6,,,0,0,2,1,0,1,1,10,Boiotia,HansonNielson,103.3
+2060-Bononia,2060,22.8759,43.993221,none,,,,,,,,,,,,,,,,,,Other,
+2061-Bordeaux,2061,6.6136765,36.3680785,none,,,,,,,,,,,,,,,,,,Other,
+2062-Bosporus,2062,36.469804,45.352692,none,,,,,,,,,,,,,,,,,,Other,
+2066-Burdigala,2066,-0.576533,44.837205,none,,,,,,,,,,,,,,,,,,Other,
+2067-Byzantium,2067,28.9738815,41.005902,none,,,,,,,,,,,,,,,,,,Other,
+2068-Caesarea,2068,-3.690755,36.734589,none,,,,,,,,,,,,,,,,,,Other,
+2069-Cales,2069,14.1321245,41.199961,none,,,,,,,,,,,,,,,,,,Other,
+207-Hyettos,207,23.103147,38.555375,none,1.5,1,1.25,2,2,,,,0,0,0,1,0,1,1,10,Boiotia,HansonNielson,264
+2070-Campania,2070,14.25,41.25,none,,,,,,,,,,,,,,,,,,Other,
+2072-Cappadocia,2072,35.75,39.25,none,,,,,,,,,,,,,,,,,,Other,
+2073-Capreae,2073,14.24955933,40.552851,none,,,,,,,,,,,,,,,,,,Other,
+2074-Capua,2074,14.250207,41.0860925,none,,,,,,,,,,,,,,,,,,Other,
+2076-Caria,2076,27.42592978,37.03704026,none,,,,,,,,,,,,,,,,,,Other,
+2077-Carrhae,2077,39.0301785,36.8655215,none,,,,,,,,,,,,,,,,,,Other,
+2078-Carthage,2078,28.86735143,25.66758728,none,,,,,,,,,,,,,,,,,,Other,
+208-Hysiai,208,23.33333333,38.25,none,3,1,1,2,1,,,,0,0,0,1,0,1,0,10,Boiotia,HansonNielson,292
+2084-Catuvellauni,2084,-0.5,51.5,none,,,,,,,,,,,,,,,,,,Other,
+2086-Chaeronea,2086,22.86024067,38.491426,none,,,,,,,,,,,,,,,,,,Other,
+2087-Chalcedon,2087,29.025789,40.983393,none,,,,,,,,,,,,,,,,,,Other,
+2088-Charax,2088,34.12825,44.430727,none,,,,,,,,,,,,,,,,,,Other,
+2089-Cibalae,2089,18.801056,45.291016,none,,,,,,,,,,,,,,,,,,Other,
+209-Kopai,209,23.163285,38.501525,none,1.5,1,1,2,3,5,4,,0,0,0,1,0,1,1,10,Boiotia,HansonNielson,97.5
+2090-Cilicia,2090,35.75,38.25,none,,,,,,,,,,,,,,,,,,Other,
+2091-Citium,2091,32.5,42.5,none,,,,,,,,,,,,,,,,,,Other,
+2092-Cius,2092,28.09352,44.77792,none,,,,,,,,,,,,,,,,,,Other,
+2095-Clusium,2095,11.9487025,43.016367,none,,,,,,,,,,,,,,,,,,Other,
+2096-Cnidus,2096,27.3728385,36.6881795,none,,,,,,,,,,,,,,,,,,Other,
+2098-Commagene,2098,36.75,37.25,none,,,,,,,,,,,,,,,,,,Other,
+2099-Como,2099,6.6136765,36.3680785,none,,,,,,,,,,,,,,,,,,Other,
+21-Herakleia,21,,,none,3,1,0.75,1,0,,,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,
+210-Koroneia,210,22.957112,38.391204,none,1,1,2,5,2,5,4,,0,0,1,1,0,1,1,10,Boiotia,HansonNielson,213.1
+2100-Comum,2100,9.085784,45.81192,none,,,,,,,,,,,,,,,,,,Other,
+2105-Cremona,2105,10.026149,45.133639,none,,,,,,,,,,,,,,,,,,Other,
+2107-Cumae,2107,14.0550395,40.847973,none,,,,,,,,,,,,,,,,,,Other,
+2108-Cures,2108,12.68544,42.1802695,none,,,,,,,,,,,,,,,,,,Other,
+211-Lebadeia,211,22.8749615,38.4353745,none,1,1,1.75,2,2,4,4,,0,0,1,0,0,1,0,10,Boiotia,HansonNielson,162.2
+2110-Cyme,2110,26.9392185,38.760689,none,,,,,,,,,,,,,,,,,,Other,
+2111-Cynoscephalae,2111,22.415199,39.378033,none,,,,,,,,,,,,,,,,,,Other,
+2114-Cyrene,2114,21.856169,32.818736,none,,,,,,,,,,,,,,,,,,Other,
+2116-Cyzicus,2116,27.883191,40.3855645,none,,,,,,,,,,,,,,,,,,Other,
+2117-Dacia,2117,22.5,47.5,none,,,,,,,,,,,,,,,,,,Other,
+2118-Dalmatia,2118,16.483426,43.539561,none,,,,,,,,,,,,,,,,,,Other,
+2119-Damascus,2119,36.309102,33.511612,none,,,,,,,,,,,,,,,,,,Other,
+212-Mykalessos,212,23.519602,38.41672,none,1,1,1,2,2,5,,,0,0,0,1,0,1,0,10,Boiotia,HansonNielson,200.6
+2121-Durostorum,2121,27.260103,44.119108,none,,,,,,,,,,,,,,,,,,Other,
+2124-Eleutheropolis,2124,34.8910485,31.614254,none,,,,,,,,,,,,,,,,,,Other,
+2126-Emesa,2126,36.719319,34.7376565,none,,,,,,,,,,,,,,,,,,Other,
+2128-Epirus,2128,20.25,39.75,none,,,,,,,,,,,,,,,,,,Other,
+2129-Etruria,2129,11.75,43.75,none,,,,,,,,,,,,,,,,,,Other,
+213-Orchomenos,213,23,38.5,none,1,1,3.5,5,3,6,4,,0,1,0,1,0,1,1,10,Boiotia,HansonNielson,99
+2132-Faventia,2132,11.883507,44.286236,none,,,,,,,,,,,,,,,,,,Other,
+2134-Forum Iulii,2134,14.75,40.75,none,,,,,,,,,,,,,,,,,,Other,
+2135-Gabii,2135,12.71953783,41.88993233,none,,,,,,,,,,,,,,,,,,Other,
+2136-Gadara,2136,35.716993,32.022341,none,,,,,,,,,,,,,,,,,,Other,
+2137-Gades,2137,-6.293451,36.529055,none,,,,,,,,,,,,,,,,,,Other,
+2138-Galatia,2138,32.75,39.75,none,,,,,,,,,,,,,,,,,,Other,
+2139-Gallaecia,2139,-7.5,42.5,none,,,,,,,,,,,,,,,,,,Other,
+214-Oropos,214,23.75,38.33333333,none,2,1,2.25,2,3,,,,0,0,2,1,0,1,0,10,Boiotia,HansonNielson,-1
+2142-Gaza,2142,34.451719,31.5202095,none,,,,,,,,,,,,,,,,,,Other,
+2143-Gerasa,2143,33.9767755,28.548383,none,,,,,,,,,,,,,,,,,,Other,
+2144-Gergovia,2144,3.1241435,45.718167,none,,,,,,,,,,,,,,,,,,Other,
+215-Pharai,215,23.622995,38.365511,none,2,1,0.37,2,1,5,4,,0,0,0,0,0,1,0,10,Boiotia,HansonNielson,56.6
+2151-Hierapolis,2151,29.131799,37.91750533,none,,,,,,,,,,,,,,,,,,Other,
+2157-India,2157,77.5,22.5,none,,,,,,,,,,,,,,,,,,Other,
+216-Plataia,216,23.266944,38.215556,none,1,1,3.87,4,3,4,4,1,1,0,1,1,0,1,2,10,Boiotia,HansonNielson,336.2
+2161-Ionia,2161,26.75,38.75,none,,,,,,,,,,,,,,,,,,Other,
+2163-Italica,2163,-6.0451175,37.442656,none,,,,,,,,,,,,,,,,,,Other,
+217-Potniaia,217,23.33333333,38.33333333,none,3,1,0.5,1,1,,,,0,0,0,0,0,1,0,10,Boiotia,HansonNielson,150
+2171-Laconia,2171,22.25,37.25,none,,,,,,,,,,,,,,,,,,Other,
+2172-Lampsacus,2172,26.699162,40.346685,none,,,,,,,,,,,,,,,,,,Other,
+2173-Lanuvium,2173,12.697593,41.674703,none,,,,,,,,,,,,,,,,,,Other,
+2174-Laodicea,2174,35.7935965,35.6409325,none,,,,,,,,,,,,,,,,,,Other,
+2176-Larinum,2176,14.919231,41.807133,none,,,,,,,,,,,,,,,,,,Other,
+2177-Lepcis Magna,2177,14.291378,32.6379575,none,,,,,,,,,,,,,,,,,,Other,
+2179-Leucas,2179,20.713116,38.807342,none,,,,,,,,,,,,,,,,,,Other,
+218-Siphai,218,23.036561,38.181242,none,1,1,1,2,1,,,,0,0,0,1,0,1,1,10,Boiotia,HansonNielson,110.7
+2180-Libya,2180,26.5,31.5,none,,,,,,,,,,,,,,,,,,Other,
+2181-Liguria,2181,8.75,44.75,none,,,,,,,,,,,,,,,,,,Other,
+2182-Limyra,2182,30.1731682,36.3440572,none,,,,,,,,,,,,,,,,,,Other,
+2184-Londinium,2184,-0.088949,51.513335,none,,,,,,,,,,,,,,,,,,Other,
+2186-Luceria,2186,15.3354745,41.5086475,none,,,,,,,,,,,,,,,,,,Other,
+2188-Lugdunum,2188,4.441499,52.1864065,none,,,,,,,,,,,,,,,,,,Other,
+2189-Lusitania,2189,-7.5,37.5,none,,,,,,,,,,,,,,,,,,Other,
+219-Skolos,219,23.38353,38.309378,none,3,1,0.75,2,1,,,,0,0,0,0,0,1,0,10,Boiotia,HansonNielson,359.6
+2190-Lycaonia,2190,32.75,37.25,none,,,,,,,,,,,,,,,,,,Other,
+2191-Lycia,2191,29.25,36.75,none,,,,,,,,,,,,,,,,,,Other,
+2192-Lydia,2192,27.5,37.5,none,,,,,,,,,,,,,,,,,,Other,
+2196-Magnesia,2196,22.75,39.75,none,,,,,,,,,,,,,,,,,,Other,
+22-Herbessos,22,14.300237,37.428706,none,3,3,0.62,3,0,4,4,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,63
+220-Tanagra,220,23.581173,38.30019833,none,1,1,2.37,2,5,5,4,4,1,0,1,1,0,1,1,10,Boiotia,HansonNielson,103.4
+2203-Media Atropatene,2203,45.5,38.5,none,,,,,,,,,,,,,,,,,,Other,
+2205-Mediolanum,2205,24.5,44.5,none,,,,,,,,,,,,,,,,,,Other,
+2207-Mesopotamia,2207,39.5,37.5,none,,,,,,,,,,,,,,,,,,Other,
+2209-Milan,2209,7.625772,43.789146,none,,,,,,,,,,,,,,,,,,Other,
+221-Thebai,221,23.317577,38.319156,none,1,1,5.62,5,5,6,4,,0,4,3,1,0,1,2,10,Boiotia,HansonNielson,217.1
+2215-Naissus,2215,21.893884,43.316295,none,,,,,,,,,,,,,,,,,,Other,
+2216-Naples,2216,2.73532,44.39783,none,,,,,,,,,,,,,,,,,,Other,
+2217-Narbonensis,2217,4.25,43.75,none,,,,,,,,,,,,,,,,,,Other,
+2218-Narni,2218,6.6136765,36.3680785,none,,,,,,,,,,,,,,,,,,Other,
+222-Thespiai,222,23.1528615,38.295831,none,1,1,3,2,4,4,4,,1,1,1,1,0,1,1,10,Boiotia,HansonNielson,299
+2220-Naucratis,2220,30.5919275,30.900508,none,,,,,,,,,,,,,,,,,,Other,
+2222-Nemausus,2222,4.356247675,43.83774068,none,,,,,,,,,,,,,,,,,,Other,
+2223-Neocaesarea,2223,37.0201215,40.5892125,none,,,,,,,,,,,,,,,,,,Other,
+2224-Nicaea,2224,7.266233,43.703436,none,,,,,,,,,,,,,,,,,,Other,
+2225-Nicomedia,2225,29.919887,40.7651905,none,,,,,,,,,,,,,,,,,,Other,
+2226-Nisibis,2226,27.203635,36.87904,none,,,,,,,,,,,,,,,,,,Other,
+2228-Novaria,2228,8.618661,45.445082,none,,,,,,,,,,,,,,,,,,Other,
+223-Thisbai,223,23,38.25,none,2,1,1,2,3,,,,0,0,0,1,0,1,0,10,Boiotia,HansonNielson,231
+2230-Nuceria,2230,10.75,44.75,none,,,,,,,,,,,,,,,,,,Other,
+2231-Numantia,2231,-2.444447,41.809392,none,,,,,,,,,,,,,,,,,,Other,
+2233-Nyssa,2233,33.95189,38.932743,none,,,,,,,,,,,,,,,,,,Other,
+2234-Oenoanda,2234,29.5551845,36.8112455,none,,,,,,,,,,,,,,,,,,Other,
+2235-Olbiopolis,2235,31.901597,46.691895,none,,,,,,,,,,,,,,,,,,Other,
+2237-Ostia,2237,12.2880905,41.751869,none,,,,,,,,,,,,,,,,,,Other,
+224-Aigosthena,224,23.229288,38.151662,none,1.5,1,0.5,3,1,,,,0,0,0,1,0,,0,11,"Megaris, Korinthia, Sikyonia",HansonNielson,50.7
+2240-Palmyra,2240,38.267961,34.551503,none,,,,,,,,,,,,,,,,,,Other,
+2242-Pannonia,2242,15.5,46.5,none,,,,,,,,,,,,,,,,,,Other,
+2243-Paphlagonia,2243,32.5,41.5,none,,,,,,,,,,,,,,,,,,Other,
+2244-Parium,2244,27.069096,40.420499,none,,,,,,,,,,,,,,,,,,Other,
+2245-Parthia,2245,57.5,38.5,none,,,,,,,,,,,,,,,,,,Other,
+2246-Patavium,2246,11.876975,45.409561,none,,,,,,,,,,,,,,,,,,Other,
+2247-Pelusium,2247,32.5491895,31.1672275,none,,,,,,,,,,,,,,,,,,Other,
+2248-Pentapolis,2248,20.5,32.5,none,,,,,,,,,,,,,,,,,,Other,
+225-Megara,225,23.33333333,38,none,1,1,4.37,2,4,4,,,7,4,3,1,0,,2,11,"Megaris, Korinthia, Sikyonia",HansonNielson,61
+2254-Phocis,2254,22.25,38.25,none,,,,,,,,,,,,,,,,,,Other,
+2256-Phrygia,2256,31.25,27.75,none,,,,,,,,,,,,,,,,,,Other,
+2257-Phthia,2257,22.760566,38.485096,none,,,,,,,,,,,,,,,,,,Other,
+2259-Picenum,2259,13.51607267,43.61899267,none,,,,,,,,,,,,,,,,,,Other,
+226-Pagai,226,23.197116,38.084923,none,1.5,1,0.5,3,1,,,,0,0,0,1,0,,0,11,"Megaris, Korinthia, Sikyonia",HansonNielson,44.7
+2260-Plataea,2260,23.27184733,38.21573033,none,,,,,,,,,,,,,,,,,,Other,
+2261-Poetovio,2261,15.85884,46.417607,none,,,,,,,,,,,,,,,,,,Other,
+2262-Poitiers,2262,6.6136765,36.3680785,none,,,,,,,,,,,,,,,,,,Other,
+2263-Pompeii,2263,14.485429,40.74941,none,,,,,,,,,,,,,,,,,,Other,
+2264-Pontus,2264,36.5,40.5,none,,,,,,,,,,,,,,,,,,Other,
+2265-Praeneste,2265,12.89207,41.839064,none,,,,,,,,,,,,,,,,,,Other,
+2267-Ravenna,2267,12.20007838,44.4186575,none,,,,,,,,,,,,,,,,,,Other,
+2268-Reate,2268,12.861183,42.403067,none,,,,,,,,,,,,,,,,,,Other,
+227-Korinthos,227,22.879189,37.906033,none,1,1,6,2,5,6,4,,13,4,3,1,0,,2,11,"Megaris, Korinthia, Sikyonia",HansonNielson,44.7
+2270-Rhodiapolis,2270,30.2685315,36.3912375,none,,,,,,,,,,,,,,,,,,Other,
+2271-Rome,2271,12.4862,41.8917,none,,,,,,,,,,,,,,,,,,Other,
+2276-Saguntum,2276,-0.2772475,39.678125,none,,,,,,,,,,,,,,,,,,Other,
+2277-Samnium,2277,14.25,41.75,none,,,,,,,,,,,,,,,,,,Other,
+2278-Samosata,2278,38.5008495,37.5451375,none,,,,,,,,,,,,,,,,,,Other,
+2279-Sardis,2279,28.040286,38.488314,none,,,,,,,,,,,,,,,,,,Other,
+228-Sikyon,228,22.722718,37.980475,none,1,1,4.25,2,4,5,,,0,4,1,1,0,,2,11,"Megaris, Korinthia, Sikyonia",HansonNielson,139.2
+2280-Satricum,2280,14.75,40.75,none,,,,,,,,,,,,,,,,,,Other,
+2286-Sicca Veneria,2286,8.712204,36.18057,none,,,,,,,,,,,,,,,,,,Other,
+2288-Sicyon,2288,22.7168885,37.982299,none,,,,,,,,,,,,,,,,,,Other,
+2289-Sidon,2289,35.37324,33.560328,none,,,,,,,,,,,,,,,,,,Other,
+229-Aigai (Achaia),229,22.314637,38.154879,none,1.5,1,1.25,2,1,5,,,6,0,0,0,0,1,2,12,Achaia,HansonNielson,107.1
+2290-Sirmium,2290,19.610106,44.966447,none,,,,,,,,,,,,,,,,,,Other,
+2291-Siscia,2291,16.371388,45.483168,none,,,,,,,,,,,,,,,,,,Other,
+2292-Solonium,2292,13.75,41.25,none,,,,,,,,,,,,,,,,,,Other,
+2296-Stratonicea,2296,44.5,32.5,none,,,,,,,,,,,,,,,,,,Other,
+2297-Stridon,2297,18.5,43.5,none,,,,,,,,,,,,,,,,,,Other,
+2298-Sucro,2298,-0.43809,39.150204,none,,,,,,,,,,,,,,,,,,Other,
+2299-Suebi,2299,11.5,53.5,none,,,,,,,,,,,,,,,,,,Other,
+23-Herbita,23,14.3263008,36.0179695,none,3,3,1,3,0,4,4,,1,0,1,0,0,,1,2,Sikelia,HansonNielson,7.3
+230-Aigeira,230,22.377887,38.1297925,none,1,1,1.37,2,1,,4,,0,1,1,1,0,1,2,12,Achaia,HansonNielson,332.1
+2301-Suessa Aurunca,2301,13.932224,41.238254,none,,,,,,,,,,,,,,,,,,Other,
+2302-Sulmo,2302,13.925673,42.046817,none,,,,,,,,,,,,,,,,,,Other,
+2303-Sutrium,2303,12.220462,42.242794,none,,,,,,,,,,,,,,,,,,Other,
+2304-Syria,2304,20.679333,38.1986325,none,,,,,,,,,,,,,,,,,,Other,
+2305-Syros,2305,26.121005,35.011493,none,,,,,,,,,,,,,,,,,,Other,
+2307-Tarentum,2307,17.234299,40.4726315,none,,,,,,,,,,,,,,,,,,Other,
+2308-Tarsus,2308,34.8972835,36.915884,none,,,,,,,,,,,,,,,,,,Other,
+231-Aigion,231,22.081952,38.252707,none,1,1,1.37,2,2,,,,0,1,1,1,0,1,2,12,Achaia,HansonNielson,33.9
+2312-Thaenae,2312,10.670659,34.6553465,none,,,,,,,,,,,,,,,,,,Other,
+2313-Thagaste,2313,7.980184,36.2610715,none,,,,,,,,,,,,,,,,,,Other,
+2314-Thebes,2314,-3.705469656,55.67985512,none,,,,,,,,,,,,,,,,,,Other,
+2315-Thessalonica,2315,22.950626,40.63717719,none,,,,,,,,,,,,,,,,,,Other,
+2317-Thibilis,2317,7.250033,36.382567,none,,,,,,,,,,,,,,,,,,Other,
+2319-Thurii,2319,16.4727445,39.731962,none,,,,,,,,,,,,,,,,,,Other,
+232-Ascheion,232,22.141115,37.468145,none,2,1,0.25,3,0,,,,0,0,1,0,0,1,2,12,Achaia,HansonNielson,553.8
+2320-Tiberias,2320,35.5421525,32.781575,none,,,,,,,,,,,,,,,,,,Other,
+2321-Tibur,2321,12.79818,41.963602,none,,,,,,,,,,,,,,,,,,Other,
+2322-Tingentera,2322,-5.447744,36.129768,none,,,,,,,,,,,,,,,,,,Other,
+2323-Tolosa,2323,1.443246,43.604175,none,,,,,,,,,,,,,,,,,,Other,
+2325-Trebula,2325,14.295078,41.938816,none,,,,,,,,,,,,,,,,,,Other,
+2326-Treveri,2326,6.374845978,49.78241803,none,,,,,,,,,,,,,,,,,,Other,
+2327-Treviso,2327,6.6136765,36.3680785,none,,,,,,,,,,,,,,,,,,Other,
+2328-Tridentum,2328,11.119135,46.0667685,none,,,,,,,,,,,,,,,,,,Other,
+2329-Troas,2329,26.25,39.75,none,,,,,,,,,,,,,,,,,,Other,
+233-Boura,233,22.231166,38.142006,none,1,1,1,2,2,,,,0,0,0,0,0,1,0,12,Achaia,HansonNielson,339.2
+2331-Tusculum,2331,12.710316,41.798284,none,,,,,,,,,,,,,,,,,,Other,
+2332-Tyana,2332,34.5663495,37.858701,none,,,,,,,,,,,,,,,,,,Other,
+2334-Ucubi,2334,8.892196,36.238518,none,,,,,,,,,,,,,,,,,,Other,
+2335-Umbria,2335,12.75,43.75,none,,,,,,,,,,,,,,,,,,Other,
+2336-Utica,2336,10.061305,37.055611,none,,,,,,,,,,,,,,,,,,Other,
+2337-Uzappa,2337,9.330468,35.924034,none,,,,,,,,,,,,,,,,,,Other,
+2338-Velitrae,2338,12.777563,41.6893855,none,,,,,,,,,,,,,,,,,,Other,
+2339-Venusia,2339,14.75,40.75,none,,,,,,,,,,,,,,,,,,Other,
+234-Dyme,234,21.551425,38.144625,none,1.5,1,1.75,2,4,4,4,,0,1,0,0,0,1,2,12,Achaia,HansonNielson,33.6
+2340-Vercellae,2340,8.426374,45.321094,none,,,,,,,,,,,,,,,,,,Other,
+2341-Verona,2341,10.994371,45.438954,none,,,,,,,,,,,,,,,,,,Other,
+2342-Vienne,2342,69.310488,34.992542,none,,,,,,,,,,,,,,,,,,Other,
+2344-Volsinii,2344,11.986114,42.644852,none,,,,,,,,,,,,,,,,,,Other,
+235-Helike,235,22.144303,38.220538,none,1,1,1.12,2,1,,4,,0,0,0,0,0,1,0,12,Achaia,HansonNielson,1.1
+236-Keryneia,236,22.143425,38.158659,none,3,1,0.37,2,1,,,,0,0,0,0,0,1,2,12,Achaia,HansonNielson,588.7
+237-Leontion,237,21.913025,38.004121,none,3,1,0.37,3,2,,,,0,0,0,0,0,1,2,12,Achaia,HansonNielson,891.7
+238-Olenos,238,21.66666667,38.16666667,none,2,1,0.75,2,2,,,,0,0,0,0,0,1,2,12,Achaia,HansonNielson,0
+239-Patrai,239,21.75,38.25,none,1.5,1,1,2,3,,,,0,4,0,1,0,1,2,12,Achaia,HansonNielson,103
+24-Himera,24,13.822496,37.970797,none,1,1,5,1,5,6,5,7,0,4,0,1,0,,2,2,Sikelia,HansonNielson,89.3
+240-Pellene,240,22.548344,38.043207,none,1,1,2.37,2,3,4,4,,1,2,1,0,0,1,2,12,Achaia,HansonNielson,697.8
+241-Pharai,241,21.75,38.08333333,none,2,1,0.5,2,3,,,,0,0,1,0,0,1,2,12,Achaia,HansonNielson,159
+242-Phelloe,242,22.413941,38.077545,none,2,1,0.37,2,1,,,,0,0,1,0,0,1,2,12,Achaia,HansonNielson,613.2
+243-Rhypai/Rhype,243,22,38.25,none,1.5,1,1,2,0,,,,0,0,0,0,0,1,2,12,Achaia,HansonNielson,156
+244-Tritaia,244,21.711021,37.9527,none,2,1,0.5,2,0,,,,0,0,0,0,0,1,2,12,Achaia,HansonNielson,410.2
+245-Alasyaion,245,,,none,3,1,0.37,2,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,
+246-Alion,246,,,none,2,1,0.12,2,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,
+247-Amphidolia,247,21.75,37.75,none,1,1,0.5,2,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,765
+248-Anaitoi,248,,,none,2,1,0.37,1,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,
+249-Chaladrioi,249,,,none,2,1,0.37,1,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,
+25-Hippana,25,13.432761,37.722097,none,3,2,0.62,3,0,5,4,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,982.7
+250-Dyspontion,250,,,none,3,1,0.37,1,0,,,,0,1,0,0,0,,0,13,Elis,HansonNielson,
+251-Elis,251,21.43544333,37.827452,none,1,1,8,2,5,5,4,,4,3,2,1,0,,2,13,Elis,HansonNielson,246.8
+252-Eupagion,252,,,none,2,1,0.12,2,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,
+253-Ewaoioi,253,,,none,2,1,0.25,1,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,
+254-Kyllene,254,21.143869,37.933241,none,1,1,0.5,2,1,,,,0,0,0,1,0,,0,13,Elis,HansonNielson,11.2
+255-Larissa,255,,,none,1,1,0.25,2,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,
+256-Lasion,256,21.743462,37.798028,none,1,1,0.5,2,2,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,560.2
+257-Lenos,257,22.141115,37.468145,none,3,1,0.25,1,0,,,,0,1,0,0,0,,0,13,Elis,HansonNielson,553.8
+258-Letrinoi,258,21.431292,37.672865,none,1,1,0.5,2,1,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,14.2
+259-Marganeis,259,21.5,37.66666667,none,1,1,0.62,2,1,,,,0,0,0,1,0,,0,13,Elis,HansonNielson,71
+26-Imachara,26,14.398112,37.748625,none,3,2,0.5,2,0,4,,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,730.8
+260-Metapioi,260,,,none,2,1,0.5,1,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,
+261-Opous,261,23.047878,38.6306405,none,2,1,0.25,2,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,76.9
+262-Pisa,262,21.653041,37.639535,none,2,1,2.12,3,4,,,,0,1,2,0,0,,0,13,Elis,HansonNielson,88.4
+263-Pylos,263,21.637675,37.281467,none,3,1,0.5,2,1,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,0
+264-Thraistos,264,22.141115,37.468145,none,1,1,0.37,2,0,,,,0,0,0,0,0,,0,13,Elis,HansonNielson,553.8
+265-Alea,265,22.450785,37.794666,none,2,1,1.37,2,0,4,4,,0,0,0,0,0,1,0,14,Arkadia,HansonNielson,773.8
+266-Alipheira,266,21.860109,37.541836,none,3,1,1,2,2,,,,0,0,0,1,0,1,0,14,Arkadia,HansonNielson,410.6
+267-Asea,267,22.261978,37.404133,none,1,1,1.5,2,2,,,,0,0,3,1,0,1,0,14,Arkadia,HansonNielson,748.1
+268-Dipaia,268,22.254905,37.541156,none,2,1,0.87,2,0,,,,0,1,0,1,0,1,0,14,Arkadia,HansonNielson,887.6
+269-Euaimon,269,22.141115,37.468145,none,2,1,0.5,2,0,,,,0,0,0,0,0,,0,14,Arkadia,HansonNielson,553.8
+27-Kallipolis,27,,,none,1,1,0.75,2,0,,,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,
+270-Eutaia,270,22.285257,37.371704,none,1,1,0.87,2,1,,,,0,0,0,1,0,1,0,14,Arkadia,HansonNielson,642.9
+271-Gortys,271,22.03544,37.536675,none,2,1,1.25,2,2,,,,0,0,0,1,0,1,0,14,Arkadia,HansonNielson,414.9
+272-Halous,272,22.013568,37.758337,none,3,1,0.37,2,2,,,,0,0,0,1,0,,0,14,Arkadia,HansonNielson,414
+273-Helisson,273,22.217753,37.612883,none,1,1,1.37,2,1,,,,0,0,0,0,0,1,2,14,Arkadia,HansonNielson,1118
+274-Heraia,274,21.85941,37.605985,none,1,1,2.25,2,4,5,4,,0,1,0,1,0,1,2,14,Arkadia,HansonNielson,70.4
+275-Kaphiai,275,22.262624,37.7666264,none,2,1,0.87,2,4,,,,0,0,1,1,0,1,0,14,Arkadia,HansonNielson,665.7
+276-Kleitor,276,22.123335,37.893544,none,1,1,2,2,5,5,4,,0,1,1,0,0,1,0,14,Arkadia,HansonNielson,509
+277-Koila,277,26.089078,38.49903,none,3,1,0.12,2,0,,,,0,0,0,0,0,,0,14,Arkadia,HansonNielson,492.1
+278-Kynaitha,278,22.111538,38.030556,none,3,1,0.5,2,3,,,,0,0,0,0,0,,0,14,Arkadia,HansonNielson,739.6
+279-Lousoi,279,22.116811,37.969024,none,2,1,1.37,2,2,,,,0,2,2,1,0,,0,14,Arkadia,HansonNielson,1213.4
+28-Kamarina,28,14.447788,36.872287,none,1,1,5.62,2,4,5,5,6,1,1,0,1,0,,2,2,Sikelia,HansonNielson,45.3
+280-Lykosoura,280,22.0251905,37.3891025,none,2,1,1.25,2,0,,,,0,0,0,1,0,1,0,14,Arkadia,HansonNielson,630.1
+281-Mantinea,281,22.391896,37.616619,none,1,1,5.5,5,4,5,4,,0,1,0,1,0,1,2,14,Arkadia,HansonNielson,629.2
+282-Megale polis,282,22.128459,37.410579,none,1,1,4.25,3,4,4,4,,0,0,1,1,0,1,2,14,Arkadia,HansonNielson,406.2
+283-Methydrion,283,22.168912,37.627412,none,2,1,1.75,2,2,,4,,0,1,0,1,0,1,0,14,Arkadia,HansonNielson,1173
+284-Nestane,284,22.467824,37.616362,none,3,1,0.12,2,1,,,,0,0,0,0,0,1,0,14,Arkadia,HansonNielson,729.8
+285-Nonakris,285,22.241203,38.014421,none,1,1,0.37,2,1,,,,0,0,0,0,0,1,0,14,Arkadia,HansonNielson,1009.8
+286-Orchemenos,286,22.314403,37.256767,none,1,1,3,2,3,,4,,0,0,1,1,0,1,0,14,Arkadia,HansonNielson,358.3
+287-Oresthasion,287,22.206506,37.345994,none,1,1,1,2,1,,,,0,1,0,1,0,1,0,14,Arkadia,HansonNielson,542.2
+288-Paion,288,21.981451,37.83914,none,1,1,0.5,2,0,,,,0,0,0,1,0,,0,14,Arkadia,HansonNielson,631
+289-Pallantion,289,22.336587,37.462155,none,1,1,1.37,2,2,5,,,0,0,1,1,0,1,0,14,Arkadia,HansonNielson,673.4
+29-Kasmenai,29,14.8362835,37.073804,none,1,1,1.62,2,0,,,7,0,0,0,1,0,,0,2,Sikelia,HansonNielson,748.5
+290-Phara,290,21.717095,38.093144,none,3,1,0.12,2,0,,,,0,0,0,0,0,,0,14,Arkadia,HansonNielson,129.7
+291-Pheneos,291,22.295238,37.919454,none,2,1,0.87,2,4,5,4,,0,1,1,1,0,1,0,14,Arkadia,HansonNielson,889.1
+292-Phigaleia,292,21.8419475,37.396081,none,1.5,1,2.12,2,3,,,,0,2,2,1,0,1,2,14,Arkadia,HansonNielson,442.3
+293-Phorieia,293,22.141115,37.468145,none,3,1,0.12,2,0,,,,0,0,0,0,0,,0,14,Arkadia,HansonNielson,553.8
+294-Psophis,294,21.892903,37.871725,none,1,1,1.5,2,4,5,4,,0,0,0,1,0,,0,14,Arkadia,HansonNielson,585.4
+295-Pylai,295,22.6,37.716667,none,3,1,0.12,2,0,,,,0,0,0,0,0,,0,14,Arkadia,HansonNielson,158
+296-Stymphalos,296,22.4619195,37.868874,none,1,1,2.12,2,3,4,4,4,0,4,3,1,0,1,0,14,Arkadia,HansonNielson,642
+297-Tegea,297,22.4205,37.455333,none,1,1,4.25,2,4,5,4,,0,2,3,1,0,1,2,14,Arkadia,HansonNielson,671.8
+298-Teuthis,298,22.041285,37.597441,none,3,1,0.5,2,0,,,,0,0,0,1,0,1,0,14,Arkadia,HansonNielson,939.2
+299-Thaliades,299,21.947446,37.782355,none,3,1,0.25,2,0,5,,,0,0,0,1,0,,0,14,Arkadia,HansonNielson,632.9
+3-Massalia,3,5.382499,43.296854,none,1,1,4,2,2,6,,6,2,0,0,1,0,,1,1,Spain & France,HansonNielson,32.5
+30-Katane,30,15.088142,37.502959,none,1,1,3.75,3,4,5,5,,1,0,1,1,0,,1,2,Sikelia,HansonNielson,19.6
+300-Thelphousa,300,21.91666667,37.75,none,2,1,2,2,4,4,4,,0,0,0,1,0,1,0,14,Arkadia,HansonNielson,759
+301-Thisoa,301,22.093976,37.629132,none,2,1,0.87,2,0,,,,0,0,1,1,0,1,0,14,Arkadia,HansonNielson,1032.6
+302-Torthyneion,302,22.154809,37.706671,none,2,1,0.37,2,0,,,,0,0,0,1,0,,0,14,Arkadia,HansonNielson,881.5
+303-Trapezous,303,22.08333333,37.41666667,none,3,1,0.87,5,1,,,5,0,0,0,1,0,1,0,14,Arkadia,HansonNielson,353
+304-Epeion,304,21.784671,37.56585,none,1,1,0.62,2,1,,,,0,0,0,0,0,1,0,15,Triphylia,HansonNielson,288.7
+305-Epitalion,305,21.476013,37.632054,none,1,1,0.5,2,1,,,,0,0,0,0,0,1,0,15,Triphylia,HansonNielson,1.1
+306-Lepreon,306,21.726002,37.432321,none,1,1,2,2,3,,,,0,3,0,1,0,1,0,15,Triphylia,HansonNielson,172.6
+307-Makiston,307,21.66666667,37.58333333,none,1,1,1,2,3,,,,0,0,0,1,0,1,0,15,Triphylia,HansonNielson,139
+308-Noudion,308,22.141115,37.468145,none,1,1,0.12,1,0,,,,0,0,0,0,0,,0,15,Triphylia,HansonNielson,553.8
+309-Phrixa,309,21.71145,37.635009,none,1,1,0.5,2,1,,,,0,0,0,1,0,1,0,15,Triphylia,HansonNielson,140.3
+31-Kentoripa,31,14.740017,37.624073,none,3,3,1.12,3,4,,4,,0,0,0,0,0,,1,2,Sikelia,HansonNielson,712.8
+310-Pyrgos,310,21.66666667,37.41666667,none,1,1,0.62,2,0,,,,0,0,0,0,0,1,0,15,Triphylia,HansonNielson,3
+311-Skillous,311,21.602752,37.609552,none,1,1,0.75,2,0,,,,0,0,1,0,0,1,0,15,Triphylia,HansonNielson,84.2
+312-Aithaia,312,22.141115,37.468145,none,2,1,1,2,0,,,,0,0,0,0,0,1,0,16,Messenia,HansonNielson,553.8
+313-Asine,313,21.95,36.78333,none,1.5,1,1.75,2,2,,,,1,0,1,0,0,1,0,16,Messenia,HansonNielson,0
+314-Aulon,314,21.66666667,37.33333333,none,3,1,1.12,2,1,,,,0,0,0,0,0,1,0,16,Messenia,HansonNielson,0
+315-Kardamyle,315,22.237649,36.884777,none,3,1,0.87,2,1,,,,0,0,0,0,0,,0,16,Messenia,HansonNielson,35.4
+316-Korone,316,21.962963,36.792813,none,3,1,1,3,2,,,,0,0,0,0,0,,0,16,Messenia,HansonNielson,6.6
+317-Kyparissos,317,21.681159,37.248527,none,1.5,1,0.87,2,3,,,,0,0,1,0,0,,0,16,Messenia,HansonNielson,179.7
+318-Messene/Ithome,318,21.9204389,37.175501,none,1,1,5.25,3,4,4,4,4,4,3,3,1,0,1,2,16,Messenia,HansonNielson,322.5
+319-Mothone,319,21.705878,36.81618,none,1,1,1.12,2,2,,4,,0,0,0,1,0,1,0,16,Messenia,HansonNielson,1.5
+32-Kephaloidion,32,14.026402,38.038251,none,3,3,1.12,2,4,4,4,7,0,0,0,1,0,,0,2,Sikelia,HansonNielson,204.8
+320-Pharai,320,22.16666667,37,none,3,1,1,2,1,,,,0,0,0,0,0,1,0,16,Messenia,HansonNielson,250
+321-Thalamai,321,22.325671,36.786208,none,3,1,0.5,2,1,,,,0,0,0,0,0,,0,16,Messenia,HansonNielson,432
+322-Thouria,322,22.044664,37.108636,none,2,1,1.37,2,1,,,,0,0,1,0,0,,0,16,Messenia,HansonNielson,68
+323-Aigys,323,22.165456,37.246287,none,3,1,0.87,3,1,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,598
+324-Anthana,324,22.781371,37.365778,none,1,1,0.87,2,1,,,,0,0,0,1,0,,0,17,Lakedaimon,HansonNielson,14.1
+325-Aphroditia/Aphrodisias,325,,,none,3,1,0.5,2,0,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,
+326-Belbina,326,22.071247,37.454573,none,3,1,0.75,3,1,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,353.3
+327-Boia,327,23.062276,36.5282375,none,1,1,0.87,2,2,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,37.9
+328-Chen,328,22.75,36.75,none,3,1,0.25,2,0,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,0
+329-Epidauros,329,23.029444,36.72222,none,1,1,0.75,2,2,,,,0,0,1,1,0,,0,17,Lakedaimon,HansonNielson,
+33-Leontinoi,33,14.998115,37.285478,none,1,1,4,4,4,5,5,,1,0,0,1,0,,2,2,Sikelia,HansonNielson,60.9
+330-Etis,330,23.08333333,36.5,none,3,1,0.5,2,0,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,318
+331-Eua,331,22.66666667,37.33333333,none,3,1,1.12,2,0,,,,0,0,0,1,0,,0,17,Lakedaimon,HansonNielson,687
+332-Geronthrai,332,22.706912,36.992193,none,3,1,1.12,2,2,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,353.2
+333-Gytheion,333,22.5626005,36.7600725,none,2,1,1,2,2,,,,0,0,0,1,0,,0,17,Lakedaimon,HansonNielson,23.7
+334-Kromnos,334,22.093167,37.332507,none,3,1,0.75,2,1,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,467.1
+335-Kyphanta,335,22.989822,36.961993,none,2,1,0.37,3,1,,,,0,0,1,0,0,,0,17,Lakedaimon,HansonNielson,109.7
+336-Kythera,336,22.978222,36.262287,none,1,1,1.75,2,4,,,,0,0,0,1,1,,0,17,Lakedaimon,HansonNielson,338.9
+337-Las,337,22.498245,36.725537,none,1,1,1,2,1,,,,0,0,0,1,0,,0,17,Lakedaimon,HansonNielson,32.5
+338-Oinous,338,,,none,2,1,0.37,2,0,,,,0,0,1,0,0,,0,17,Lakedaimon,HansonNielson,
+339-Oios,339,22.141115,37.468145,none,3,1,0.62,2,1,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,553.8
+34-Lipara,34,14.953897,38.467419,none,1,1,2.25,2,2,,5,,0,0,1,1,0,,0,2,Sikelia,HansonNielson,13.6
+340-Oitylos/Beitylos,340,22.41666667,36.66666667,none,3,1,0.62,2,1,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,793
+341-Pellana,341,22.331965,37.2067635,none,2,1,0.75,2,1,,,,0,0,1,0,0,,0,17,Lakedaimon,HansonNielson,316.7
+342-Prasiai,342,22.890275,37.144402,none,1,1,1,2,2,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,64
+343-Sellasia,343,22.416414,37.166485,none,2,1,0.62,2,1,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,583
+344-Side,344,23.154167,36.469167,none,1,1,0.37,2,1,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,0
+345-Sparta/Lakedaimon,345,22.4303,37.0765,none,1,1,14.62,2,5,,,,7,4,3,0,0,,1,17,Lakedaimon,HansonNielson,208.8
+346-Thyrea,346,22.66666667,37.41666667,none,1,1,1.12,1,1,,,,0,0,0,0,0,,0,17,Lakedaimon,HansonNielson,375
+347-Argos,347,22.71667,37.61667,none,1,1,7.87,2,5,5,4,,1,4,3,1,0,,2,18,Argolis,HansonNielson,4
+348-Epidauros,348,23.16015635,37.6334625,none,1,1,4.37,2,4,5,4,,4,1,3,1,0,,2,18,Argolis,HansonNielson,15.5
+349-Halieis,349,23.136994,37.301493,none,1,1,1.87,2,2,4,4,6,0,0,0,1,0,,0,18,Argolis,HansonNielson,3.1
+35-Longane,35,15.168053,38.082515,none,3,2,0.75,2,0,,5,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,259.8
+350-Hermion,350,23.243591,37.385218,none,1,1,2.25,2,4,4,4,,0,0,0,1,0,,0,18,Argolis,HansonNielson,32.8
+351-Kleonai,351,22.774295,37.8114175,none,2,1,1.37,2,3,6,4,,0,2,1,1,0,,0,18,Argolis,HansonNielson,207.2
+352-Methana,352,23.349005,37.586689,none,1,1,1,2,2,,,,0,0,0,1,0,,0,18,Argolis,HansonNielson,17.1
+353-Mykenai,353,22.7561,37.7308,none,1,1,1.12,1,2,,,,0,0,0,1,0,,0,18,Argolis,HansonNielson,234.3
+354-Orneai,354,22.7561,37.7308,none,3,1,1.12,1,1,,,,0,0,0,1,0,,0,18,Argolis,HansonNielson,234.3
+355-Phleious,355,22.641069,37.831664,none,1,1,3.5,2,3,6,5,,0,1,3,1,0,,2,18,Argolis,HansonNielson,274.6
+356-Tiryns,356,22.799722,37.599444,none,2,1,1.37,1,2,,,,0,1,0,1,0,,0,18,Argolis,HansonNielson,12.9
+357-Troizen,357,23.362444,37.496395,none,1,1,3.5,2,4,5,4,,2,1,1,1,0,,0,18,Argolis,HansonNielson,81.3
+358-Aigina,358,23.4285005,37.7500745,none,1,1,4.25,2,2,6,,,2,4,3,1,1,,1,19,Saronic Gulf,HansonNielson,21.5
+359-Belbina,359,22.071247,37.454573,none,1,1,0.5,2,1,,,,0,0,0,0,1,,0,19,Saronic Gulf,HansonNielson,
+36-Megara (Hyblaia),36,15.182,37.204,none,1,1,3.37,1,4,4,,7,1,0,0,1,0,,0,2,Sikelia,HansonNielson,13.3
+360-Kalaureia,360,23.25,37.75,none,1,1,1.25,2,2,,,,0,0,0,0,0,,0,19,Saronic Gulf,HansonNielson,0
+361-Athenai,361,23.7278,37.9778,none,1,1,20.87,2,5,6,4,5,39,4,3,1,0,,2,20,Attika,HansonNielson,86.2
+362-Eleusis,362,23.5423,38.0394,none,2,1,1.37,1,1,,,,0,0,0,1,0,,1,20,Attika,HansonNielson,6.9
+363-Salamis,363,23.538056,37.950556,none,1,1,2.75,2,2,,4,,0,0,0,1,0,,0,20,Attika,HansonNielson,360.4
+364-Athenai Diades,364,23,38.8333,none,1.5,1,1.25,2,1,,,,0,0,0,1,1,,0,21,Euboia,HansonNielson,0
+365-Chalkis,365,23.6,38.4667,none,1,1,4.5,2,5,6,4,,7,2,1,1,1,,2,21,Euboia,HansonNielson,28.8
+366-Diakrioi en Euboia,366,,,none,3,1,0.5,1,0,,,,0,0,0,0,1,,0,21,Euboia,HansonNielson,
+367-Diakrioi apo Chalkideon,367,,,none,1.5,1,0.37,1,0,,,,0,0,0,0,1,,0,21,Euboia,HansonNielson,
+368-Dion,368,22.83333333,38.83333333,none,1.5,1,1.25,2,1,,,,0,0,0,0,1,,0,21,Euboia,HansonNielson,1
+369-Dystos,369,24.145303,38.355289,none,1,1,1.37,1,1,,,,0,0,0,1,0,,0,21,Euboia,HansonNielson,114
+37-Morgantina,37,14.479296,37.431079,none,3,2,5.12,2,4,5,4,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,554.5
+370-Eretria,370,23.7933,38.3947,none,1,1,8.25,2,5,6,,,6,1,3,1,1,,2,21,Euboia,HansonNielson,6.6
+371-Grynchai,371,24.15984,38.401105,none,2,1,0.5,1,1,,,,0,0,0,0,1,,0,21,Euboia,HansonNielson,212.3
+372-Histiaia/Oreos,372,23.08333333,38.91666667,none,1,1,4.12,2,4,4,4,,0,0,3,1,1,,2,21,Euboia,HansonNielson,240
+373-Karystos,373,24.420381,38.016541,none,1,1,3.37,2,4,6,4,,0,4,1,1,1,,2,21,Euboia,HansonNielson,25.8
+374-Orobiai,374,23.214315,38.82251,none,1,1,0.75,2,1,,,,0,0,0,0,0,,0,21,Euboia,HansonNielson,5.6
+375-Peraia,375,23.413552,38.4012,none,3,1,0.5,1,0,,,,0,0,0,0,0,,0,21,Euboia,HansonNielson,733
+376-Posideion,376,23.33333333,39,none,3,1,0.37,2,1,,,,0,0,0,0,1,,0,21,Euboia,HansonNielson,215
+377-Styra,377,24.240527,38.155245,none,1.5,1,1.37,1,1,,,,0,0,0,0,1,,0,21,Euboia,HansonNielson,99.3
+378-Alope,378,22.8804165,38.80837,none,1.5,1,0.5,2,1,,,,0,0,0,1,0,,0,22,East Locris,HansonNielson,0
+379-Alponos,379,22.58333333,38.83333333,none,1,1,0.87,2,1,,,,0,0,0,1,0,1,0,22,East Locris,HansonNielson,0
+38-Mylai,38,15.25,38.25,none,1,1,3,2,2,,,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,79
+380-Halai,380,23.16666667,35.66666667,none,2,1,1.62,2,2,,,,0,0,0,1,0,,0,22,East Locris,HansonNielson,0
+381-Knemides,381,22.83333333,38.75,none,1.5,1,0.37,1,1,,,,0,0,0,0,0,,0,22,East Locris,HansonNielson,570
+382-Kynos,382,23.070173,38.718371,none,1,1,0.75,2,1,,,,0,0,0,1,0,1,0,22,East Locris,HansonNielson,0
+383-Larymna,383,23.25,38.58333333,none,1.5,1,1.25,2,1,4,,,0,0,1,1,0,,0,22,East Locris,HansonNielson,150
+384-Naryka,384,22.728224,38.717051,none,2,1,0.75,2,1,,,,0,0,0,1,0,1,0,22,East Locris,HansonNielson,176.6
+385-Nikaia,385,22.58333333,38.83333333,none,3,1,0.62,3,1,,,,0,0,0,0,0,1,0,22,East Locris,HansonNielson,0
+386-Opous,386,23.047878,38.6306405,none,1,1,3,2,2,5,4,,0,4,1,1,0,1,1,22,East Locris,HansonNielson,
+387-Skarpheia,387,22.67653057,38.810499,none,2,1,0.62,2,0,,,,0,0,1,0,0,,0,22,East Locris,HansonNielson,13.5
+388-Thronion,388,22.725727,38.775841,none,1,1,1.5,5,1,5,,,0,0,0,1,0,,0,22,East Locris,HansonNielson,211.6
+389-Akyphas/Pindos,389,22.379868,38.685487,none,2,1,1,3,1,,,,0,0,0,1,0,,0,23,Doris,HansonNielson,582.5
+39-Mytistratos,39,13.916729,37.598609,none,3,2,0.62,2,0,,4,4,0,0,0,1,0,,0,2,Sikelia,HansonNielson,696
+390-Boion,390,,,none,1,1,0.25,2,1,,,,0,0,0,1,0,,0,23,Doris,HansonNielson,
+391-Erineos,391,21.993332,38.309763,none,1,1,0.25,2,1,,,,0,0,0,1,0,,0,23,Doris,HansonNielson,5.1
+392-Kytinion,392,22.508769,38.715386,none,1,1,0.5,2,1,,,,0,0,0,1,0,,0,23,Doris,HansonNielson,584.9
+393-Amphanai,393,22.954643,39.294909,none,1.5,1,0.87,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,0
+394-Argoussa,394,22.33333333,39.66666667,none,2,1,0.62,2,2,,,,0,0,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,81
+395-Atrax,395,22.1995565,39.571253,none,1,1,1.5,2,2,4,4,,0,0,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,203.2
+396-Gomphoi,396,21.676806,39.436045,none,2,1,1.75,2,2,4,4,,0,0,0,0,0,1,0,24,Thessaly & Adjacent,HansonNielson,167.2
+397-Gyrton/Gyrtone,397,22.569853,39.798151,none,1.5,1,0.87,2,2,4,4,,0,0,1,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,420
+398-Kierion,398,22.075455,39.361088,none,1.5,1,1,2,2,4,4,,0,0,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,102
+399-Kondaia,399,22.396606,39.798543,none,3,1,0.62,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,63.4
+4-Rhode,4,3.16666667,42.25,none,2,1,0.87,3,0,4,,4,0,0,0,0,0,,0,1,Spain & France,HansonNielson,0
+40-Nakone,40,15.556634,38.192251,none,3,2,0.37,2,0,,5,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,10.4
+400-Krannon,400,22.304133,39.4991145,none,1.5,1,1.75,2,3,5,4,,0,1,1,1,0,1,1,24,Thessaly & Adjacent,HansonNielson,121.3
+401-Larisa,401,22.416667,39.641667,none,1,1,4.25,2,3,5,4,,0,1,1,1,0,1,1,24,Thessaly & Adjacent,HansonNielson,82
+402-Methylion,402,23.413552,38.4012,none,2,1,0.62,2,0,5,4,,0,0,0,0,0,1,0,24,Thessaly & Adjacent,HansonNielson,733
+403-Metropolis,403,21.83333333,39.33333333,none,1.5,1,1.5,3,2,4,4,,0,0,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,157
+404-Mopsion,404,22.420555,39.78742,none,2,1,0.5,2,2,,4,,0,0,0,0,0,1,0,24,Thessaly & Adjacent,HansonNielson,162
+405-Orthos,405,22,39.25,none,2,1,0.5,2,0,,4,,0,0,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,156
+406-Oxynion,406,,,none,3,1,0.37,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,
+407-Pagasai,407,22.944398,39.310841,none,1.5,1,1.37,2,2,4,,,0,0,0,1,0,1,1,24,Thessaly & Adjacent,HansonNielson,0
+408-Peirasia,408,22.152114,39.498523,none,1.5,1,0.62,2,1,4,4,,0,0,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,117.3
+409-Pelinnaion,409,21.926308,39.5730875,none,1.5,1,1.62,2,2,5,4,4,0,2,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,118
+41-Naxos,41,15.266688,37.825317,none,1,1,5,1,4,6,5,7,3,2,0,1,0,,0,2,Sikelia,HansonNielson,20.3
+410-Phakion,410,21.25,38.75,none,1.5,1,0.37,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,584
+411-Phaloria,411,21.522324,39.8466628,none,3,1,1,3,0,4,,,0,0,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,450.1
+412-Pharkadon,412,22.04689,39.572516,none,2,1,1.37,2,2,5,4,,0,0,0,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,87
+413-Pharsalos,413,22.385,39.285,none,1,1,3.62,5,3,5,4,,0,4,1,1,0,1,1,24,Thessaly & Adjacent,HansonNielson,
+414-Pherai,414,22.753851,39.379043,none,1,1,3.87,2,2,5,4,,0,0,3,1,0,1,1,24,Thessaly & Adjacent,HansonNielson,110.4
+415-Skotoussa,415,22.574579,39.37552,none,1.5,1,1.62,5,2,5,4,,0,1,1,1,0,1,0,24,Thessaly & Adjacent,HansonNielson,437.3
+416-Thetonion,416,22.206056,39.293198,none,2,1,0.37,2,2,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,108.6
+417-Trikka,417,21.782998,39.568904,none,1.5,1,1,2,2,5,4,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,105.7
+418-Angeia,418,22.06456,39.107716,none,1.5,1,0.5,2,2,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,398
+419-Ktimene,419,21.978511,39.064237,none,1.5,1,0.5,2,2,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,895.2
+42-Petra,42,13.598601,37.677368,none,3,3,0.25,3,0,,4,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,741.8
+420-Hypata,420,22.25209,38.871397,none,1.5,1,0.87,2,0,,4,,0,0,2,1,0,,0,24,Thessaly & Adjacent,HansonNielson,365.5
+421-Kapheleis,421,,,none,1.5,1,0.12,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,
+422-Korophaioi,422,,,none,3,1,0.12,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,
+425-Chen,425,23.413552,38.4012,none,3,1,0.5,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,733
+426-Parasopioi,426,,,none,2,1,0.25,2,0,,,,0,0,1,0,0,,0,24,Thessaly & Adjacent,HansonNielson,
+427-Anthele,427,22.5,38.75,none,1,1,0.25,2,1,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,1042
+428-Antikyre,428,22.4167,38.833,none,1,1,0.25,2,2,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,20.9
+429-Echinos,429,22.723917,38.893412,none,1,1,0.62,2,0,,,,0,0,1,1,0,,0,24,Thessaly & Adjacent,HansonNielson,40.8
+43-Piakos,43,14.697361,37.329954,none,3,3,0.37,3,0,5,5,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,130.3
+430-Herakleia,430,22.447577,38.792037,none,1,1,3.75,2,2,4,4,4,0,0,1,1,0,,0,24,Thessaly & Adjacent,HansonNielson,61.3
+431-Lamia,431,22.442593,38.902996,none,1,1,2.12,2,2,4,4,5,0,0,2,1,0,,0,24,Thessaly & Adjacent,HansonNielson,136
+432-Trachis,432,22.447577,38.792037,none,1,1,0.87,1,1,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,
+433-Antron,433,22.967482,38.95098,none,1.5,1,0.5,2,0,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,0
+434-Ekkarra,434,22.1667,39.0833,none,2,1,0.5,2,2,,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,486.9
+435-Halos,435,22.82121498,39.14241765,none,1,1,1,5,2,,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,66.2
+436-Kypaira,436,22.082503,39.031506,none,1.5,1,0.37,2,2,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,937.3
+437-Larisa,437,22.4186,39.6345,none,1.5,1,1,2,0,,4,,0,0,1,0,0,,0,24,Thessaly & Adjacent,HansonNielson,86.3
+438-Melitaia,438,22.451554,39.045599,none,1.5,1,0.87,2,2,,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,519.9
+439-Peuma,439,22.5327125,39.200683,none,3,1,0.62,3,1,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,600.1
+44-Selinous,44,23.616184,39.165174,none,1,1,7.62,2,5,6,5,7,1,0,0,1,0,,2,2,Sikelia,HansonNielson,1.1
+440-Phylake,440,22.762367,39.289349,none,2,1,0.12,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,144.2
+441-Proerna,441,22.297255,39.241243,none,1.5,1,0.62,2,2,,,,0,0,1,1,0,,0,24,Thessaly & Adjacent,HansonNielson,198.2
+442-Pyrasos,442,22.8296175,39.2763225,none,1.5,1,0.5,2,2,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,0
+443-Thaumakoi,443,22.321996,39.126554,none,2,1,0.75,2,2,,,,0,0,1,1,0,,0,24,Thessaly & Adjacent,HansonNielson,493.8
+444-Thebai,444,22.75,39.25,none,1.5,1,1.62,3,4,4,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,57
+445-Amyros,445,22.693428,39.660329,none,1.5,1,0.62,1,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,106.4
+446-Eureaioi,446,,,none,3,1,0.37,2,0,,4,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,
+447-Eurymenai,447,22.7816365,39.8427875,none,1.5,1,0.37,2,0,,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,5.8
+448-Homolion,448,22.6540015,39.892051,none,1,1,0.75,2,2,,4,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,51.9
+449-Iolkos,449,22.96886,39.366305,none,1.5,1,0.5,2,1,,4,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,57.8
+45-Sileraioi,45,,,none,3,3,0.12,3,0,,4,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,
+450-Kasthanaie,450,22.9167,39.5333,none,1,1,0.37,2,2,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,585.3
+451-Kikynethos,451,23.0833,39.1667,none,1,1,0.12,2,1,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,9.4
+452-Korakai,452,,,none,1.5,1,0.75,2,0,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,
+453-Meliboia,453,22.799444,39.748889,none,1,1,0.62,5,2,4,4,,0,0,1,0,0,,0,24,Thessaly & Adjacent,HansonNielson,316
+454-Methone,454,23.069231,39.327998,none,1.5,1,0.75,2,1,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,144.2
+455-Olizon,455,23.21081,39.128079,none,1.5,1,0.37,2,2,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,23
+456-Oxoniaioi,456,,,none,1.5,1,0.12,2,0,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,
+457-Rhizous,457,22.84759,39.8019955,none,1.5,1,0.25,2,2,,4,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,46.7
+458-Spalauthra,458,23.225085,39.183477,none,1.5,1,0.5,2,2,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,114.9
+459-Azoros,459,22.0888255,39.988295,none,3,1,0.25,2,2,,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,400.7
+46-Stielanaioi,46,14.91666667,37.16666667,none,3,3,0.5,3,0,5,,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,448
+460-Chyretiai,460,22.152018,39.800136,none,3,1,0.5,2,2,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,276.5
+461-Doliche,461,22.16667,40.08333,none,3,1,1,2,2,,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,662.9
+462-Ereikinion,462,21.994174,39.702373,none,1.5,1,0.37,2,2,,,,0,0,0,0,0,,0,24,Thessaly & Adjacent,HansonNielson,414.8
+463-Gonnos,463,22.474276,39.861822,none,1,1,1.12,2,3,,4,,0,0,2,1,0,,0,24,Thessaly & Adjacent,HansonNielson,89.6
+464-Malloia,464,22.091553,39.876194,none,3,1,0.37,2,2,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,425.6
+465-Mondaia,465,21.938448,39.9596,none,2,1,0.5,2,2,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,652.8
+466-Mylai,466,22.0833,39.75,none,3,1,0.62,2,2,,,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,153.1
+467-Oloosson,467,22.2,39.9167,none,2,1,1.12,2,2,,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,380.2
+468-Phalanna,468,22.1667,39.75,none,1.5,1,1.5,2,2,4,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,581.9
+469-Pythoion,469,22.15,40.0833,none,3,1,1.12,2,2,,4,,0,0,0,1,0,,0,24,Thessaly & Adjacent,HansonNielson,677.8
+47-Syrakousai,47,15.284037,37.0698525,none,1,1,12,2,5,6,5,7,21,2,1,1,0,,2,2,Sikelia,HansonNielson,15.6
+470-Argethia,470,22.05,39.9167,none,2,1,0.37,2,0,,,,0,0,1,0,0,,0,24,Thessaly & Adjacent,HansonNielson,343.7
+471-Aigiale,471,25.998408,36.90637,none,1,1,0.5,2,2,,,,0,0,0,1,0,,0,25,Aegean,HansonNielson,233.5
+472-Arkesine,472,25.8117355,36.7993565,none,1,1,0.87,2,2,,,,0,0,2,1,0,,0,25,Aegean,HansonNielson,223.3
+473-Minoa,473,25.861108,38.821263,none,1,1,0.37,2,2,,,,0,0,0,1,0,,0,25,Aegean,HansonNielson,0
+474-Anaphe,474,25.76846,36.350459,none,2,1,1.12,2,2,5,,,0,0,2,0,1,,0,25,Aegean,HansonNielson,172.1
+475-Andros,475,24.933333,37.83333,none,1,1,2.5,2,4,,,,4,1,3,1,1,,2,25,Aegean,HansonNielson,14
+476-Astypalaia,476,26.35142,36.547366,none,2,1,1.62,2,2,5,4,,1,1,0,0,1,,0,25,Aegean,HansonNielson,45.2
+477-Chalke,477,27.58333333,36.25,none,2,1,1.25,2,2,4,,,0,0,0,1,1,,0,25,Aegean,HansonNielson,0
+478-Delos,478,25.268131,37.3955735,none,1,1,3.5,2,1,6,,,2,0,3,0,1,,0,25,Aegean,HansonNielson,30.3
+479-Helene,479,24.116944,37.687222,none,1.5,1,0.12,2,1,,,,0,0,0,0,0,,0,25,Aegean,HansonNielson,0
+48-Tauromenion,48,15.292135,37.852469,none,1.5,3,3.25,3,4,4,4,4,0,0,0,1,0,,1,2,Sikelia,HansonNielson,231.5
+480-Oine,480,26.16666667,37.66666667,none,1,1,1.12,2,3,,,,0,0,3,0,1,,0,25,Aegean,HansonNielson,0
+481-Therma,481,23.900777,39.163501,none,1,1,0.62,2,3,,,,0,0,0,0,1,,0,25,Aegean,HansonNielson,46
+482-Ikos,482,25.903047,40.233058,none,1,1,0.62,2,2,,4,,0,0,0,1,1,,0,25,Aegean,HansonNielson,13.4
+483-Imbros,483,25.282229,36.723335,none,1,1,1.87,2,4,,4,,0,0,0,1,1,,0,25,Aegean,HansonNielson,119.4
+484-Ios,484,25.282229,36.723335,none,1,1,1.5,2,3,4,4,,0,0,3,1,1,,0,25,Aegean,HansonNielson,119.4
+485-Kalymna,485,27.0081067,36.9783009,none,1,1,2.62,2,2,,,,0,0,2,0,1,,0,25,Aegean,HansonNielson,27.2
+486-Arkesseia,486,27.08333333,35.5,none,1,1,0.5,2,1,,,,0,0,0,1,1,,0,25,Aegean,HansonNielson,0
+487-Brykous,487,27.16666667,35.83333333,none,1,1,0.75,2,1,,,,0,0,0,1,1,,0,25,Aegean,HansonNielson,0
+488-Eteokarpathioi,488,27.16666667,35.58333333,none,1.5,1,0.75,3,0,,,,0,0,0,0,1,,0,25,Aegean,HansonNielson,340
+489-Karpathos,489,27.1333,35.5833,none,1,1,1.25,2,0,,,,0,0,0,0,1,,0,25,Aegean,HansonNielson,842.8
+49-Tyndaris,49,15.044148,38.14375,none,2,1,2,3,0,,4,4,0,0,0,1,0,,0,2,Sikelia,HansonNielson,258.6
+490-Kasos,490,24.340442,37.640469,none,1,1,0.5,2,2,,,,0,0,0,0,1,,0,25,Aegean,HansonNielson,300.6
+491-Ioulis,491,24.33333333,37.66666667,none,1,1,2.12,2,2,6,4,,0,0,1,1,0,1,2,25,Aegean,HansonNielson,19
+492-Karthaia,492,24.330211,37.560259,none,1,1,1.37,2,2,6,4,,0,0,2,1,0,1,0,25,Aegean,HansonNielson,15.8
+493-Koresia,493,24.3111875,37.658699,none,1,1,1.62,2,1,6,,,0,0,0,1,1,1,0,25,Aegean,HansonNielson,11.8
+494-Poiessa,494,24.277992,37.599492,none,1,1,0.87,2,2,,,,0,0,0,1,0,1,0,25,Aegean,HansonNielson,4.1
+495-Keria,495,25.66666667,36.91666667,none,3,1,0.25,2,1,,,,0,0,1,0,1,,0,25,Aegean,HansonNielson,0
+496-Kimolos,496,24.57346,36.793183,none,2,1,0.75,2,2,,,,0,0,0,0,1,,0,25,Aegean,HansonNielson,80.1
+497-Kos,497,27.2904682,36.8958903,none,1,1,4.87,3,4,6,4,,0,0,3,1,1,,2,25,Aegean,HansonNielson,1.1
+498-Astypalaia/2,498,26.35,36.55,none,3,1,0.62,2,3,,,,0,0,1,0,0,,0,25,Aegean,HansonNielson,46
+499-Kos Meropis,499,27.2871195,36.8929685,none,1,1,0.75,2,3,,,,0,1,0,1,0,,0,25,Aegean,HansonNielson,12.7
+5-Abakainon,5,15.102037,38.056258,none,2,2,1,2,0,5,4,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,385.7
+50-Tyrrhenoi,50,,,none,3,3,0.25,3,0,,4,,0,0,0,0,0,,0,2,Sikelia,HansonNielson,
+500-Halasarna,500,27.138144,36.777663,none,2,1,0.37,2,1,,,,0,0,0,0,0,,0,25,Aegean,HansonNielson,7.6
+501-Kythnos,501,24.429784,37.412293,none,1,1,1.25,2,2,6,,,0,0,0,1,1,,0,25,Aegean,HansonNielson,152.8
+502-Myrina,502,25.06186,39.878652,none,1,1,1.25,2,3,,4,,0,0,2,1,1,,0,25,Aegean,HansonNielson,9
+503-Hephaistia,503,25.322257,39.9654755,none,1,1,1,2,3,,4,,0,0,0,1,1,,0,25,Aegean,HansonNielson,37.8
+504-Leros,504,26.854663,37.158037,none,3,1,1,2,2,,,,0,0,0,0,0,,0,25,Aegean,HansonNielson,22.6
+505-Melos,505,24.423276,36.743864,none,1,1,2.87,2,3,6,,,0,1,0,1,1,,0,25,Aegean,HansonNielson,173.8
+506-Mykonos,506,25.328619,37.445959,none,1,1,0.87,2,2,,4,,0,0,0,0,1,,0,25,Aegean,HansonNielson,9.2
+507-Naxos,507,25.377595,37.103871,none,1,1,5.87,2,4,6,4,,0,0,3,1,1,,0,25,Aegean,HansonNielson,22.7
+508-Nisyros,508,27.172056,36.587875,none,1,1,1.37,2,2,4,4,,0,0,0,1,1,,0,25,Aegean,HansonNielson,119.1
+509-Paros,509,25.150728,37.08579,none,1,1,7.25,2,3,6,,,3,0,3,1,1,,2,25,Aegean,HansonNielson,6.1
+51-Zankle/Messana,51,15.555634,38.192251,none,1,1,4.62,2,4,6,5,7,2,1,0,1,0,,1,2,Sikelia,HansonNielson,14.2
+510-Panormos,510,23.66666667,39.08333333,none,1,1,0.12,2,1,,,,0,0,0,1,0,,0,25,Aegean,HansonNielson,0
+511-Peparethos,511,23.719616,39.119096,none,1,1,0.25,2,2,5,4,,0,1,0,1,1,,0,25,Aegean,HansonNielson,141.5
+512-Seleinous,512,23.66666667,39.16666667,none,1,1,0.25,2,1,,,,0,0,0,1,0,,0,25,Aegean,HansonNielson,0
+513-Pholegandros,513,24.91666667,36.66666667,none,2,1,0.62,2,2,,,,0,0,2,0,1,,0,25,Aegean,HansonNielson,0
+514-Rheneia,514,25.213287,37.41206,none,1,1,0.87,2,1,,,,0,0,0,0,1,,0,25,Aegean,HansonNielson,6.9
+515-Samothrake,515,25.5219,40.4778,none,1,1,2.5,2,3,5,,,4,0,2,1,1,,0,25,Aegean,HansonNielson,164
+516-Saros,516,27.25,35.91666667,none,2,1,0.75,2,1,,,,0,0,0,0,1,,0,25,Aegean,HansonNielson,0
+517-Seriphos,517,24.5,37.16666667,none,1,1,1,2,2,6,,,0,0,1,0,1,,0,25,Aegean,HansonNielson,285
+518-Sikinos,518,25.11667,36.683056,none,1,1,0.75,2,2,,,,0,0,2,0,1,,0,25,Aegean,HansonNielson,245
+519-Siphnos,519,24.6681,36.9847,none,1,1,2.12,2,2,6,,,0,0,0,1,1,,2,25,Aegean,HansonNielson,337.8
+52-Herakleia,52,16.678299,40.213021,none,1,1,3.62,2,4,5,4,4,0,0,1,1,0,1,1,3,Italia & Kampania,HansonNielson,26.3
+520-Skiathos,520,23.488506,39.164021,none,1,1,1.25,2,2,,4,,0,0,0,0,1,,0,25,Aegean,HansonNielson,8.1
+521-Skyros,521,24.565356,38.902984,none,1,1,2.25,2,4,5,,,0,0,1,1,1,,0,25,Aegean,HansonNielson,59.6
+522-Syme,522,27.843425,36.61839,none,1.5,1,0.75,2,2,,,,0,0,0,1,1,,0,25,Aegean,HansonNielson,14.4
+523-Syros,523,24.93333333,37.43333333,none,1,1,1.37,2,3,4,,,0,0,0,0,1,,0,25,Aegean,HansonNielson,13
+524-Telos,524,27.338729,36.463938,none,2,1,1.25,2,2,,4,,0,0,0,1,1,,0,25,Aegean,HansonNielson,79.5
+525-Tenos,525,25.1617,37.538,none,1,1,3.75,2,3,6,,,0,0,1,1,1,,2,25,Aegean,HansonNielson,7.4
+526-Thasos,526,24.7106185,40.779818,none,1,1,8.75,2,4,6,4,,10,4,3,1,1,,2,25,Aegean,HansonNielson,6.6
+527-Thera,527,25.469632,36.3781675,none,1,1,3.87,2,2,6,4,,1,0,1,0,1,,2,25,Aegean,HansonNielson,92.3
+528-Aiane,528,21.820987,40.165157,none,3,1,0.75,2,0,,4,5,0,0,0,0,0,,1,26,Makedonia,HansonNielson,454.1
+529-Aigeai,529,22.321872,40.480092,none,1,1,2,2,2,,,,0,0,1,1,0,,0,26,Makedonia,HansonNielson,147.8
+53-Hipponion,53,16.097648,38.675581,none,1,1,3.5,5,3,,4,,1,0,1,1,0,1,0,3,Italia & Kampania,HansonNielson,478
+530-Alebaia,530,,,none,1,1,0.25,2,0,,,,0,0,0,0,0,,0,26,Makedonia,HansonNielson,
+531-Allante,531,22.58333333,40.75,none,2,1,0.62,2,0,,,,0,0,0,0,0,,0,26,Makedonia,HansonNielson,53
+532-Aloros,532,22.597349,40.588605,none,1,1,0.25,2,0,,,,0,0,0,1,0,,0,26,Makedonia,HansonNielson,2.9
+533-Beroia,533,22.2,40.51667,none,1,1,2.5,2,4,,,,0,0,0,1,0,,1,26,Makedonia,HansonNielson,175
+534-Dion,534,22.488682,40.17485,none,1.5,1,1.62,2,4,,,4,0,0,0,1,0,,0,26,Makedonia,HansonNielson,17.2
+535-Edessa,535,22.053972,40.799718,none,3,1,1.12,2,4,,,,0,0,0,1,0,,0,26,Makedonia,HansonNielson,235
+536-Europos,536,22.58333333,40.91666667,none,2,1,0.62,2,0,,,,0,0,1,1,0,,0,26,Makedonia,HansonNielson,24
+537-Herakleion,537,22.66666667,40,none,1,1,0.5,2,3,,,,0,0,0,1,1,,0,26,Makedonia,HansonNielson,0
+538-Ichnai,538,22.591256,40.764014,none,1,1,1,2,0,5,,,0,0,0,0,0,,0,26,Makedonia,HansonNielson,7.8
+539-Kyrrhos,539,22.25,40.83333333,none,2,1,0.87,2,4,,,,0,0,0,0,0,,0,26,Makedonia,HansonNielson,30
+54-Hyele/Elea,54,15.15444,40.15944,none,1,1,3.5,2,2,6,4,6,0,0,0,1,0,1,1,3,Italia & Kampania,HansonNielson,31.1
+540-Leibethra,540,22.5,40.83333333,none,3,1,0.87,2,3,,,,0,0,0,1,0,,0,26,Makedonia,HansonNielson,169
+541-Methone,541,22.58333333,40.5,none,1,1,1.12,2,3,,4,,0,0,0,1,1,,0,26,Makedonia,HansonNielson,3
+542-Mieza,542,22.1170755,40.6380805,none,2,1,0.87,2,0,,,,0,0,0,0,0,,0,26,Makedonia,HansonNielson,122.7
+543-Pella,543,22.5192,40.76,none,1,1,2.12,2,4,,,4,0,2,1,1,0,,0,26,Makedonia,HansonNielson,30
+544-Pydna,544,22.560095,40.394976,none,1,1,1.5,2,3,,4,,0,0,1,1,0,,0,26,Makedonia,HansonNielson,103.1
+545-Apollonia,545,23.487396,40.641573,none,1,1,0.75,2,4,4,,,0,0,0,1,0,,0,27,Thrace: Axios - Strymon,HansonNielson,47.3
+546-Arethousa,546,23.66666667,40.66666667,none,1,1,1,2,2,,,,0,0,1,1,0,,0,27,Thrace: Axios - Strymon,HansonNielson,10
+547-Bormiskos,547,23.678073,40.676875,none,3,1,0.37,2,2,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,3.5
+548-Chalestra,548,22.75,40.66666667,none,1,3,0.62,3,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,-1
+549-Herakleia,549,22.66666667,40.75,none,3,1,0.37,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,44
+55-Kaulonia,55,16.578485,38.445426,none,1,1,3.25,5,3,6,4,,0,4,0,1,0,1,1,3,Italia & Kampania,HansonNielson,12.7
+550-Lete,550,22.808289,40.670226,none,2,2,0.75,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,7.3
+551-Sindos,551,22.973402,37.975304,none,1,2,0.37,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,0
+552-Therme,552,22.91666667,40.58333333,none,1,2,1.12,2,4,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,0
+553-Amphipolis,553,23.847005,40.8219755,none,1,1,2.5,2,5,5,4,,0,0,1,1,0,,2,27,Thrace: Axios - Strymon,HansonNielson,100.8
+554-Argilos,554,23.8123785,40.7819725,none,1,1,1.75,2,2,6,4,,0,0,0,1,1,,0,27,Thrace: Axios - Strymon,HansonNielson,36.1
+555-Tra_los,555,23.75,40.83333333,none,2,2,0.75,2,0,5,4,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,183
+556-Aige,556,23.666064,39.978627,none,1,1,0.37,2,2,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,7.8
+557-Aineia,557,22.879124,40.439481,none,1,1,1.25,2,1,6,4,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,16.1
+558-Aioleion,558,23.181617,40.302463,none,1,1,0.75,2,1,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,65.9
+559-Akanthos,559,23.880112,40.39975,none,1,1,2,2,3,6,4,,0,0,0,1,1,,2,27,Thrace: Axios - Strymon,HansonNielson,3.2
+56-Kroton,56,17.12708,39.080763,none,1,1,7,2,4,6,4,7,2,2,1,1,0,1,2,3,Italia & Kampania,HansonNielson,12.1
+560-Akrothooi,560,24.34933,40.183833,none,1,2,0.5,2,2,,,,0,0,1,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,375.7
+561-Alapta,561,,,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+562-Anthemous,562,23.284334,40.417722,none,3,1,0.62,2,4,,,,0,0,0,0,0,1,0,27,Thrace: Axios - Strymon,HansonNielson,546.8
+563-Aphytis,563,23.436606,40.099366,none,1,1,1.87,2,2,5,4,,0,0,0,1,1,,2,27,Thrace: Axios - Strymon,HansonNielson,50.8
+564-Assera,564,23.830518,40.369294,none,1,1,0.87,2,2,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,21.7
+565-Charadrous,565,,,none,1,2,0.12,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+566-Chedrolioi,566,22.35171,40.046745,none,1.5,1,0.37,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,2043.5
+567-Chytropolis,567,,,none,3,1,0.12,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+568-Dikaia,568,22.947121,40.460491,none,1.5,1,1,2,0,6,4,,0,0,0,0,1,,2,27,Thrace: Axios - Strymon,HansonNielson,139.8
+569-Dion,569,22.488682,40.17485,none,1,2,0.87,2,1,,,,0,0,0,1,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+57-Kyme,57,14.053611,40.848611,none,1,1,4.75,2,4,5,,,5,0,0,1,0,,1,3,Italia & Kampania,HansonNielson,39.3
+570-Eion,570,23.872848,40.7893235,none,3,1,0.25,2,0,,,,0,0,0,1,0,,0,27,Thrace: Axios - Strymon,HansonNielson,-0.7
+571-Galepsos,571,23.66666667,40.16666667,none,1,1,1.5,2,2,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,0
+572-Gigonos,572,23.022765,40.326285,none,1,1,0.25,2,1,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,-3
+573-Haisa,573,23.060368,40.309275,none,1,1,0.5,2,1,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,0.4
+574-Istasos,574,,,none,3,0,0.12,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+575-Kalindoia,575,23.357944,40.563778,none,1.5,1,0.62,2,0,,,,0,0,0,0,0,1,0,27,Thrace: Axios - Strymon,HansonNielson,225.9
+576-Kamakai,576,,,none,1,0,0.37,2,0,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,
+577-Kampsa,577,,,none,1,1,0.5,2,0,5,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+578-Kissos,578,,,none,3,1,0.37,2,0,,,,0,0,0,1,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+579-Kithas,579,23.055907,40.396714,none,1,0,0.25,2,0,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,123.3
+58-Laos,58,15.8244,39.767685,none,1.5,1,2.12,2,2,6,4,,0,0,0,1,0,,0,3,Italia & Kampania,HansonNielson,33
+580-Kleonai,580,24.233651,40.214176,none,1,2,1.12,2,1,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,216.6
+581-Kombreia,581,,,none,1,0,0.37,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+582-Lipaxos,582,,,none,1,0,0.12,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+583-Mekyberna,583,23.396101,40.278319,none,1,1,1.37,2,1,,,1,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,6
+584-Mende,584,23.4111,40.04833,none,1,1,2.5,2,2,6,4,,2,0,1,1,1,,2,27,Thrace: Axios - Strymon,HansonNielson,43.7
+585-Milkoros,585,,,none,1.5,0,0.5,2,0,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,
+586-Neapolis,586,24.413063,40.933608,none,1,1,0.75,2,2,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,9.6
+587-Olophyxos,587,24.190639,40.330422,none,1,2,0.62,2,1,,4,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,0.1
+588-Olynthos,588,23.354208,40.296525,none,1,1,3.62,5,5,5,4,4,0,0,1,1,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,56
+589-Osbaioi,589,,,none,3,0,0.37,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+59-Lokroi,59,16.259895,38.23642,none,1,1,8.37,2,3,4,4,6,5,2,0,1,0,,2,3,Italia & Kampania,HansonNielson,13.9
+590-Othoros,590,,,none,1.5,0,0.37,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+591-Pharbelos,591,,,none,1.5,0,0.5,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+592-Phegontioi,592,,,none,2,0,0.37,2,0,,,,0,0,1,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,
+593-Piloros,593,23.724709,40.342219,none,1,1,0.25,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,36.1
+594-Pistasos,594,,,none,1.5,0,0.12,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+595-Pleume,595,23.20344,40.295137,none,1.5,0,0.25,2,1,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,50.6
+596-Polichnitai,596,23.664835,40.369151,none,3,1,0.37,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,124.4
+597-Posideion,597,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+598-Poteidaia,598,23.327812,40.193696,none,1,1,2.25,5,2,6,4,,0,0,1,1,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,18.3
+599-Prassilos,599,,,none,2,0,0.12,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+6-Adranon,6,14.835642,37.662847,none,2,1,1,3,0,,4,,0,0,0,1,0,,0,2,Sikelia,HansonNielson,562.7
+60-Medma,60,15.976368,38.487328,none,1.5,1,3,2,2,4,4,,1,0,0,0,0,,0,3,Italia & Kampania,HansonNielson,65.3
+600-Sane,600,23.91666667,40.33333333,none,1,1,1,2,2,,,,0,0,0,1,1,,0,27,Thrace: Axios - Strymon,HansonNielson,5
+601-Sane/2,601,23.33333,40.08333333,none,1,1,0.5,2,2,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,100
+602-Sarte,602,23.978698,40.087542,none,1,1,0.37,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,1.6
+603-Serme,603,22.94402,40.58155,none,3,0,0.37,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,22.6
+604-Sermylia,604,23.539631,40.298222,none,1,1,1.12,2,1,6,4,,0,0,0,,,,,,,,
+605-Singos,605,23.721477,40.24917,none,1,1,0.62,2,2,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,4
+606-Sinos,606,23.223955,40.291278,none,1.5,0,0.25,2,1,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,42.4
+607-Skabala,607,23.58333333,40.33333333,none,2,1,0.37,2,2,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,117
+608-Skapsaioi,608,,,none,2,1,0.25,2,0,,4,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+609-Skione,609,23.574785,39.939063,none,1,1,1.75,2,2,6,4,,0,0,0,1,1,,0,27,Thrace: Axios - Strymon,HansonNielson,40.1
+61-Metapontion,61,16.822782,40.3831258,none,1,1,5,2,4,6,5,6,0,1,0,1,0,1,2,3,Italia & Kampania,HansonNielson,3.9
+610-Skithai,610,23.055907,40.396714,none,2,1,0.25,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,123.3
+611-Smila,611,22.35171,40.046745,none,1,0,0.25,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,2043.5
+612-Spartolos,612,23.159843,40.316347,none,1,1,0.87,2,0,,,,0,0,0,1,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,77.6
+613-Stagiros,613,23.792024,40.503031,none,1,1,2.12,2,4,6,,,0,0,0,1,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,119.5
+614-Stolos,614,23.664835,40.369151,none,1,1,0.87,2,2,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,124.4
+615-Strepsa,615,23.138509,40.483197,none,2,1,1.25,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,66
+616-Therambos,616,23.66666667,39.91666667,none,1,1,0.87,2,2,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,74
+617-Thestoros,617,,,none,3,0,0.37,2,0,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,
+618-Thyssos,618,24.158674,40.288017,none,1,2,0.5,2,1,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,99.5
+619-Tinde,619,23.026394,40.395222,none,1,0,0.25,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,80.5
+62-Metauros,62,15.91666667,38.41666667,none,3,1,1.5,2,1,,,,0,0,0,0,0,,0,3,Italia & Kampania,HansonNielson,56
+620-Torone,620,23.91666667,40,none,1,1,2.5,2,3,5,,,0,0,0,1,1,1,2,27,Thrace: Axios - Strymon,HansonNielson,127
+621-Tripoaia,621,,,none,1,0,0.25,2,0,,,,0,0,0,0,1,1,0,27,Thrace: Axios - Strymon,HansonNielson,
+622-Zereia,622,,,none,2,0,0.12,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+623-Aison,623,,,none,1,0,0.62,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+624-Brea,624,23.129408,40.288041,none,2,1,0.25,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,13.1
+625-Kossaia,625,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,27,Thrace: Axios - Strymon,HansonNielson,
+626-Okolon,626,,,none,3,0,0.12,2,0,,,,0,0,0,0,0,,0,27,Thrace: Axios - Strymon,HansonNielson,
+627-Apollonia,627,24.16666667,40.75,none,1,1,0.37,2,0,,,,0,0,0,0,0,,0,28,Thrace: Strymon - Nestos,HansonNielson,0
+628-Berga,628,23.5,40.91666667,none,2,2,1.62,2,3,6,,,0,0,0,1,1,,0,28,Thrace: Strymon - Nestos,HansonNielson,52
+629-Datos,629,24.33333333,40.91666667,none,1,2,1.5,3,3,,,,0,0,0,0,0,,0,28,Thrace: Strymon - Nestos,HansonNielson,420
+63-Neapolis,63,14.25287,40.839995,none,1,1,4.5,2,1,5,,5,0,0,2,1,0,,2,3,Italia & Kampania,HansonNielson,14.8
+630-Eion,630,23.872848,40.7893235,none,1,1,1.62,1,3,6,,,0,0,0,1,0,,0,28,Thrace: Strymon - Nestos,HansonNielson,
+631-Galepsos,631,23.986017,40.740429,none,1.5,1,1.5,2,3,5,,,0,0,0,1,1,,0,28,Thrace: Strymon - Nestos,HansonNielson,36.5
+632-Krenides,632,24.25,41,none,2,1,0.62,3,0,,4,,0,0,0,0,0,,0,28,Thrace: Strymon - Nestos,HansonNielson,45
+633-Myrkinos,633,23.819454,40.90722,none,1,2,0.75,2,3,,,,0,0,0,1,0,,1,28,Thrace: Strymon - Nestos,HansonNielson,2.8
+634-Neapolis,634,24.41666667,40.91666667,none,1,1,2.87,2,2,6,4,,0,0,0,1,1,,2,28,Thrace: Strymon - Nestos,HansonNielson,0
+635-Oisyme,635,24.300929,40.828906,none,1,1,1.87,2,3,,4,,0,0,0,1,0,,0,28,Thrace: Strymon - Nestos,HansonNielson,1.4
+636-Phagres,636,23.940471,40.760666,none,1.5,1,1,2,3,,4,,0,0,0,1,0,,0,28,Thrace: Strymon - Nestos,HansonNielson,12.6
+637-Philippoi,637,24.334511,41.02518,none,2,1,2.25,3,2,4,4,,0,0,1,1,0,,1,28,Thrace: Strymon - Nestos,HansonNielson,179
+638-Pistyros,638,24.603854,40.968496,none,1,1,0.75,2,3,,,,1,0,0,1,0,,0,28,Thrace: Strymon - Nestos,HansonNielson,2.2
+639-Sirra,639,23.542453,41.087975,none,3,2,0.62,3,3,,,,0,0,0,0,0,,0,28,Thrace: Strymon - Nestos,HansonNielson,50.6
+64-Pandosia,64,16.557488,40.244355,none,1.5,1,1,2,0,6,,,0,0,0,0,0,,0,3,Italia & Kampania,HansonNielson,260.1
+640-Abdera,640,25,40.91666667,none,1,1,6.25,2,5,6,5,4,1,0,1,1,1,,2,29,Thrace: Nestos - Hebros,HansonNielson,0
+641-Ainos,641,26.08333333,40.75,none,1,1,2.5,2,4,5,5,,0,0,1,0,1,,0,29,Thrace: Nestos - Hebros,HansonNielson,2
+642-Bergepolis,642,25.013705,41.057585,none,3,0,0.37,2,0,,,,0,0,0,0,0,,0,29,Thrace: Nestos - Hebros,HansonNielson,13.7
+643-Dikaia,643,25.16666667,41,none,1,1,1.37,2,2,6,,,0,0,0,1,1,,0,29,Thrace: Nestos - Hebros,HansonNielson,-5
+644-Drys,644,25.66666667,40.08333333,none,2,0,0.75,2,2,,,,0,0,0,1,1,,0,29,Thrace: Nestos - Hebros,HansonNielson,0
+645-Kypsela,645,26.3920505,40.9245125,none,2,2,0.37,2,0,4,,,0,0,0,0,0,,0,29,Thrace: Nestos - Hebros,HansonNielson,38.7
+646-Maroneia,646,25.303525,40.523415,none,1,1,3,2,5,6,,,0,1,1,1,1,,0,29,Thrace: Nestos - Hebros,HansonNielson,0
+647-Mesambrie,647,25.66666667,40.83333333,none,1,0,0.62,2,2,,,,0,0,0,1,0,,0,29,Thrace: Nestos - Hebros,HansonNielson,0
+648-Orthagoria,648,,,none,2,1,0.37,2,0,4,4,,0,0,0,0,0,,0,29,Thrace: Nestos - Hebros,HansonNielson,
+649-Sale,649,25.875051,40.844659,none,1,0,0.25,2,3,,,,0,0,0,0,1,,0,29,Thrace: Nestos - Hebros,HansonNielson,18
+65-Pithekoussai,65,13.8820005,40.7580256,none,1,1,2.75,2,1,,,,1,0,0,0,0,,0,3,Italia & Kampania,HansonNielson,93.7
+650-Stryme,650,25.282291,40.93661,none,1,1,1.5,2,3,,,5,0,0,0,1,0,,0,29,Thrace: Nestos - Hebros,HansonNielson,8.7
+651-Zone,651,25.755818,40.848568,none,1,1,1.5,2,2,,4,,0,0,0,1,1,,0,29,Thrace: Nestos - Hebros,HansonNielson,4.8
+652-Alexandropolis,652,,,none,2,2,0.5,3,0,,,,0,0,0,0,0,,0,30,Thrace: Inland,HansonNielson,
+653-Apros,653,27.08333333,41,none,3,3,0.25,3,0,,,,0,0,0,0,0,,0,30,Thrace: Inland,HansonNielson,91
+654-Kabyle,654,26.481552,42.5393535,none,3,3,1.87,3,0,,,,0,0,0,0,0,,0,30,Thrace: Inland,HansonNielson,142.5
+655-Philoppopolis,655,24.749842,42.143739,none,2,3,1.87,3,0,,,,0,0,0,0,0,,0,30,Thrace: Inland,HansonNielson,169.2
+656-Pistiros,656,,,none,3,2,2.75,2,0,,,,0,0,0,0,0,,0,30,Thrace: Inland,HansonNielson,
+657-Seuthopolis,657,25.33686355,42.61977195,none,2,3,1.12,3,0,,,,0,0,0,0,0,,0,30,Thrace: Inland,HansonNielson,414.8
+658-Aigos potamoi,658,26.59366,40.331504,none,3,1,0.75,1,1,,4,,0,0,0,0,0,,0,31,Thracian Chersonesos,HansonNielson,3.4
+659-Alopekonnesos,659,26.249544,40.313939,none,1.5,1,1.5,2,2,,,,1,0,0,1,1,,1,31,Thracian Chersonesos,HansonNielson,7
+66-Poseidonia,66,13.8820005,40.7580256,none,1,1,4.87,1,4,6,5,6,0,1,0,1,0,,0,3,Italia & Kampania,HansonNielson,93.7
+660-Araplos,660,26.75,40.75,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,31,Thracian Chersonesos,HansonNielson,102
+661-Chersonesos/Agora,661,26.75,40.5,none,1,1,1.87,2,3,6,4,,0,0,1,0,1,,1,31,Thracian Chersonesos,HansonNielson,59
+662-Deris,662,26.808976,40.657809,none,2,1,0.25,2,0,,,,0,0,0,0,1,,0,31,Thracian Chersonesos,HansonNielson,13.1
+663-Elaious,663,26.25,40.08333333,none,1,1,1.75,2,2,,4,,0,0,0,1,1,,1,31,Thracian Chersonesos,HansonNielson,129
+664-Ide,664,26.689216,40.504079,none,1.5,1,0.12,2,0,,,,0,0,0,0,0,,0,31,Thracian Chersonesos,HansonNielson,15.9
+665-Kardia,665,26.75081,40.548232,none,1,1,1.62,2,2,,4,,0,0,1,0,0,,1,31,Thracian Chersonesos,HansonNielson,0
+666-Kressa,666,26.58333333,40.33333333,none,1.5,1,0.25,2,0,,,,0,0,0,0,0,,0,31,Thracian Chersonesos,HansonNielson,7
+667-Krithote,667,26.651664,40.406725,none,1,1,0.75,2,2,,4,,0,0,0,1,0,,1,31,Thracian Chersonesos,HansonNielson,19.6
+668-Limnai,668,26.25,40.25,none,1.5,1,0.75,2,2,,,,0,0,0,0,1,,1,31,Thracian Chersonesos,HansonNielson,0
+669-Madytos,669,26.357002,40.186504,none,1,1,1.12,2,3,,4,,0,0,0,0,1,,1,31,Thracian Chersonesos,HansonNielson,9.5
+67-Pyxous,67,15.511849,40.083851,none,2,1,1.5,2,0,6,,,0,0,0,1,0,,0,3,Italia & Kampania,HansonNielson,28
+670-Paion,670,26.639597,40.505429,none,1,0,0.12,2,0,,,,0,0,0,0,0,,0,31,Thracian Chersonesos,HansonNielson,24.8
+671-Paktye,671,26.780688,40.485384,none,1.5,1,0.62,2,1,,,,0,0,0,0,0,,1,31,Thracian Chersonesos,HansonNielson,0
+672-Sestos,672,26.417225,40.228356,none,1,1,2.12,2,3,,,,0,0,1,1,1,,1,31,Thracian Chersonesos,HansonNielson,106.5
+673-Bisanthe,673,27.508023,40.978415,none,2,1,1.12,2,2,,,,0,0,0,1,1,,0,32,Propontic Thrace,HansonNielson,69.3
+674-Byzantion,674,28.976018,41.01224,none,1,1,5.87,2,5,5,4,,1,1,3,1,1,,2,32,Propontic Thrace,HansonNielson,31.7
+675-Daminon Teichos,675,28.08333,41.08333,none,2,1,0.5,2,1,,,,0,0,0,1,1,,0,32,Propontic Thrace,HansonNielson,97
+676-Heraion/Heraion Teichos,676,27.6667,41,none,1,1,1,2,1,,,,0,0,0,1,0,,0,32,Propontic Thrace,HansonNielson,13.9
+677-Neapolis,677,27.16666667,40.66666667,none,2,1,0.5,2,1,,,,0,0,0,1,1,,0,32,Propontic Thrace,HansonNielson,284
+678-Perinthos,678,27.952973,40.971013,none,1,1,3.62,2,5,4,4,,0,0,0,1,1,,0,32,Propontic Thrace,HansonNielson,4
+679-Selymbria,679,28.247677,41.078496,none,1,1,1.25,2,4,5,,,0,0,1,1,1,,0,32,Propontic Thrace,HansonNielson,0.8
+68-Rhegion,68,15.64393,38.109279,none,1,1,5.25,5,5,6,5,,2,1,0,1,0,1,2,3,Italia & Kampania,HansonNielson,17.8
+680-Serrion Teichos,680,27,40.75,none,3,1,0.5,2,1,,,,0,0,0,1,1,,0,32,Propontic Thrace,HansonNielson,288
+681-Tyrodiza,681,27.08333333,40.58333333,none,2,0,0.87,2,5,,,,0,0,0,0,1,,0,32,Propontic Thrace,HansonNielson,0
+682-Apollonia,682,27.66666667,42.75,none,1,1,2,2,5,5,5,,0,0,0,1,1,,1,33,Black Sea,HansonNielson,49
+683-Bizone,683,28.33814,43.4338945,none,3,1,0.62,2,2,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,128.5
+684-Dionysopolis,684,28.1629075,43.417781,none,2,1,0.87,2,4,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,184.2
+685-Istros,685,28.769256,44.6445585,none,1,1,2,2,5,5,5,,2,0,3,1,0,,2,33,Black Sea,HansonNielson,57.6
+686-Kallatis,686,28.58275,43.817152,none,1.5,1,1.87,2,5,5,,,0,0,3,1,1,,0,33,Black Sea,HansonNielson,15
+687-Mesambria,687,27.7181,42.660417,none,1,1,2,2,5,5,,,0,0,1,1,1,,0,33,Black Sea,HansonNielson,24.3
+688-Nikonion,688,30.454849,46.215722,none,1,1,0.87,2,3,,5,,0,0,0,1,1,,0,33,Black Sea,HansonNielson,47.1
+689-Odessos,689,27.908595,43.212074,none,1.5,1,1,2,5,,,,0,0,0,1,0,,0,33,Black Sea,HansonNielson,49.2
+69-Siris,69,16.54137,40.149042,none,1,1,4.5,1,4,6,,,0,0,0,1,0,,0,3,Italia & Kampania,HansonNielson,304.4
+690-Olbia/Borysthenes,690,31.901597,46.691895,none,1,1,7,2,5,5,6,,0,0,3,1,0,,2,33,Black Sea,HansonNielson,30.8
+691-Ophiousa,691,,,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,
+692-Orgame,692,28.83333333,44.91666667,none,3,1,0.5,2,1,,,,0,0,0,1,1,,0,33,Black Sea,HansonNielson,4
+693-Tomis,693,28.661176,44.172489,none,3,1,0.87,2,4,,,,0,0,0,0,1,,0,33,Black Sea,HansonNielson,17.8
+694-Tyras,694,30.350539,46.200948,none,2,1,1.37,2,5,4,4,,0,0,0,1,1,,0,33,Black Sea,HansonNielson,16.6
+695-Chersonesos,695,33.493302,44.611627,none,1,1,4.12,2,5,4,4,,0,0,1,1,0,,2,33,Black Sea,HansonNielson,16.7
+696-Gorgippeia,696,37.310215,44.892209,none,2,2,1.75,2,1,5,,,0,0,0,1,0,,0,33,Black Sea,HansonNielson,20.2
+697-Hermonassa,697,36.712664,45.21526333,none,1,1,1.25,2,1,,,,0,0,0,1,0,,0,33,Black Sea,HansonNielson,7.4
+698-Karkinitis,698,33.361389,45.203672,none,1,1,1.5,2,2,,5,,0,0,0,1,0,,0,33,Black Sea,HansonNielson,15.1
+699-Kepoi,699,36.997343,45.299422,none,1.5,1,0.87,2,1,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,10.8
+7-Agyrion,7,14.5,37.66666667,none,2,1,1.25,2,0,,5,,0,0,0,1,0,,1,2,Sikelia,HansonNielson,466
+70-Sybaris,70,16.771002,39.590607,none,1,1,7.12,1,5,6,,,4,1,0,1,0,1,1,3,Italia & Kampania,HansonNielson,97
+700-Kimmerikon,700,36.22459,45.042315,none,3,1,0.5,2,1,,,,0,0,0,1,1,,0,33,Black Sea,HansonNielson,177.7
+701-Kytaia,701,36.41666667,45.08333333,none,1.5,1,0.5,2,1,,,,0,0,0,1,0,,0,33,Black Sea,HansonNielson,25
+702-Labrys/Labryta,702,37.58333333,45.16666667,none,1,3,0.5,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,-1
+703-Myrmekeion,703,36.5,45.33333333,none,1.5,1,0.75,2,1,,,5,0,0,0,1,0,,0,33,Black Sea,HansonNielson,0
+704-Nymphaion,704,36.417269,45.237602,none,1.5,2,1.75,2,1,5,,,0,0,0,1,1,,1,33,Black Sea,HansonNielson,17.5
+705-Pantikapaion/Bosporos,705,36.468056,45.338611,none,1.5,2,3.5,2,3,6,5,,0,0,3,1,0,,1,33,Black Sea,HansonNielson,2.9
+706-Phanagoria,706,37.0241065,45.371378,none,1,1,2,2,4,5,,,0,0,2,1,0,,1,33,Black Sea,HansonNielson,38.7
+707-Theodosia,707,35.378768,45.04609,none,1.5,2,1.12,2,1,5,4,,0,0,0,1,0,,1,33,Black Sea,HansonNielson,10.5
+708-Tyritake,708,36.4129155,45.281685,none,3,1,0.37,2,0,,,,0,0,0,0,0,,1,33,Black Sea,HansonNielson,17.5
+709-Dioskouris,709,41.003076,42.993299,none,1,1,1,2,4,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,0
+71-Taras,71,17.234299,40.4726315,none,1,1,7.12,2,4,6,,6,1,1,1,1,0,1,2,3,Italia & Kampania,HansonNielson,7
+710-Gyenos,710,41.41666667,42.75,none,1,2,0.62,2,1,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,0
+711-Phasis,711,41.6923225,42.135867,none,1,2,1,2,0,5,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,5.5
+712-Amisos/Peiraieus,712,36.3313,41.29221,none,2,1,2.87,2,0,5,,,0,0,1,0,0,,2,33,Black Sea,HansonNielson,16.5
+713-Becheirias,713,,,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,
+714-Choirades,714,,,none,1,1,0.12,3,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,
+715-Herakleia,715,31.414722,41.284722,none,1,1,5.75,2,5,5,,5,2,0,3,1,1,,2,33,Black Sea,HansonNielson,20.7
+716-Iasonia,716,37.66666667,41.16666667,none,1,1,0.12,1,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,0
+717-Karambis,717,33.369673,42.013625,none,1,1,0.12,1,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,63.5
+718-Karoussa,718,35.16666667,41.83333333,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,0
+719-Kerasous,719,38.397931,40.419134,none,1,1,0.75,2,0,,,,0,0,0,0,1,,0,33,Black Sea,HansonNielson,1922.3
+72-Temesa,72,16.159633,39.036454,none,2,2,1.87,2,0,6,,,0,0,0,0,0,,0,3,Italia & Kampania,HansonNielson,247.1
+720-Kinolis,720,34.154469,41.9627125,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,151.4
+721-Koloussa,721,34.27145,41.947448,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,2.1
+722-Kotyora,722,37.875188,41.000154,none,1,1,0.62,2,0,,,,0,0,0,1,0,,0,33,Black Sea,HansonNielson,0
+723-Kromna,723,32.651063,41.838242,none,2,1,0.5,2,0,4,4,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,0
+724-Kytoros,724,32.897814,41.861928,none,1,1,0.5,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,109.3
+725-Limne,725,,,none,1,3,0.12,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,
+726-Lykastos,726,,,none,1,1,0.12,1,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,
+727-Odeinios,727,40.75,41,none,1,1,0.12,1,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,825
+728-Sesamos/Amastris,728,32.385648,41.746969,none,1,1,0.75,2,0,4,4,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,14.4
+729-Sinope,729,35.143037,42.025776,none,1,1,6.12,2,5,5,,,3,0,3,1,0,,2,33,Black Sea,HansonNielson,17
+73-Terina,73,16.238922,38.944865,none,1.5,1,1.87,2,0,5,4,,0,1,0,1,0,,0,3,Italia & Kampania,HansonNielson,73.7
+730-Stameneia,730,37.75,41.08333333,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,410
+731-Tetrakis,731,33.1191805,41.5715265,none,1,1,0.12,1,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,930.5
+732-Themiskyra,732,36.967737,41.215176,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,8.5
+733-Tieion,733,32.055366,41.558273,none,1,1,0.87,2,0,4,,,0,0,0,0,0,,0,33,Black Sea,HansonNielson,66.1
+734-Trapezous,734,39.71872,41.002662,none,1,1,1,2,4,4,,,0,0,1,0,0,,0,33,Black Sea,HansonNielson,37.5
+735-Artaiou Teichos,735,28.5,40.3333,none,3,2,0.62,2,0,,,,0,0,0,1,1,,0,34,Propontic Asia Minor,HansonNielson,362.6
+736-Artake,736,27.83333333,40.41666667,none,1,1,0.75,2,1,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,96
+737-Astakos,737,29.928794,40.714558,none,2,1,1.37,2,0,5,,,0,0,0,1,1,,0,34,Propontic Asia Minor,HansonNielson,6.5
+738-Bysbikos,738,28.5,40.58333333,none,1.5,0,0.75,2,1,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,0
+739-Darieion,739,,,none,2,0,0.12,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,
+74-Thourioi,74,16.4502239,39.7506872,none,1,1,5,2,3,5,5,5,1,4,1,1,0,1,2,3,Italia & Kampania,HansonNielson,10.6
+740-Daskyleion,740,28.062536,40.138708,none,2,1,0.87,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,50.9
+741-Didymon Teichos,741,27.25,40.25,none,2,0,0.25,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,21
+742-Harpagion,742,27.41666667,40.33333333,none,2,1,0.5,2,0,,4,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,0
+743-Kalchedon,743,29.025789,40.983393,none,1,1,4.5,2,5,5,,,2,0,1,1,1,,2,34,Propontic Asia Minor,HansonNielson,35.2
+744-Kallipolis,744,,,none,1,1,0.62,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,
+745-Kios,745,29.16666667,40.41666667,none,1,1,2,2,5,4,,,0,0,3,1,1,,2,34,Propontic Asia Minor,HansonNielson,127
+746-Kolonai,746,26.166435,39.677021,none,2,0,0.5,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,21.9
+747-Kyzikos,747,27.892255,40.381323,none,1,1,5.62,2,5,6,4,,1,0,1,1,1,,2,34,Propontic Asia Minor,HansonNielson,1.4
+748-Lampsakos,748,26.699162,40.346685,none,1,1,4.25,2,5,6,,,1,0,1,1,1,,2,34,Propontic Asia Minor,HansonNielson,59.3
+749-Metropolis,749,,,none,2,1,0.12,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,
+75-Adria,75,12.08333333,45.08333333,none,3,2,1.5,2,0,,,,0,0,0,0,0,,0,4,Adriatic,HansonNielson,-2
+750-Miletoupolis,750,28.316486,40.083458,none,2,1,1.25,2,0,,4,,0,0,0,0,0,,0,34,Propontic Asia Minor,HansonNielson,22.4
+751-Miletouteichos,751,28.429191,40.212943,none,2,1,1,2,0,,,,0,0,0,1,1,,0,34,Propontic Asia Minor,HansonNielson,6.5
+752-Myrleia,752,28.8827425,40.3755895,none,1.5,1,1.25,2,0,4,,,0,0,0,0,1,,1,34,Propontic Asia Minor,HansonNielson,17.8
+753-Olbia,753,,,none,1.5,1,0.5,2,0,,,,0,0,0,0,0,,0,34,Propontic Asia Minor,HansonNielson,
+754-Otlenoi,754,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,
+755-Paisos,755,26.787097,40.400225,none,1,1,0.75,1,1,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,15.1
+756-Parion,756,27.069096,40.420499,none,1,1,3.25,2,5,5,,,0,0,1,1,1,,1,34,Propontic Asia Minor,HansonNielson,34.7
+757-Plakia,757,28.27741,40.397648,none,1,2,0.62,2,0,,4,,0,0,0,0,0,,0,34,Propontic Asia Minor,HansonNielson,28.5
+758-Priapos,758,27.303734,40.403338,none,1,1,1.12,2,2,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,9.5
+759-Prokonnesos,759,,,none,1,1,2,2,3,5,4,,0,0,1,0,1,,1,34,Propontic Asia Minor,HansonNielson,
+76-Ankon,76,13.5,43.58333333,none,1,2,1,3,0,,,,0,0,0,1,0,,0,4,Adriatic,HansonNielson,84
+760-Pythopolis,760,29.413577,40.396001,none,2,0,0.5,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,133.2
+761-Skylake,761,28.388808,40.387037,none,3,2,0.37,1,0,,,,0,0,0,0,0,,0,34,Propontic Asia Minor,HansonNielson,6.7
+762-Sombia,762,,,none,2,0,0.5,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,
+763-Tereia,763,28.3586044,41.3553348,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,34,Propontic Asia Minor,HansonNielson,197.2
+764-Zeleia,764,27.59613655,40.20357415,none,1,0,1.62,2,4,,4,,0,0,1,0,1,,2,34,Propontic Asia Minor,HansonNielson,28.4
+765-Abydos,765,26.40694,40.196017,none,1,1,1.62,2,4,5,4,,0,0,1,1,1,,1,35,Troas,HansonNielson,9
+766-Achilleion,766,26.188666,39.989747,none,1,1,0.5,2,1,,4,,0,0,0,0,1,,0,35,Troas,HansonNielson,18.5
+767-Antandros,767,26.791496,39.5785,none,1,2,1.25,2,4,5,4,,0,0,0,1,1,,0,35,Troas,HansonNielson,201.3
+768-Arisbe,768,26.53798567,40.19626233,none,2,1,0.37,2,0,,,,0,0,0,0,1,,0,35,Troas,HansonNielson,34.8
+769-Assos,769,26.3383585,39.491111,none,2,1,1.62,2,4,5,4,,1,0,0,1,1,,1,35,Troas,HansonNielson,194.1
+77-Apollonia,77,19.4667,40.71667,none,1,1,3.12,2,5,5,,5,0,1,1,1,0,,2,4,Adriatic,HansonNielson,33.1
+770-Astyra Mysia,770,26.91667,39.58333,none,1.5,1,0.75,2,1,5,4,,0,0,0,0,1,,0,35,Troas,HansonNielson,3
+771-Astyra Troika,771,26.682841,40.043192,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,35,Troas,HansonNielson,256.7
+772-Azeia,772,,,none,3,2,0.5,2,0,,,,0,0,0,0,1,,0,35,Troas,HansonNielson,
+773-Birytis,773,26.411219,39.949894,none,2,0,0.62,2,0,4,4,,0,0,0,0,1,,0,35,Troas,HansonNielson,253.1
+774-Dardanos,774,26.37442,40.079727,none,1,1,1.12,2,2,6,4,,0,0,0,0,1,,0,35,Troas,HansonNielson,29.3
+775-Gargara,775,26.542854,39.535451,none,1,2,1.25,2,2,5,4,,0,0,1,1,1,,0,35,Troas,HansonNielson,20.1
+776-Gentinos,776,26.279146,39.876943,none,2,1,0.5,2,1,,4,,0,0,0,1,1,,0,35,Troas,HansonNielson,99.2
+777-Gergis,777,26.609255,39.898491,none,1,3,1,2,4,5,4,,0,0,0,1,0,,1,35,Troas,HansonNielson,215.2
+778-Hamaxitos,778,26.09471,39.543605,none,1,1,1,2,1,,4,,0,0,2,1,1,,0,35,Troas,HansonNielson,43.8
+779-Ilion,779,26.238889,39.9575,none,1,1,1.62,2,3,4,4,,0,0,2,1,1,,2,35,Troas,HansonNielson,36.3
+78-Brentesion,78,17.9429115,40.638663,none,3,2,0.75,2,4,,,,0,0,0,0,0,,0,4,Adriatic,HansonNielson,17.4
+780-Kebren,780,26.563032,39.741803,none,1,2,1.25,2,4,5,4,,0,0,0,1,1,,0,35,Troas,HansonNielson,466.4
+781-Kokylion,781,26.410152,39.67291,none,1,1,0.25,2,0,,,,0,0,0,1,0,,0,35,Troas,HansonNielson,111.7
+782-Kolonai,782,26.166435,39.677021,none,1,1,0.87,2,2,,4,,0,0,0,1,1,,0,35,Troas,HansonNielson,
+783-Lamponeia,783,26.421229,39.538105,none,2,0,0.62,2,2,5,4,,0,0,0,1,1,,0,35,Troas,HansonNielson,383.1
+784-Larisa,784,26.147559,39.615744,none,1,1,0.75,2,2,,,,0,0,0,1,1,,0,35,Troas,HansonNielson,19
+785-Neandreia,785,26.270341,39.719741,none,1,1,1.12,2,4,5,4,4,0,0,0,1,1,,0,35,Troas,HansonNielson,443.9
+786-Ophryneion,786,26.343963,40.035846,none,1.5,1,0.75,2,1,4,4,,0,0,0,1,1,,0,35,Troas,HansonNielson,51.6
+787-Palaiperkote,787,26.686456,40.23637,none,3,0,0.37,2,0,,,,0,0,0,1,1,,0,35,Troas,HansonNielson,323.6
+788-Perkote,788,26.588806,40.273913,none,1,1,0.5,2,1,,,,0,0,0,0,1,,0,35,Troas,HansonNielson,6
+789-Polichna,789,26.57715,38.429149,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,35,Troas,HansonNielson,12.4
+79-Epidamnos/Dyrrhachion,79,19.445263,41.312334,none,1,1,3,2,4,5,4,,0,1,0,1,0,,2,4,Adriatic,HansonNielson,15.2
+790-Rhoiteion,790,26.307891,40.011104,none,1,1,0.87,2,2,4,,,0,0,1,1,1,,0,35,Troas,HansonNielson,151.6
+791-Sigeion,791,26.180869,39.9835305,none,1,1,1.25,2,2,4,4,,0,0,1,1,1,,1,35,Troas,HansonNielson,33.3
+792-Skepsis,792,26.688003,39.82554,none,1,1,2,2,5,5,4,,0,0,0,1,1,,0,35,Troas,HansonNielson,231.5
+793-Tenedos,793,26.0497905,39.8278355,none,1,1,1.5,2,2,6,,1,0,0,1,0,1,,2,35,Troas,HansonNielson,38.2
+794-Antissa,794,26.020536,39.290364,none,1,1,1.87,2,4,5,,,0,0,0,1,0,,2,36,Lesbos,HansonNielson,0.8
+795-Arisba,795,26.243273,39.244154,none,1,1,0.5,1,2,,,,0,0,0,1,1,,0,36,Lesbos,HansonNielson,46.7
+796-Eresos,796,25.928752,39.138899,none,1,1,3,2,4,,4,,0,0,1,1,1,,2,36,Lesbos,HansonNielson,4.2
+797-Methymna,797,26.176891,39.369167,none,1,1,3.25,2,4,6,,,0,0,1,1,1,,2,36,Lesbos,HansonNielson,95.2
+798-Mytilene,798,26.547048,39.110475,none,1,1,8.5,2,4,6,4,,2,1,3,1,1,,2,36,Lesbos,HansonNielson,101.9
+799-Pyrrha,799,26.203993,39.127885,none,1,1,2,2,4,,4,,0,0,1,1,1,,0,36,Lesbos,HansonNielson,5
+8-Aitna,8,15.556634,38.192251,none,1,1,3.25,1,4,5,4,,1,3,0,0,0,,1,2,Sikelia,HansonNielson,10.4
+80-Herakleia,80,,,none,1,1,0.5,3,0,,4,,0,0,0,0,0,,0,4,Adriatic,HansonNielson,
+800-Adramyttion,800,27.01667,39.58333,none,1,2,1.37,2,4,4,4,,0,0,1,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,15
+801-Aigai (Aiolis),801,27.174421,38.820323,none,1,1,1.12,2,0,,,,8,0,0,1,0,,0,37,Aiolis & SW Mysia,HansonNielson,195.7
+802-Aigiroessa,802,,,none,1,1,0.25,2,0,,,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,
+803-Atarneus,803,26.927974,39.093987,none,1,2,1.5,2,4,4,4,,0,0,0,1,0,,1,37,Aiolis & SW Mysia,HansonNielson,99.4
+804-Autokane,804,26.75,39.25,none,2,0,0.75,2,0,,4,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,13
+805-Boione,805,,,none,2,0,0.25,2,0,,4,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,
+806-Chalkis,806,26.58333333,39.25,none,3,0,0.5,2,1,,4,,2,0,0,1,0,,0,37,Aiolis & SW Mysia,HansonNielson,0
+807-Elaia,807,27.055256,38.941644,none,1.5,1,1.12,2,2,5,4,,0,0,1,0,1,,0,37,Aiolis & SW Mysia,HansonNielson,27.9
+808-Gambrion,808,27.3204017,39.0910834,none,1,0,0.75,2,0,4,4,,0,0,0,0,0,,1,37,Aiolis & SW Mysia,HansonNielson,45.7
+809-Gryneion/Gryneia,809,27.069173,38.874665,none,1,1,1,2,1,,,,0,0,2,0,1,,1,37,Aiolis & SW Mysia,HansonNielson,18.8
+81-Issa,81,16.15,43.03333,none,1,1,1.62,3,3,,4,,1,0,0,1,0,,0,4,Adriatic,HansonNielson,172
+810-Halisarna,810,27.114997,39.045111,none,1,0,0.5,2,0,,,,0,0,0,0,0,,1,37,Aiolis & SW Mysia,HansonNielson,47.4
+811-Herakleia,811,27.16666667,38.75,none,1,0,0.5,2,0,5,,,0,0,0,1,0,,0,37,Aiolis & SW Mysia,HansonNielson,425
+812-Iolla,812,28.260544,38.497356,none,1,0,0.37,2,0,,4,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,99.3
+813-Karene,813,26.842283,39.17898,none,1,0,0.5,2,0,,,,0,0,0,0,1,,0,37,Aiolis & SW Mysia,HansonNielson,41
+814-Killa,814,,,none,1,1,0.12,2,0,,,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,
+815-Kisthene,815,26.813175,39.393183,none,2,3,0.5,2,0,,4,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,2.8
+816-Kyllene,816,26.83333333,38.75,none,1,3,0.25,2,1,,,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,0
+817-Kyme,817,26.942154,38.761848,none,1,1,0.62,2,2,6,,4,4,0,0,1,1,,2,37,Aiolis & SW Mysia,HansonNielson,38.9
+818-Larisa,818,27.033411,38.689068,none,1,2,1.87,2,0,,4,4,0,0,0,1,1,,0,37,Aiolis & SW Mysia,HansonNielson,49.7
+819-Leukai,819,26.856796,38.546745,none,1,2,1.25,2,1,,4,4,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,1.9
+82-Lissos,82,19.636923,41.78257,none,3,2,0.75,3,0,,,,0,0,0,1,0,,0,4,Adriatic,HansonNielson,2.4
+820-Magnesia,820,27.41666667,38.58333333,none,3,0,0.25,2,0,,,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,921
+821-Melanpagos,821,27.16666667,38.58333333,none,2,1,0.25,2,0,,,,0,0,0,1,0,,0,37,Aiolis & SW Mysia,HansonNielson,562
+822-Myrina,822,26.985537,38.840097,none,1,1,0.87,2,1,,4,4,0,0,0,1,1,,1,37,Aiolis & SW Mysia,HansonNielson,0.1
+823-Nasos,823,26.66666667,39.33333333,none,1,1,1,2,1,,4,4,0,0,0,0,0,,2,37,Aiolis & SW Mysia,HansonNielson,49
+824-Neon Teichos,824,27.032015,38.654427,none,1,1,0.25,2,0,,,,0,0,0,1,0,,0,37,Aiolis & SW Mysia,HansonNielson,9
+825-Notion,825,,,none,1,1,0.12,2,0,,,,0,0,0,0,0,,2,37,Aiolis & SW Mysia,HansonNielson,
+826-Palaigambrion,826,,,none,1,0,0.25,2,0,,,,0,0,0,0,0,,1,37,Aiolis & SW Mysia,HansonNielson,
+827-Parthenion,827,27.335098,39.218103,none,2,0,0.12,2,0,,,,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,68.8
+828-Pergamon,828,27.18333,39.116667,none,1,2,1.12,4,0,5,4,5,0,0,1,1,0,,1,37,Aiolis & SW Mysia,HansonNielson,59
+829-Perperene,829,26.962332,39.240505,none,3,0,0.62,2,0,,,4,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,545
+83-Melaina Korkyra,83,17,43,none,1,1,1.37,4,4,,4,,0,0,0,1,0,,0,4,Adriatic,HansonNielson,0
+830-Pitane,830,26.937453,38.928297,none,1,1,0.87,2,1,,,4,0,0,1,1,1,,0,37,Aiolis & SW Mysia,HansonNielson,17.9
+831-Pordoselene,831,26.654808,39.336684,none,1,0,1,2,1,5,4,5,0,0,0,0,1,,0,37,Aiolis & SW Mysia,HansonNielson,29.2
+832-Temnos,832,27.196998,38.671912,none,1,1,0.62,2,0,,,4,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,317.3
+833-Teuthrania,833,27.054771,39.035223,none,1,0,0.5,2,0,,4,5,0,0,0,0,0,,1,37,Aiolis & SW Mysia,HansonNielson,8.5
+834-Thebe,834,27.020171,39.597431,none,2,0,0.37,2,0,,,5,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,42.2
+835-Tisna,835,27.065592,38.772883,none,3,0,0.25,2,0,,,4,0,0,0,0,0,,0,37,Aiolis & SW Mysia,HansonNielson,61.2
+836-Achilleion (Ionia),836,,,none,1,1,0.25,2,0,,,,4,0,0,0,0,,0,38,Ionia,HansonNielson,
+837-Airai,837,26.701321,38.203961,none,1,1,1.12,2,1,,,4,0,0,0,1,1,,0,38,Ionia,HansonNielson,0
+838-Anaia,838,27.25,37.83333333,none,3,1,1.25,2,1,,,,0,0,0,0,0,,0,38,Ionia,HansonNielson,46
+839-Boutheia,839,26.307181,38.327245,none,2,1,0.62,2,0,,,,0,0,0,0,1,,0,38,Ionia,HansonNielson,11.2
+84-Pharos,84,16.601041,43.184286,none,1,1,1.25,3,1,4,4,,0,0,0,1,0,,0,4,Adriatic,HansonNielson,1.9
+840-Chios,840,26.1342335,38.37641,none,1,1,10.5,2,5,6,4,,2,1,3,1,1,1,2,38,Ionia,HansonNielson,19.1
+841-Chyton,841,26.741881,38.337891,none,3,1,1,2,1,,,,0,0,0,0,0,,0,38,Ionia,HansonNielson,58.4
+842-Dios Hieron,842,27.08333,38,none,2,1,0.62,2,1,,,,0,0,0,0,1,,0,38,Ionia,HansonNielson,0
+843-Elaiousioi,843,,,none,2,1,0.37,2,0,,,,0,0,0,0,1,,0,38,Ionia,HansonNielson,
+844-Ephesos,844,27.340833,37.939722,none,1,1,5.25,2,5,6,4,,0,2,3,1,1,1,2,38,Ionia,HansonNielson,8.3
+845-Erythrai,845,26.479047,38.381944,none,1,1,5.12,2,5,6,4,,0,0,3,1,1,1,2,38,Ionia,HansonNielson,35.7
+846-Isinda,846,,,none,3,1,0.25,2,0,,,,0,0,0,0,1,1,0,38,Ionia,HansonNielson,
+847-Klazomenai,847,26.77774005,38.36785825,none,1,1,3.25,2,0,6,4,,3,2,1,1,1,1,2,38,Ionia,HansonNielson,0
+848-Kolophon,848,27.198,37.9935,none,1,1,4.62,2,4,6,4,,2,1,2,1,1,,2,38,Ionia,HansonNielson,56.4
+849-Korykos,849,26.58333333,38.16666667,none,3,1,0.37,2,1,,,,0,0,0,0,0,1,0,38,Ionia,HansonNielson,367
+85-Spina,85,12.108186,44.697575,none,1,2,1.25,2,0,,,1,0,0,0,1,0,,0,4,Adriatic,HansonNielson,-0.3
+850-Lebedos,850,26.964722,38.077883,none,1,1,1,2,2,,,,0,0,2,0,1,,0,38,Ionia,HansonNielson,32.7
+851-Leukophrys,851,27.526039,37.8505485,none,1,1,0.25,2,0,,,,0,0,0,0,0,,0,38,Ionia,HansonNielson,40.5
+852-Magnesia,852,27.533091,37.853091,none,1,1,2,2,4,5,4,,0,2,2,1,0,,2,38,Ionia,HansonNielson,30.6
+853-Marathesion,853,27.254483,37.829287,none,3,1,0.37,2,1,,,,0,0,0,0,1,,0,38,Ionia,HansonNielson,19.2
+854-Miletos,854,27.278369,37.530233,none,1,1,12.25,2,5,6,4,5,37,1,1,1,1,1,2,38,Ionia,HansonNielson,5.2
+855-Myonnesos,855,26.83333333,38.08333333,none,1,1,0.5,2,1,,,,0,0,0,0,0,,0,38,Ionia,HansonNielson,0
+856-Myous,856,27.433117,37.595252,none,1,1,1.12,2,2,4,4,,0,0,2,0,1,1,0,38,Ionia,HansonNielson,8.3
+857-Naulochon,857,27.14781,38.440912,none,1,1,0.75,3,1,,4,,0,0,0,0,0,,0,38,Ionia,HansonNielson,0.9
+858-Notion,858,27.25,38.2464,none,1,1,1.25,2,1,,,,0,0,0,1,1,,0,38,Ionia,HansonNielson,134.7
+859-Phokaia,859,26.753208,38.670353,none,1,1,2.25,2,3,6,4,,4,0,1,1,1,1,0,38,Ionia,HansonNielson,3.5
+86-Amantia,86,19.6177,40.467944,none,2,1,0.62,3,4,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,124.1
+860-Polichnitai,860,26.58333333,38.41666667,none,2,1,0.62,2,0,,,,0,0,0,1,1,,0,38,Ionia,HansonNielson,95
+861-Priene,861,27.3110185,37.665231,none,1,1,3.87,2,3,,4,4,0,0,2,1,1,1,2,38,Ionia,HansonNielson,92.8
+862-Pteleion,862,26.41666667,38.5,none,2,1,0.5,2,1,,,,0,0,0,1,1,,0,38,Ionia,HansonNielson,48
+863-Pygela,863,27.25,37.83333333,none,1,1,1.37,2,1,4,4,,0,0,0,1,1,,0,38,Ionia,HansonNielson,46
+864-Samos,864,26.944483,37.68825,none,1,1,6.5,2,5,6,4,,12,2,3,1,1,1,2,38,Ionia,HansonNielson,0
+865-Samos/2,865,,,none,2,1,1.75,3,0,,,,0,0,0,1,0,,1,38,Ionia,HansonNielson,
+866-Sidousa,866,26.5,38.66666667,none,1,1,0.62,2,0,,4,,0,0,0,1,1,,0,38,Ionia,HansonNielson,0
+867-Smyrna,867,27.14781,38.440912,none,1,1,3.5,4,4,4,,,0,1,0,1,0,,0,38,Ionia,HansonNielson,0.9
+868-Teos,868,26.785014,38.177262,none,1,1,3,2,3,6,4,,2,0,2,1,1,1,2,38,Ionia,HansonNielson,13.5
+869-Thebai,869,27.16666667,37.66666667,none,2,1,1,2,1,,,,0,0,0,1,0,,0,38,Ionia,HansonNielson,560
+87-Artichia,87,,,none,3,1,0.12,3,0,,,,0,0,0,0,0,,0,5,Epeiros,HansonNielson,
+870-Alabanda,870,27.970901,37.5973855,none,3,3,0.37,3,4,,,,0,0,0,1,0,,1,39,Karia,HansonNielson,99
+871-Alinda,871,27.833014,37.5588635,none,2,3,0.62,3,0,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,110.1
+872-Amos,872,28.2645905,36.7547855,none,1.5,2,0.5,2,0,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,26.3
+873-Amynandeis,873,27.66666667,37,none,3,2,0.37,2,1,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,116
+874-Amyzon,874,27.690896,37.59888,none,2,2,0.87,2,0,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,563.7
+875-Arlissos,875,,,none,2,3,0.37,3,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+876-Armelitai,876,,,none,3,3,0.37,3,0,,,,0,0,0,0,0,,0,39,Karia,HansonNielson,
+877-Aulai,877,28.134462,36.760796,none,3,1,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,25.8
+878-Bargasa,878,28.411535,37.6172015,none,3,3,0.5,2,0,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,242.5
+879-Bargylia,879,27.588037,37.1957785,none,2,2,0.62,2,1,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,38.3
+88-Batiai,88,20.827781,39.224419,none,1,1,0.62,2,1,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,30.9
+880-Bolbai,880,27.203635,36.87904,none,3,0,0.12,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,23.4
+881-Chalketor,881,27.685712,37.349058,none,1,2,0.87,2,1,,,,0,0,3,1,1,,0,39,Karia,HansonNielson,66.2
+882-Chersonesos,882,,,none,2,1,0.5,2,0,6,,,0,0,0,1,1,,0,39,Karia,HansonNielson,
+883-Chios,883,,,none,3,2,0.37,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+884-Erineis,884,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+885-Euromos,885,27.673196,37.378355,none,2,2,0.75,2,1,5,,,0,0,1,1,1,,0,39,Karia,HansonNielson,53.1
+886-Halikarnassos,886,27.4246635,37.0374815,none,1,2,3.25,2,2,6,,4,0,1,1,1,1,,1,39,Karia,HansonNielson,9
+887-Hybliseis,887,,,none,1.5,3,0.5,3,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+888-Hydaieis,888,27.66666667,37.25,none,2,3,0.62,3,1,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,-2
+889-Hydisos,889,27.800872,37.162268,none,2,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,173.6
+89-Berenike,89,20.75,39.03333333,none,3,1,0.25,3,0,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,77
+890-Hymisseis,890,,,none,3,2,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+891-Iasos,891,27.585572,37.278149,none,1,1,2.87,4,2,4,,,0,0,2,1,1,,2,39,Karia,HansonNielson,30.1
+892-Idrias,892,28.16666667,37.25,none,3,2,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,506
+893-Idyma,893,28.367319,37.059443,none,2,2,0.5,2,0,5,,,0,0,0,0,1,,0,39,Karia,HansonNielson,92
+894-Kalynda,894,28.8323485,36.74550375,none,2,2,0.5,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,139.8
+895-Karbasyanda,895,28.58333333,36.83333333,none,3,3,0.37,2,1,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,500
+896-Karyanda,896,27.529586,37.161849,none,1,2,0.62,2,1,,4,,0,0,0,1,1,,0,39,Karia,HansonNielson,7.4
+897-Kasolaba,897,,,none,1.5,3,0.5,3,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+898-Kaunos,898,28.625838,36.828275,none,1,3,1.75,3,5,5,4,,0,0,1,1,1,,0,39,Karia,HansonNielson,-0.1
+899-Kedreai,899,28.2067955,36.993043,none,1,2,0.62,4,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,2.9
+9-Akragas,9,13.5833,37.3167,none,1,1,6.37,4,5,6,5,6,0,3,1,1,0,,2,2,Sikelia,HansonNielson,210.9
+90-Boucheta,90,20.850515,39.160816,none,1,1,0.75,2,1,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,14.9
+900-Keramos,900,27.9562175,37.041728,none,2,3,1.25,3,0,,4,,0,0,2,1,1,,0,39,Karia,HansonNielson,17.2
+901-Killareis,901,27.66666667,37.16666667,none,1.5,3,1,3,1,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,184
+902-Kindye,902,27.650052,37.191684,none,2,2,1,2,1,6,,,0,0,0,1,1,,1,39,Karia,HansonNielson,296.4
+903-Knidos,903,27.371637,36.690171,none,1,1,4,2,4,6,,4,3,0,3,1,1,,2,39,Karia,HansonNielson,0.8
+904-Kodapeis,904,,,none,3,0,0.5,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+905-Koliyrgeis,905,28.25,37.33333333,none,3,3,0.37,3,0,,,,0,0,0,0,0,,0,39,Karia,HansonNielson,587
+906-Koranza,906,,,none,1,3,0.62,3,0,,,,0,0,1,0,0,,0,39,Karia,HansonNielson,
+907-Krya,907,28.86770567,36.69767367,none,3,0,0.25,2,1,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,45.7
+908-Kyllandos,908,28.442249,37.067654,none,3,0,0.37,2,0,,,,0,0,0,0,1,,1,39,Karia,HansonNielson,319.7
+909-Kyrbissos,909,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+91-Bouthroton,91,20.02213975,39.74547525,none,1,1,1.25,2,4,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,8
+910-Latmos/Herakleia,910,27.524722,37.501944,none,1,2,1.75,2,0,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,24.4
+911-Lepsimandos,911,27.08333333,37.08333333,none,3,0,0.25,2,1,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,0
+912-Medmasos,912,27.33333333,37.08333333,none,2,2,0.5,2,1,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,231
+913-Mylasa,913,27.79023867,37.30275067,none,1,2,2.62,2,0,6,4,,0,0,1,1,1,,2,39,Karia,HansonNielson,60.5
+914-Myndos,914,27.242415,37.073691,none,1,1,1.25,2,1,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,69.6
+915-Narisbareis,915,,,none,3,0,0.12,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+916-Naryandos,916,,,none,3,3,0.25,2,0,,,,0,0,0,0,0,,0,39,Karia,HansonNielson,
+917-Naxia,917,27.659145,37.552756,none,3,0,0.37,2,1,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,573.5
+918-Olaieis,918,28.33333333,37.08333333,none,3,0,0.12,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,725
+919-Olymos,919,27.735578,37.378561,none,3,2,0.5,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,72.3
+92-Byllis,92,19.7354265,40.5451505,none,2,1,0.75,3,5,,,,0,0,0,1,0,1,0,5,Epeiros,HansonNielson,373.5
+920-Ouranion,920,27.278841,37.093516,none,2,3,0.75,3,0,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,30.8
+921-Parpariotai,921,27.5,37.58333333,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,121
+922-Passanda,922,28.58333333,36.83333333,none,3,3,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,500
+923-Pedasa,923,27.412789,37.054602,none,3,2,0.5,2,1,,,,0,0,0,1,0,,0,39,Karia,HansonNielson,194.9
+924-Peleiatai,924,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+925-Pidasa,925,27.57211,37.401041,none,1,0,0.87,2,0,,,,0,0,0,1,1,,0,39,Karia,HansonNielson,797.6
+926-Pladasa,926,28.079785,37.087317,none,1,3,0.62,3,0,,,,0,0,2,0,1,,0,39,Karia,HansonNielson,795.4
+927-Pyrindos,927,,,none,3,1,0.25,2,0,,,,0,0,0,0,0,,0,39,Karia,HansonNielson,
+928-Pyrnos,928,28.41666667,36.91666667,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,153
+929-Salmakis,929,,,none,3,0,0.37,2,0,,,,0,0,0,0,0,,0,39,Karia,HansonNielson,
+93-Dodone,93,20.790496,39.5464695,none,2,1,0.87,2,0,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,629.1
+930-Siloi,930,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+931-Syangela/Theangela,931,27.570356,37.050371,none,1,3,1.62,3,2,4,4,,0,0,1,1,1,,1,39,Karia,HansonNielson,405.5
+932-Talagreis,932,,,none,3,0,0.12,2,0,,,,0,0,0,0,0,,0,39,Karia,HansonNielson,
+933-Taramptos,933,27.5,37.16666667,none,3,0,0.12,2,1,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,0
+934-Tarbaneis,934,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+935-Telandros,935,28.91664667,36.674427,none,3,0,0.62,2,1,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,4.1
+936-Telemessos,936,29.120348,36.623779,none,2,2,0.37,2,1,,,,0,0,1,0,0,,0,39,Karia,HansonNielson,6
+937-Termera,937,27.298363,36.995872,none,2,2,0.5,2,1,5,,,0,0,0,1,1,,0,39,Karia,HansonNielson,271
+938-Terssogasseis,938,,,none,3,3,0.25,3,0,,,,0,0,0,0,0,,0,39,Karia,HansonNielson,
+939-Thasthareis,939,27.66666667,37.58333333,none,3,0,0.25,2,1,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,599
+94-Elateia,94,20.66666667,39.16666667,none,1,1,0.62,2,0,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,320
+940-Thydonos,940,,,none,3,0,0.25,2,0,,,,0,0,0,0,1,,0,39,Karia,HansonNielson,
+941-Tralleis,941,27.8458,37.8444,none,2,2,0.37,2,4,,,,0,0,0,1,0,,0,39,Karia,HansonNielson,70.3
+942-Phaselis,942,30.54871175,36.52177975,none,1,1,1.75,2,0,6,,,0,0,0,1,1,,0,40,Lykia,HansonNielson,0
+943-Xanthos,943,29.327378,36.362742,none,1,2,2.87,3,4,5,,,0,0,0,0,0,,0,40,Lykia,HansonNielson,69.9
+944-Allaria,944,24.599822,35.376405,none,2,1,0.87,3,2,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,78.3
+945-Anopolis,945,24.091067,35.216576,none,2,1,0.87,2,2,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,578.9
+946-Apellonia,946,25.018525,35.404896,none,3,1,0.87,2,2,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,6.1
+947-Aptara,947,24.149388,35.466552,none,2,1,1.87,2,3,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,127
+948-Arkades,948,25.282439,35.080331,none,2,1,0.37,3,3,4,,,0,0,0,0,0,,0,41,Crete,HansonNielson,193.8
+949-Aulon,949,25,35.08333333,none,3,1,0.62,2,1,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,293
+95-Elea,95,20.560388,39.444248,none,2,1,0.75,3,0,,4,1,0,0,0,1,0,,0,5,Epeiros,HansonNielson,963.1
+950-Axos,950,24.840106,35.302424,none,1,1,2.12,2,2,4,,,0,0,0,1,0,,1,41,Crete,HansonNielson,656.1
+951-Biannos,951,25.402881,35.060832,none,3,1,1.12,2,2,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,666.6
+952-Bionnos,952,24.512052,35.149963,none,3,1,0.62,3,1,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,86.7
+953-Chersonasos,953,25.388567,35.319165,none,2,1,1.5,3,1,4,,,0,0,0,0,0,,0,41,Crete,HansonNielson,11.7
+954-Datala,954,,,none,1,1,2.25,2,0,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,
+955-Dragmos,955,26.161615,35.188402,none,3,1,0.75,3,1,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,198.9
+956-Dreros,956,25.626792,35.256664,none,1,1,2.5,2,2,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,469
+957-Eleutherna,957,24.674183,35.3333835,none,1,1,3.62,2,3,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,313.4
+958-Elytnia,958,25.16666667,35.25,none,1,1,1,2,2,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,369
+959-Elyros,959,23.794048,35.283178,none,1,1,1.37,2,2,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,427.4
+96-Ephyra,96,20.5,39.25,none,1,1,0.62,2,0,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,-3
+960-Gortyn,960,24.946944,35.063333,none,1,1,7.75,2,4,5,,,0,0,1,1,0,,0,41,Crete,HansonNielson,165
+961-Herakleion,961,25.16666667,35.33333333,none,3,1,0.62,2,3,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,45
+962-Hierpytna,962,25.740363,35.010026,none,2,1,1.5,2,4,4,,,0,0,0,0,0,,0,41,Crete,HansonNielson,6
+963-Hyrtakina,963,23.73635,35.274179,none,1.5,1,1.25,3,2,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,750.4
+964-Istron,964,25.72338,35.118566,none,3,1,0.62,2,2,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,17.7
+965-Itanos,965,26.263941,35.2655385,none,1,1,1.87,2,3,4,,,0,0,0,,,,,,,,
+966-Keraia,966,24,35.41666667,none,3,1,0.62,3,1,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,622
+967-Knosos,967,25.163156,35.297961,none,1,1,2.37,2,4,5,,,0,0,0,1,0,1,0,41,Crete,HansonNielson,96.5
+968-Kydonia,968,26.263941,35.2655385,none,1,1,3,2,4,5,,,0,0,0,1,0,,0,41,Crete,HansonNielson,0.3
+969-Kytaion,969,24.91666667,35.41666667,none,2,1,0.62,2,1,4,,,0,0,0,0,0,,0,41,Crete,HansonNielson,0
+97-Eurymenai,97,20.91666667,39.66666667,none,2,1,0.37,3,0,,,,0,0,0,1,0,,0,5,Epeiros,HansonNielson,464
+970-Lappa,970,24.336077,35.28658,none,2,1,1.5,3,3,4,,,0,0,0,0,0,,1,41,Crete,HansonNielson,273.2
+971-Lato,971,25.656075,35.1792675,none,2,1,2.25,2,2,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,360.1
+972-Lebena,972,24.91666667,34.91666667,none,3,1,1,2,2,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,0
+973-Lisos,973,23.74,35.27,none,1,1,1.37,2,2,4,,,0,0,0,0,0,,0,41,Crete,HansonNielson,627
+974-Lyktos,974,25.37034,35.212883,none,1.5,1,3.37,2,4,5,,,0,0,0,0,0,,0,41,Crete,HansonNielson,595.2
+975-Malla,975,25.581903,35.083064,none,3,1,1,2,2,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,654.3
+976-Matala,976,24.751,34.9935,none,3,1,1,3,1,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,9.7
+977-Milatos,977,25.563637,35.316165,none,3,1,0.62,2,2,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,8.9
+978-Olous,978,25.738816,35.257679,none,2,1,2,2,3,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,5.9
+979-Petra,979,26,35.25,none,3,1,0.5,2,1,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,0
+98-Gitana,98,20.2655235,39.570922,none,2,1,0.75,3,0,,,1,0,0,0,1,0,,0,5,Epeiros,HansonNielson,58.3
+980-Phaistos,980,24.81329175,35.051281,none,1.5,1,2.37,2,2,5,,,0,0,0,1,0,,0,41,Crete,HansonNielson,95.1
+981-Phalasarna,981,23.5754855,35.505997,none,1,1,1.5,2,3,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,6
+982-Polichne,982,23.895571,35.487137,none,3,1,1,2,2,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,199
+983-Polyrhen,983,23.657098,35.466785,none,1.5,1,2,2,3,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,135.9
+984-Praisos,984,26.089695,35.141666,none,1.5,1,2.25,2,3,4,,,0,0,0,0,0,,0,41,Crete,HansonNielson,149.3
+985-Priansos,985,25.258393,35.045887,none,2,1,1.25,3,3,4,,,0,0,0,0,0,,0,41,Crete,HansonNielson,345
+986-Rhaukos,986,25.024828,35.228138,none,1.5,1,1,3,2,4,,,0,0,1,0,0,,0,41,Crete,HansonNielson,420.8
+987-Rhithymnos,987,24.472091,35.371092,none,3,1,1,3,3,4,,,0,0,1,0,0,,0,41,Crete,HansonNielson,13
+988-Rhitten,988,24.91666667,35,none,2,1,1.5,2,1,,,,0,0,0,1,0,,0,41,Crete,HansonNielson,244
+989-Stalai,989,25.972065,35.042681,none,3,1,0.87,3,1,,,,0,0,0,0,0,,0,41,Crete,HansonNielson,20.8
+99-Horraon,99,20.91666667,39.25,none,3,1,0.5,3,0,,,4,0,0,0,1,0,,0,5,Epeiros,HansonNielson,240
+990-Sybrita,990,24.639291,35.25874,none,1.5,1,1.75,2,2,4,,,0,0,0,1,0,,0,41,Crete,HansonNielson,581.1
+991-Tarrha,991,23.970017,35.236215,none,2,1,1,2,2,4,,,0,0,0,0,0,,0,41,Crete,HansonNielson,
+992-Tylisos,992,25.015797,35.295075,none,1,1,1.75,2,2,4,,,0,0,0,0,0,1,0,41,Crete,HansonNielson,197.3
+993-Brikindera,993,28.16666667,36.33333333,none,3,1,0.75,1,0,,,,0,0,0,0,1,,0,42,Rhodos,HansonNielson,80
+994-Diakrioi,994,,,none,3,1,0.37,1,0,,,,0,0,0,0,1,,0,42,Rhodos,HansonNielson,
+995-Ialysos,995,28.15629,36.41451,none,1,1,3.5,2,4,6,,,0,4,1,0,1,,2,42,Rhodos,HansonNielson,13.3
+996-Kamiros,996,27.921195,36.336185,none,1,1,3.62,2,4,6,,,0,0,0,1,1,,2,42,Rhodos,HansonNielson,102.8
+997-Lindos,997,28.0881777,36.0913239,none,1,1,5.12,2,5,6,,,2,0,2,1,1,,2,42,Rhodos,HansonNielson,89.5
+998-Oiai,998,25.215264,35.329926,none,3,1,0.37,1,0,,,,0,0,0,0,1,,0,42,Rhodos,HansonNielson,54.8
+999-Pedieis,999,,,none,3,1,0.37,1,0,,,,0,0,0,,,,,,,,
