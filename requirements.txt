@@ -7,6 +7,7 @@ gensim
 scikit-learn
 geopandas
 pyarrow
+geoplot
 
 matplotlib
 seaborn
