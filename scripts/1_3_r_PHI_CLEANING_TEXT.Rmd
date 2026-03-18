@@ -1,14 +1,21 @@
 ---
 title: "Cleaning of a text of an inscription from the PHI dataset"
-author: "Petra Hermankova"
-date: "19/05/2020"
-output: rmarkdown::github_document
+author:
+- Petra Hermankova^[Aarhus University, petra.hermankova@cas.au.dk, https://orcid.org/0000-0002-6349-0540]
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    theme: united
+    toc: yes
+    toc_float: true
+    number_sections: true
+    toc_depth: 2
+    df_print: paged
 
 ---
 *Setting up the environment*
 ```{r setup, echo=TRUE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE, error=TRUE)
-devtools::install_github("mplex/cedhar", subdir="pkg/sdam")
 
 library(tidyverse)
 library(tidytext)
@@ -37,7 +44,9 @@ _Structure of a cleaning block:_
 
 Each of the cleaning blocks maintains the same structure, using Regular expressions to find and replace the searched term or pattern.
 
-```regexpatternname <- c("regexpattern", "substitutionpattern")```
+````
+`regexpatternname <- c("regexpattern", "substitutionpattern")`
+````
 
 ## 1. Cleaning blocks for the conservative model
 
@@ -55,6 +64,7 @@ The cleaned output of the conservative model will be as close to the original te
 ```{r}
 expanded_abbreviations_conservative <- c("\\([^(]*\\)", "")
 ```
+
 
 ### 1.2. Suppresion of a text with superscripts
 
@@ -324,7 +334,7 @@ erasure_new_text <- c("[〚〛]", "")
 * Example after cleaning: ``` Ἀπόλλωνος```
 
 ```{r}
-dubious_dot_subscript <- c("\u{0323}", "")
+dubious_dot_subscript <- c("\u0323", "")
 ```
 
 ### 3.10. Interpunction symbols
@@ -527,24 +537,13 @@ When we have established the individual buidling blocks, we can put them togethe
 Source: https://epigraphy.packhum.org/
 
 ### Loading data
-First, we need to install several more packages and load the libraries in order to connect to Sciencedata.dk and access the dataset.
 
-1. Load the credentials from external txt file
+Download the data to the data/large_data folder manually. Get access from the authors, or load your own dataset. 
+Display the first six records (head)
+
 ```{r}
-mycred_secret<- readLines("~/mysecret.txt")
-```
+list_json <- jsonlite::read_json("../data/large_data/PHI_with_pythia_20201216.json")
 
-2. Make the request 
-```{r, echo = TRUE }
-resp = request("PHI_with_pythia_20201216.json", path="/sharingin/648597@au.dk/SDAM_root/SDAM_data/PHI/", method="GET", cred=mycred_secret)
-
-# remove any traces of the secret password from the document
-remove(mycred_secret)
-```
-
-3. Make a list from the request and display the first six records (head)
-```{r}
-list_json <- jsonlite::fromJSON(resp)
 PHI_tibble = as_tibble(list_json)
 PHI_unboxed_json <- jsonlite::toJSON(PHI_tibble, auto_unbox=TRUE) 
 list_unboxed_json <- jsonlite::fromJSON(PHI_unboxed_json)
@@ -601,7 +600,7 @@ cleaning_interpretive_word_phi <- function(epigraphic_dataset){
   clean_text <- gsub(pattern=editorial_notes[1], replacement=editorial_notes[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=editorial_comments_latin[1], replacement=editorial_comments_latin[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=expanded_abbreviations_interpretive[1], replacement=expanded_abbreviations_interpretive[2], x=clean_text, perl=TRUE)
- clean_text <- gsub(pattern=suppresion_superscripts_interpretive[1], replacement=suppresion_superscripts_interpretive[2], x=clean_text, perl=TRUE)
+  clean_text <- gsub(pattern=suppresion_superscripts_interpretive[1], replacement=suppresion_superscripts_interpretive[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=suppresion_keep_interpretive[1], replacement=suppresion_keep_interpretive[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=restoration_interpretive[1], replacement=restoration_interpretive[2], x=clean_text, perl=TRUE)
   clean_text <- gsub(pattern=substitution_interpretive[1], replacement=substitution_interpretive[2], x=clean_text, perl=TRUE)
@@ -723,8 +722,7 @@ PHI_clean <- PHI_tibble %>%
 
 Test the outcomes:
 ```{r}
-number <- 7
-
+number <- 1311
 PHI_clean$data[number]
 PHI_clean$clean_text_conservative[number]
 PHI_clean$clean_text_interpretive_word[number]
@@ -733,7 +731,7 @@ PHI_clean$clean_text_pythia[number]
 ```
 
 
-` Saving to Sciencedata
+Alternative: Saving to Sciencedata
 ```{r Saving to Sciencedata}
 PHI_cleaned_json <- jsonlite::toJSON(PHI_clean, auto_unbox=TRUE) 
 
@@ -745,7 +743,7 @@ sdam::request("PHI_text_cleaned_2020-12-16.json", path="/sharingout/648597@au.dk
 
 
 ```{r}
-file.remove("./PHI_text_cleaned_2020-12-16.json) # removes local copy
+file.remove("./PHI_text_cleaned_2020-12-16.json") # removes local copy
 ```
 
 
